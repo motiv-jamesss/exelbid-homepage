@@ -3839,6 +3839,10 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
+/*
+
+nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
+
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -4252,6 +4256,7 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
+*/
 
 .card {
   position: relative;
