@@ -44,6 +44,9 @@
     scroll-behavior: smooth;
   }
 }
+/* 
+
+타이포그래피 요소 custom-css/exelbid-custom.css에서 작업
 
 body {
   margin: 0;
@@ -124,6 +127,8 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+*/
 
 abbr[title],
 abbr[data-bs-original-title] {
