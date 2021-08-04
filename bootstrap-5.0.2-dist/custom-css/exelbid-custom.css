@@ -22,6 +22,26 @@
   padding-bottom:50px;
 }
 
+.mb-10 {
+  margin-bottom:10px;
+}
+
+.mb-20 {
+  margin-bottom:20px;
+}
+
+.mb-30 {
+  margin-bottom:30px;
+}
+
+.mb-40 {
+  margin-bottom:40px;
+}
+
+.mb-50 {
+  margin-bottom:50px;
+}
+
 /* @media (min-width: 992px)
 .mw-lg-130 {
     max-width: 130%!important;
