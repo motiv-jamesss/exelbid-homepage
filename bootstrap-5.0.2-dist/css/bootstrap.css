@@ -7258,20 +7258,16 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
   font-style: italic !important;
 }
 
-.fst-normal {
-  font-style: normal !important;
-}
-
 .fw-light {
   font-weight: 300 !important;
 }
 
-.fw-lighter {
-  font-weight: lighter !important;
+.fw-regular {
+  font-weight: 400 !important;
 }
 
-.fw-normal {
-  font-weight: 400 !important;
+.fw-medium {
+  font-weight: 500 !important;
 }
 
 .fw-semibold {
@@ -7280,10 +7276,6 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
 
 .fw-bold {
   font-weight: 700 !important;
-}
-
-.fw-bolder {
-  font-weight: bolder !important;
 }
 
 .lh-1 {
