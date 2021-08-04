@@ -1,5 +1,5 @@
 /*///////////////////*/
-/*   커스텀  명령어   */
+/*   커스텀  클래스   */
 /*///////////////////*/
 
 .pb-10 {
@@ -22,12 +22,9 @@
   padding-bottom:50px;
 }
 
-/*/////////////////////*/
-/*   메인 페이지 관련   */
-/*/////////////////////*/
-.main-banner {
-  background-color: #3A419F
-}
+/*////////////////*/
+/*   커스텀 요소   */
+/*////////////////*/
 
 .exlBtn {
   padding: 15px 25px 15px 25px;
@@ -35,14 +32,33 @@
   color: #ffffff;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
 
+.exlBtn:hover {
+  color: #ffffff;
+}
 .exlBtn-orange {
   background-color: #FC7543;
 }
 
+.exlBtn-orange:hover {
+  background-color: #FC642C;
+}
+
 .exlBtn-blue {
   background-color: #6495F7;
+}
+
+.exlBtn-blue:hover {
+  background-color: #4781F5;
+}
+
+/*/////////////////////*/
+/*   메인 페이지 관련   */
+/*/////////////////////*/
+.main-banner {
+  background-color: #3A419F
 }
 
 /*//////////////////*/
