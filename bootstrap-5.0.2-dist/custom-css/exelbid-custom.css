@@ -29,18 +29,18 @@
   background-color: #3A419F
 }
 
-.exl-button {
+.exlBtn {
   padding: 15px 25px 15px 25px;
   border-radius: 16px;
   font-size: 20px;
   font-weight: 600;
 }
 
-.exl-button .orange {
+.exlBtn .orange {
   background-color: #FC7543;
 }
 
-.exl-button .blue {
+.exlBtn .blue {
   background-color: #6495F7;
 }
 
