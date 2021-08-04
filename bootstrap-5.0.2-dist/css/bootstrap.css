@@ -7274,6 +7274,10 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
   font-weight: 400 !important;
 }
 
+.fw-semibold {
+  font-weight: 600 !important;
+}
+
 .fw-bold {
   font-weight: 700 !important;
 }
