@@ -7290,6 +7290,10 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
   line-height: 1 !important;
 }
 
+.lh-1-1 {
+  line-height: 1.1 !important;
+}
+
 .lh-sm {
   line-height: 1.25 !important;
 }

@@ -50,38 +50,38 @@ body {
   }
   
   h2, .h2 {
-    font-size: calc(1.325rem + 0.9vw);
+    font-size: 50px;
   }
   @media (min-width: 1200px) {
     h2, .h2 {
-      font-size: 2rem;
+      font-size: 50px;
     }
   }
   
   h3, .h3 {
-    font-size: calc(1.3rem + 0.6vw);
+    font-size: 35px;
   }
   @media (min-width: 1200px) {
     h3, .h3 {
-      font-size: 1.75rem;
+      font-size: 35px;
     }
   }
   
   h4, .h4 {
-    font-size: calc(1.275rem + 0.3vw);
+    font-size: 30px;
   }
   @media (min-width: 1200px) {
     h4, .h4 {
-      font-size: 1.5rem;
+      font-size: 30px;
     }
   }
   
   h5, .h5 {
-    font-size: 1.25rem;
+    font-size: 20px;
   }
   
   h6, .h6 {
-    font-size: 1rem;
+    font-size: 15;
   }
   
   p {
