@@ -22,7 +22,7 @@
   padding-bottom:50px;
 }
 
-@media (min-width: 992px)
+/* @media (min-width: 992px) */
 .mw-lg-130 {
     max-width: 130%!important;
 }
