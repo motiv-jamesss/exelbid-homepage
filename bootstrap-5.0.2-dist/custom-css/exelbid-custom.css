@@ -31,6 +31,26 @@
   max-width: 130%!important;
 }
 
+.lh-1-1 {
+  line-height: 1.1 !important;
+}
+
+.lh-1-2 {
+  line-height: 1.2 !important;
+}
+
+.lh-1-3 {
+  line-height: 1.3 !important;
+}
+
+.lh-1-4 {
+  line-height: 1.4 !important;
+}
+
+.lh-1-5 {
+  line-height: 1.5 !important;
+}
+
 /*////////////////*/
 /*   커스텀 요소   */
 /*////////////////*/
@@ -69,7 +89,7 @@
   color: #ffffff;
   font-size: 20px;
   font-weight: 600;
-  background-color: #4781F5
+  background-color: #6495F7
 }
 
 /*/////////////////////*/
