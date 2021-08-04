@@ -95,6 +95,43 @@
   line-height: 1.5 !important;
 }
 
+.mw-50 {
+  max-width: 50%;
+}
+
+.mw-60 {
+  max-width: 60%;
+}
+
+.mw-70 {
+  max-width: 70%;
+}
+
+.mw-80 {
+  max-width: 90%;
+}
+
+.mw-90 {
+  max-width: 90%;
+}
+
+.mw-100 {
+  max-width: 100%;
+}
+
+.mw-110 {
+  max-width: 110%;
+}
+
+.mw-120 {
+  max-width: 120%;
+}
+
+.mw-130 {
+  max-width: 130%;
+}
+
+
 /*////////////////*/
 /*   커스텀 요소   */
 /*////////////////*/
