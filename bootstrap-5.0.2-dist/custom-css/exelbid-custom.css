@@ -93,6 +93,11 @@ body {
     margin-bottom: 0;
     list-style: none;
   }
+  
+  .nav-item {
+    width: 80px;
+    text-align: center;
+}
 
   .nav-item-s {
     width: 60px;
