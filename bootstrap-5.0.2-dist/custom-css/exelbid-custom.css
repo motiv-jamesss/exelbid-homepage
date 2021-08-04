@@ -22,9 +22,13 @@
   padding-bottom:50px;
 }
 
-/* @media (min-width: 992px) */
+/* @media (min-width: 992px)
 .mw-lg-130 {
     max-width: 130%!important;
+} */
+
+.mw-130 {
+  max-width: 130%!important;
 }
 
 /*////////////////*/
@@ -32,7 +36,7 @@
 /*////////////////*/
 
 .exlBtn {
-  padding: 15px 25px 15px 25px;
+  padding: 15px 25px;
   border-radius: 16px;
   color: #ffffff;
   font-size: 20px;
@@ -59,12 +63,25 @@
   background-color: #4781F5;
 }
 
+.exlTab1 {
+  padding: 4px 16px;
+  border-radius: 16px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #4781F5
+}
+
 /*/////////////////////*/
 /*   메인 페이지 관련   */
 /*/////////////////////*/
 .main-banner {
   background-color: #3A419F;
   padding: 130px 0 130px 0;
+}
+
+.feature-white {
+  padding: 120px 0 120px 0;
 }
 
 /*//////////////////*/
