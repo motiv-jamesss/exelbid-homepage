@@ -655,6 +655,14 @@
   font-weight: 500;
 }
 
+.exl-card-top {
+  padding: 0 32px;
+}
+
+.exl-card-top .green {
+  background-color: #45D354;
+}
+
 .exl-card-txt {
   font-size: 12px;
   opacity: 0.5;
