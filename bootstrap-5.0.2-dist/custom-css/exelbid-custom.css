@@ -655,22 +655,52 @@
   font-weight: 500;
 }
 
+.exl-a:hover {
+  color: #4781F5;
+  text-decoration: none;
+}
+
 .exl-card-top {
+  width: auto;
   padding: 0 32px;
 }
 
-.exl-card-top .green {
+.exl-card-top.green {
   background-color: #45D354;
+}
+
+.exl-card-top.red {
+  background-color: #ED5E5E;
+}
+
+.exl-card-top.blue {
+  background-color: #6495F7;
+}
+
+.exl-card-top.orange {
+  background-color: #FFA011;
+}
+
+.exl-card-top.mint {
+  background-color: #42CEC6;
+}
+
+.exl-card-top.purple {
+  background-color: #ED61B5;
 }
 
 .exl-card-txt {
   font-size: 12px;
+  line-height: 1.5;
   opacity: 0.5;
+  padding: 12px 0;
 }
 
-.exl-a:hover {
-  color: #4781F5;
-  text-decoration: none;
+.exl-card-title {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 32px 0;
+  text-align: center;
 }
 
 /*/////////////////////*/
