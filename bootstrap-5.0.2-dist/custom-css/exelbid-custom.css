@@ -673,6 +673,7 @@
 .exl-card-base hr {
   color: #ffffff;
   margin: 0;
+  opacity: 0.5;
 }
 
 .exl-card-base.green {
