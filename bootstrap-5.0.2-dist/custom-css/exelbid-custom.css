@@ -660,12 +660,15 @@
   text-decoration: none;
 }
 
-.exl-card-top {
+.exl-card-base {
   width: auto;
+}
+
+.exl-card-top {
   padding: 0 32px;
 }
 
-.exl-card-top hr {
+.exl-card-base hr {
   color: #ffffff;
   margin: 0;
 }
