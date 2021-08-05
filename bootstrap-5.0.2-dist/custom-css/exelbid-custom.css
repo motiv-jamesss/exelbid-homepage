@@ -275,6 +275,10 @@
   padding-right:100px;
 }
 
+.m-0 {
+  margin:0;
+}
+
 .mt-10 {
   margin-top:10px;
 }
@@ -435,6 +439,11 @@
   margin-left:100px;
 }
 
+.my-0 {
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
 .my-10 {
   margin-top:10px;
   margin-bottom:10px;
@@ -488,6 +497,11 @@
 .my-120 {
   margin-top:120px;
   margin-bottom:120px;
+}
+
+.mx-0 {
+  margin-left:0px;
+  margin-right:0px;
 }
 
 .mx-10 {
@@ -605,7 +619,6 @@
 .mw-130 {
   max-width: 130%;
 }
-
 
 /*////////////////*/
 /*   커스텀 요소   */
