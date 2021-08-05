@@ -655,6 +655,11 @@
   font-weight: 500;
 }
 
+.exl-card-txt {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
 .exl-a:hover {
   color: #4781F5;
   text-decoration: none;
