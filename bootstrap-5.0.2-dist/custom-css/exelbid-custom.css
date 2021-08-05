@@ -662,9 +662,11 @@
 
 .exl-card-base {
   width: auto;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
-.exl-card-top {
+.exl-card-inner {
   padding: 0 32px;
 }
 
@@ -673,27 +675,27 @@
   margin: 0;
 }
 
-.exl-card-top.green {
+.exl-card-base.green {
   background-color: #45D354;
 }
 
-.exl-card-top.red {
+.exl-card-base.red {
   background-color: #ED5E5E;
 }
 
-.exl-card-top.blue {
+.exl-card-base.blue {
   background-color: #6495F7;
 }
 
-.exl-card-top.orange {
+.exl-card-base.orange {
   background-color: #FFA011;
 }
 
-.exl-card-top.mint {
+.exl-card-base.mint {
   background-color: #42CEC6;
 }
 
-.exl-card-top.purple {
+.exl-card-base.purple {
   background-color: #ED61B5;
 }
 
