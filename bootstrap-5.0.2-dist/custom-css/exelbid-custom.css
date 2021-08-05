@@ -665,6 +665,11 @@
   padding: 0 32px;
 }
 
+.exl-card-top hr {
+  color: #ffffff;
+  margin: 0;
+}
+
 .exl-card-top.green {
   background-color: #45D354;
 }
