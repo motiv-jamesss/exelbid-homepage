@@ -677,6 +677,7 @@
   width: auto;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+  padding: 0;
 }
 
 .exl-card-inner {
