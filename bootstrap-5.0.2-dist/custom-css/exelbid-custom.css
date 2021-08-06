@@ -811,16 +811,11 @@
 /*/////////////////////*/
 /*   메인 페이지 관련   */
 /*/////////////////////*/
+
 .main-banner {
   background-color: #3A419F;
   padding: 130px 0 130px 0;
 }
-
-/*
-.feature-white {
-  padding: 120px 0 120px 0;
-}
-*/
 
 .section-grey {
   background-color: #F3F7FC;
