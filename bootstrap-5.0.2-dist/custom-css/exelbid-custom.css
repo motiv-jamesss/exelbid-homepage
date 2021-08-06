@@ -783,6 +783,7 @@
   opacity: 0;
   transition: .2s ease;
   background-color: #173167;
+  corner-radius: 16px;
 }
 
 .overlay-container:hover .overlay {
@@ -792,6 +793,8 @@
 .overlay-text {
   color: white;
   font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
   position: absolute;
   top: 50%;
   left: 50%;
