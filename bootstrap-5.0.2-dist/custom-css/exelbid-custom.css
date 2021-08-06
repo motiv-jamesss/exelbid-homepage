@@ -789,6 +789,8 @@
 .exl-overlay-text {
   color: white;
   font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
   position: absolute;
   top: 50%;
   left: 50%;
