@@ -783,7 +783,7 @@
   opacity: 0;
   transition: .2s ease;
   background-color: #173167;
-  corner-radius: 16px;
+  border-radius: 16px;
 }
 
 .overlay-container:hover .overlay {
