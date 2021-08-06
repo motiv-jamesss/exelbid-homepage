@@ -625,7 +625,7 @@
 /*////////////////*/
 
 .lift {
-  transition: all .2s ease-in-out;
+  transition: all .15s ease-in-out;
   transition-property: transform, box-shadow
 }
 
