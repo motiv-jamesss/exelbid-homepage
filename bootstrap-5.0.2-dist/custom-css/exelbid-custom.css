@@ -772,6 +772,10 @@
   height: auto;
 }
 
+.overlay-image:hover {
+  filter: blur(1.5px);
+}
+
 .overlay {
   position: absolute;
   top: 0;
