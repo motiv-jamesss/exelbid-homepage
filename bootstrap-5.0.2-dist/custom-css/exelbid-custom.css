@@ -810,6 +810,11 @@
 
 .partners-comment {
   height: 250px;
+  border-radius: 16px;
+}
+
+.partners-comment.logo {
+  height: 250px;
 }
 
 /*/////////////////////*/
