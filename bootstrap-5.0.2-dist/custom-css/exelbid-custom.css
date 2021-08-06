@@ -634,6 +634,16 @@
   transform: translateY(-.25rem)
 }
 
+.shadow-hover {
+    transition: all .2s ease-in-out;
+    transition-property: box-shadow;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) 
+}
+
+.shadow-hover:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) , 0 .5rem 2rem rgba(0, 0, 0, 0.15)  !important
+}
+
 .exlBtn {
   padding: 15px 25px;
   border-radius: 16px;
