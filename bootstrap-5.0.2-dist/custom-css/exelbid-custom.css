@@ -624,6 +624,16 @@
 /*   커스텀 요소   */
 /*////////////////*/
 
+.lift {
+  transition: all .2s ease-in-out;
+  transition-property: transform, box-shadow
+}
+
+.lift:focus,
+.lift:hover {
+  transform: translateY(-.25rem)
+}
+
 .exlBtn {
   padding: 15px 25px;
   border-radius: 16px;
