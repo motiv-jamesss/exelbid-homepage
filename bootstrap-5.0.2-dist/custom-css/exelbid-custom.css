@@ -761,15 +761,18 @@
   border-bottom-right-radius: 16px;
 }
 
-.exl-overlay-image-frame {
-
+.overlay-container {
+  position: relative;
+  width: 50%;
 }
 
-.exl-overlay-image {
-  max-width: 100%;
+.overlay-image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-.exl-overlay {
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -778,19 +781,17 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .2s ease-in-out ;
+  transition: .2s ease;
   background-color: #173167;
 }
 
-.exl-overlay-image-frame:hover .overlay {
+.overlay-container:hover .overlay {
   opacity: .8;
 }
 
-.exl-overlay-text {
+.overlay-text {
   color: white;
   font-size: 20px;
-  font-weight: 600;
-  line-height: 150%;
   position: absolute;
   top: 50%;
   left: 50%;
