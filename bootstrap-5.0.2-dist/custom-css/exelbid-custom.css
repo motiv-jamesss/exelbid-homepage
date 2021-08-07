@@ -1013,6 +1013,11 @@
   margin: 0 10px;
 }
 
+.footer-sub.text {
+  font-size: 13px;
+  line-height: 120%;
+  color: white;
+}
 
 /*/////////////////////*/
 /*   섹션 관련   */
