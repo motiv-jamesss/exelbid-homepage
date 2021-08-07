@@ -973,14 +973,14 @@
 }
 
 .footer p {
-  font-weight: 400;
+  font-weight: 300;
   color: #BABBBE;
   line-height: 170%;
   margin: 0;
 }
 
 .footer p.mute {
-  font-weight: 400;
+  font-weight: 300;
   color: #696D73;
   line-height: 170%;
   margin: 0;
