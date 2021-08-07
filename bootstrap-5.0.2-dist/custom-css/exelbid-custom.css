@@ -849,7 +849,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .2s ease;
+  transition: .2s ease-in-out;
   background-color: #173167;
   border-radius: 16px;
 }
@@ -946,6 +946,23 @@
   align-items: center;
   justify-content: center;
   margin-right: 10px;
+}
+
+.footer.social-icon.icon.bg-green, .footer.social-icon.icon.bg-red, .footer.social-icon.icon.bg-blue  {
+  background-color: #696D73!important;
+  transition: .2s ease-in-out;
+}
+
+.footer.social-icon.icon.bg-green:hover {
+  background-color: #45D354!important;
+}
+
+.footer.social-icon.icon.bg-red:hover {
+  background-color: #ED5E5E!important;
+}
+
+.footer.social-icon.icon.bg-blue:hover {
+  background-color: #6495F7!important;
 }
 
 .footer p {
