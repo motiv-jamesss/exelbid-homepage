@@ -896,6 +896,11 @@
   background-color: #00249f;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer.company-name {
   font-size: 25px;
   color: white;
