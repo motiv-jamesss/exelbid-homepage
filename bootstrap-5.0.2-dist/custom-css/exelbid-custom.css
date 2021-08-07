@@ -876,8 +876,20 @@
   height: 250px;
 }
 
-.logo.orange {
+.logo.tpmn {
   background-color: #FF6600;
+}
+
+.logo.moloco {
+  background-color: #2C7CF5;
+}
+
+.logo.lftoff {
+  background-color: #2D5879;
+}
+
+.logo.apr {
+  background-color: #0300A0;
 }
 
 /*/////////////////////*/
