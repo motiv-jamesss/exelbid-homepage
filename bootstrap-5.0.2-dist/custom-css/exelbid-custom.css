@@ -967,13 +967,13 @@
 }
 
 .footer p {
-  color: white;
+  color: #BABBBE;
   line-height: 130%;
   margin: 0;
 }
 
 .footer p.mute {
-  color: white;
+  color: #696D73;
   line-height: 130%;
   margin: 0;
 }
