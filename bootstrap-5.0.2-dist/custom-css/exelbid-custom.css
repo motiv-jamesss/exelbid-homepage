@@ -850,16 +850,31 @@
 
 .partners-comment {
   height: 250px;
-  border-radius: 16px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.comment>p {
+.partners-comment.comment>p {
   color: #6495F7;
   line-height: 120%;
 }
 
+.partners-comment.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 100px;
+  background-color: #ffffff;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
 .partners-comment.logo {
-  height: 250px;
+  /* height: 250px; */
+  align-content: center;
+  justify-content: center;
+  border-bottom-left-radius: 16px;
+  border-top-left-radius: 16px;
 }
 
 .logo.orange {
