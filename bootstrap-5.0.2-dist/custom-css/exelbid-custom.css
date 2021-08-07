@@ -896,6 +896,29 @@
   background-color: #00249f;
 }
 
+.footer.company-name {
+  font-size: 25px;
+  color: white;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.footer.social-icons {
+
+}
+
+.footer p {
+  color: white;
+  line-height: 130%;
+  margin: 0;
+}
+
+.footer p.mute {
+  color: white;
+  line-height: 130%;
+  margin: 0;
+}
+
 /*/////////////////////*/
 /*   섹션 관련   */
 /*/////////////////////*/
