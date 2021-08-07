@@ -2,6 +2,30 @@
 /*   커스텀  클래스   */
 /*///////////////////*/
 
+.bg-green {
+  background-color: #45D354;
+}
+
+.bg-red {
+  background-color: #ED5E5E;
+}
+
+.bg-blue {
+  background-color: #6495F7;
+}
+
+.bg-orange {
+  background-color: #FFA011;
+}
+
+.bg-mint {
+  background-color: #42CEC6;
+}
+
+.bg-purple {
+  background-color: #ED61B5;
+}
+
 .p-10 {
   padding: 10px;
 }
