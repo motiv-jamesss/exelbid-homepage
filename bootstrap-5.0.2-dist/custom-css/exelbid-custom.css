@@ -858,6 +858,10 @@
   line-height: 120%;
 }
 
+.comment.name {
+  margin-bottom: 5px;
+}
+
 .partners-comment.comment {
   display: flex;
   flex-direction: column;
