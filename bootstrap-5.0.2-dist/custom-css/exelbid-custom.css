@@ -966,6 +966,11 @@
   background-color: #6495F7!important;
 }
 
+.footer.text{
+  display: flex;
+  flex-direction: column;
+}
+
 .footer p {
   color: #BABBBE;
   line-height: 130%;
