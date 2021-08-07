@@ -896,7 +896,7 @@
   background-color: #00249f;
 }
 
-.footer-container {
+.footer-row {
   display: flex;
   flex-direction: column;
 }
