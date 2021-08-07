@@ -909,9 +909,18 @@
   margin-bottom: 16px;
 }
 
-.footer.social-icons {
+.footer.social-icon {
   display: flex;
   flex-direction: row;
+}
+.footer.social-icon.icon {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer p {
