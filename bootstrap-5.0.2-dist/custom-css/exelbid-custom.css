@@ -3,27 +3,27 @@
 /*///////////////////*/
 
 .bg-green {
-  background-color: #45D354;
+  background-color: #45D354!important;
 }
 
 .bg-red {
-  background-color: #ED5E5E;
+  background-color: #ED5E5E!important;
 }
 
 .bg-blue {
-  background-color: #6495F7;
+  background-color: #6495F7!important;
 }
 
 .bg-orange {
-  background-color: #FFA011;
+  background-color: #FFA011!important;
 }
 
 .bg-mint {
-  background-color: #42CEC6;
+  background-color: #42CEC6!important;
 }
 
 .bg-purple {
-  background-color: #ED61B5;
+  background-color: #ED61B5!important;
 }
 
 .p-10 {
