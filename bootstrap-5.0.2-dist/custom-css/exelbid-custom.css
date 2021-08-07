@@ -983,7 +983,12 @@
   font-weight: 300;
   color: #696D73;
   line-height: 170%;
-  margin: 0;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.footer.mute:hover {
+  color: #BABBBE;
 }
 
 /*/////////////////////*/
