@@ -979,7 +979,7 @@
   margin: 0;
 }
 
-.footer p.mute {
+.footer.mute {
   font-weight: 300;
   color: #696D73;
   line-height: 170%;
