@@ -991,6 +991,29 @@
   color: #BABBBE;
 }
 
+.text-link-row {
+  display: flex;
+  margin-top: 16px;
+}
+
+.text-link.mute {
+  font-weight: 300;
+  color: #696D73;
+  line-height: 170%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.text-link.mute:hover {
+  color: #BABBBE;
+}
+
+.text-link.text {
+  color: #696D73;
+  margin: 0 10px;
+}
+
+
 /*/////////////////////*/
 /*   섹션 관련   */
 /*/////////////////////*/
