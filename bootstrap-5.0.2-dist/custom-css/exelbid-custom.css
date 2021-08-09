@@ -1090,9 +1090,9 @@ body {
   h1, .h1 {
     font-size: 80px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1140px) {
     h1, .h1 {
-      font-size: 80px;
+      font-size: 35px;
     }
   }
   
