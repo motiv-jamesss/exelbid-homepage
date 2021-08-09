@@ -2329,6 +2329,11 @@
     border-top-left-radius: 16px;
     height: 8em;
   }
+
+  .logo.image {
+    min-width: 130px;
+  }
+
 }
 
 .footer-row {
