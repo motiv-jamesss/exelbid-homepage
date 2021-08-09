@@ -1631,7 +1631,13 @@
 
 .main-banner {
   background-color: #3A419F;
-  padding: 130px 0 130px 0;
+  padding: 130px 0;
+}
+
+@media (min-width: 1200px) {
+  .main-banner {
+  padding: 60px 0;
+  }
 }
 
 .section-grey {
