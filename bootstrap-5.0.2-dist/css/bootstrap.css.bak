@@ -611,7 +611,7 @@ progress {
   margin-left: auto;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
   }
@@ -621,7 +621,7 @@ progress {
     max-width: 720px;
   }
 }
-@media (min-width: 1140px) {
+@media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
@@ -699,7 +699,7 @@ progress {
   width: 16.6666666667%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .col-sm {
     flex: 1 0 0%;
   }
@@ -779,7 +779,7 @@ progress {
     width: 16.6666666667%;
   }
 }
-@media (min-width: 1140px) {
+@media (min-width: 992px) {
   .col-lg {
     flex: 1 0 0%;
   }
@@ -1068,7 +1068,7 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .col-sm-auto {
     flex: 0 0 auto;
     width: auto;
@@ -1416,7 +1416,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 1140px) {
+@media (min-width: 992px) {
   .col-lg-auto {
     flex: 0 0 auto;
     width: auto;
@@ -3507,7 +3507,7 @@ textarea.form-control-lg {
   left: auto;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .dropdown-menu-sm-start {
     --bs-position: start;
   }
@@ -3541,7 +3541,7 @@ textarea.form-control-lg {
     left: auto;
   }
 }
-@media (min-width: 1140px) {
+@media (min-width: 992px) {
   .dropdown-menu-lg-start {
     --bs-position: start;
   }
@@ -4040,7 +4040,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
   overflow-y: auto;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4092,7 +4092,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
     display: none;
   }
 }
-@media (min-width: 1140px) {
+@media (min-width: 992px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4387,7 +4387,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
 .card-group > .card {
   margin-bottom: 0.75rem;
 }
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .card-group {
     display: flex;
     flex-flow: row wrap;
@@ -4910,7 +4910,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
   border-left-width: 1px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .list-group-horizontal-sm {
     flex-direction: row;
   }
@@ -4958,7 +4958,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
     border-left-width: 1px;
   }
 }
-@media (min-width: 1140px) {
+@media (min-width: 992px) {
   .list-group-horizontal-lg {
     flex-direction: row;
   }
@@ -5357,7 +5357,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
   margin: 0.25rem;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
@@ -5375,7 +5375,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
     max-width: 300px;
   }
 }
-@media (min-width: 1140px) {
+@media (min-width: 992px) {
   .modal-lg,
 .modal-xl {
     max-width: 800px;
@@ -6226,7 +6226,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
   z-index: 1020;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .sticky-sm-top {
     position: -webkit-sticky;
     position: sticky;
@@ -6242,7 +6242,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
     z-index: 1020;
   }
 }
-@media (min-width: 1140px) {
+@media (min-width: 992px) {
   .sticky-lg-top {
     position: -webkit-sticky;
     position: sticky;
@@ -7535,7 +7535,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
   visibility: hidden !important;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
   }
@@ -8837,7 +8837,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
     text-align: center !important;
   }
 }
-@media (min-width: 1140px) {
+@media (min-width: 992px) {
   .float-lg-start {
     float: left !important;
   }
