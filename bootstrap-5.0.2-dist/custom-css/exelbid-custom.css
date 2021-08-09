@@ -1315,6 +1315,22 @@
     margin-right: 100px !important;
   }
 
+  .mw-md-10 {
+    max-width: 10%;
+  }
+
+  .mw-md-20 {
+    max-width: 20%;
+  }
+
+  .mw-md-30 {
+    max-width: 30%;
+  }
+
+  .mw-md-40 {
+    max-width: 40%;
+  }
+
   .mw-md-50 {
     max-width: 50%;
   }
