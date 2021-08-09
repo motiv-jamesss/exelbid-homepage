@@ -1676,12 +1676,12 @@
 .main-banner {
   background-color: #3A419F;
   padding: 130px 0;
+  overflow: hidden;
 }
 
 @media (max-width: 1200px) {
   .main-banner {
     padding: 60px 0;
-    overflow: hidden;
   }
 }
 
