@@ -297,6 +297,11 @@
   padding-bottom: 120px;
 }
 
+.px-5 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .px-10 {
   padding-left: 10px;
   padding-right: 10px;
