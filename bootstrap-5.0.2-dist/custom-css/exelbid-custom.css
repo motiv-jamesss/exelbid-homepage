@@ -718,6 +718,15 @@
   cursor: pointer;
 }
 
+@media (max-width: 1140px) {
+
+  .exlBtn,
+  .exlTab1,
+  .exl-a {
+    font-size: 15px;
+  }
+}
+
 .exlBtn:hover {
   color: #ffffff;
 }
