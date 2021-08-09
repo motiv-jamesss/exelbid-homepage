@@ -7537,7 +7537,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
   visibility: hidden !important;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .float-sm-start {
     float: left !important;
   }
@@ -8188,7 +8188,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
     text-align: center !important;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .float-md-start {
     float: left !important;
   }
@@ -8839,7 +8839,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
     text-align: center !important;
   }
 }
-@media (min-width: 1140px) {
+@media (max-width: 1140px) {
   .float-lg-start {
     float: left !important;
   }
@@ -9490,7 +9490,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
     text-align: center !important;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .float-xl-start {
     float: left !important;
   }
@@ -10141,7 +10141,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
     text-align: center !important;
   }
 }
-@media (min-width: 1400px) {
+@media (max-width: 1400px) {
   .float-xxl-start {
     float: left !important;
   }
