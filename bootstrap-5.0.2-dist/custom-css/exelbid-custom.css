@@ -1099,7 +1099,7 @@ body {
   h2, .h2 {
     font-size: 50px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1140px) {
     h2, .h2 {
       font-size: 50px;
     }
@@ -1108,7 +1108,7 @@ body {
   h3, .h3 {
     font-size: 35px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1140px) {
     h3, .h3 {
       font-size: 35px;
     }
@@ -1117,7 +1117,7 @@ body {
   h4, .h4 {
     font-size: 30px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1140px) {
     h4, .h4 {
       font-size: 30px;
     }
