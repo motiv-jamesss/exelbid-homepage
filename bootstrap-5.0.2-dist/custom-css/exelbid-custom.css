@@ -1315,6 +1315,42 @@
     margin-right: 100px !important;
   }
 
+  .mw-md-50 {
+    max-width: 50%;
+  }
+
+  .mw-md-60 {
+    max-width: 60%;
+  }
+
+  .mw-md-70 {
+    max-width: 70%;
+  }
+
+  .mw-md-80 {
+    max-width: 90%;
+  }
+
+  .mw-md-90 {
+    max-width: 90%;
+  }
+
+  .mw-md-100 {
+    max-width: 100%;
+  }
+
+  .mw-md-110 {
+    max-width: 110%;
+  }
+
+  .mw-md-120 {
+    max-width: 120%;
+  }
+
+  .mw-md-130 {
+    max-width: 130%;
+  }
+
 }
 
 /* @media (min-width: 992px)
