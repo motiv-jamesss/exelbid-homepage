@@ -2659,6 +2659,7 @@ p {
   margin: 0 20px;
 }
 
+
 .nav-item:nth-child(4) {
   width: 93px;
 }
@@ -2673,6 +2674,12 @@ p {
     width: 83px;
   }
 
+}
+
+@media(max-width: 768px) {
+  .nav-item {
+    margin: 10px 0;
+  }
 }
 
 .nav-item-s {
@@ -2830,11 +2837,19 @@ p {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  align-items: center;
 }
 
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+}
+
+@media (max-width: 768px) {
+
+  .navbar-nav {
+    margin: 20px;
+  }
 }
 
 .navbar-nav .dropdown-menu {
