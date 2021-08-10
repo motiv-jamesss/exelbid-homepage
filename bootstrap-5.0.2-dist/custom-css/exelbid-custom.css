@@ -2654,19 +2654,30 @@ p {
 }
 
 .nav-item {
-  width: 80px;
+  width: 60px;
   text-align: center;
+  margin: 0 20px;
+}
+
+.nav-item:nth-child(4) {
+  width: 93px;
 }
 
 @media (max-width: 1200px) {
   .nav-item {
-    width: 67px;
+    width: 50px;
     text-align: center;
   }
+
+  .nav-item:nth-child(4) {
+    width: 83px;
+  }
+
 }
 
-.nav-item {
-  margin: 0 20px 0 20px;
+.nav-item-s {
+  width: 60px;
+  text-align: center;
 }
 
 .nav-item-s {
