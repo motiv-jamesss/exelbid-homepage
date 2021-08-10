@@ -2410,10 +2410,13 @@
 }
 
 .google-partners {
-  max-width: 100px;
-  border-radius: 16px;
   margin-left:auto;
   margin-bottom: auto;
+}
+
+.google-partners.img {
+  max-width: 100px;
+  border-radius: 16px;
 }
 
 .text-link-row {
