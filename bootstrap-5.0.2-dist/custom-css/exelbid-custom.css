@@ -2232,11 +2232,11 @@
   content: "";
 }
 
-.exl-card2-container:nth-child(first-child) {
+.exl-card2-container:first-child {
   margin-right: 15px;
 }
 
-.exl-card2-container:nth-child(last-child) {
+.exl-card2-container:last-child {
   margin-left: 15px;
 }
 
