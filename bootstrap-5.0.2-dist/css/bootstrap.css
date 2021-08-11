@@ -7264,6 +7264,14 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
   font-style: italic !important;
 }
 
+.fw-thin {
+  font-weight: 100 !important;
+}
+
+.fw-extralight {
+  font-weight: 200 !important;
+}
+
 .fw-light {
   font-weight: 300 !important;
 }
