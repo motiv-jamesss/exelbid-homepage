@@ -2228,6 +2228,24 @@
   border-bottom-right-radius: 16px;
 }
 
+.exl-card2-container {
+  background-color: #ffffff;
+  padding: 32px;
+}
+
+.exl-card2-container:nth-child(:first) {
+  margin-right: 15px;
+}
+
+.exl-card2-container:nth-child(:last) {
+  margin-left: 15px;
+}
+
+.exl-card2 {
+  background-color: #ffffff;
+  padding: 32px;
+}
+
 .overlay-container {
   position: relative;
   /* width: 50%; */
