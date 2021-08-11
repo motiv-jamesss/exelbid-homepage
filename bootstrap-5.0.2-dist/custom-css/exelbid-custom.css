@@ -34,6 +34,31 @@
   background-color: #ED61B5 !important;
 }
 
+.color-green {
+  background-color: #45D354 !important;
+}
+
+.color-red {
+  background-color: #ED5E5E !important;
+}
+
+.color-blue {
+  background-color: #6495F7 !important;
+}
+
+.color-orange {
+  background-color: #FFA011 !important;
+}
+
+.color-mint {
+  background-color: #42CEC6 !important;
+}
+
+.color-purple {
+  background-color: #ED61B5 !important;
+}
+
+
 .p-10 {
   padding: 10px;
 }
