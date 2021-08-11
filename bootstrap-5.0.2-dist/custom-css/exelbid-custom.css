@@ -2229,7 +2229,7 @@
 }
 
 .exl-card2-container {
-  padding: 32px;
+  content: "";
 }
 
 .exl-card2-container:nth-child(first-child) {
