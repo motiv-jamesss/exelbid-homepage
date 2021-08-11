@@ -2229,15 +2229,14 @@
 }
 
 .exl-card2-container {
-  background-color: #ffffff;
   padding: 32px;
 }
 
-.exl-card2-container:nth-child(:first) {
+.exl-card2-container:nth-child(first-child) {
   margin-right: 15px;
 }
 
-.exl-card2-container:nth-child(:last) {
+.exl-card2-container:nth-child(last-child) {
   margin-left: 15px;
 }
 
