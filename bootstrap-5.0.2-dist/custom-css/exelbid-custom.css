@@ -2252,6 +2252,15 @@
   width: max-content;
 }
 
+.exl-tgt {
+  background-color: #2F3247;
+  padding: 32px;
+}
+
+.exl-tgt.mute {
+  color: #a5a5a5;
+}
+
 .overlay-container {
   position: relative;
   /* width: 50%; */
@@ -2681,7 +2690,7 @@ h3,
 
   h3,
   .h3 {
-    font-size: 35px;
+    font-size: 20px;
   }
 }
 
