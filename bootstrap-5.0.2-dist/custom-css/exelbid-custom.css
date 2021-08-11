@@ -2457,11 +2457,11 @@
   background-color: #babbbe;
 }
 
-.feature-banner.tag-container {
+.tag-container {
   margin-bottom: 5px;
 }
 
-.feature-banner.tag {
+.tag-container.tag {
   padding: 8px 16px;
   margin-right: 5px;
   color: #ffffff;
