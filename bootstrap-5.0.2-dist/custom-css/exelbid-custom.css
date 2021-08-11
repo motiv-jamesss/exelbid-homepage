@@ -2228,21 +2228,28 @@
   border-bottom-right-radius: 16px;
 }
 
-.exl-card2-container {
-  content: "";
-}
-
-.exl-card2-container:first-child {
-  margin-right: 15px;
-}
-
-.exl-card2-container:last-child {
-  margin-left: 15px;
-}
-
 .exl-card2 {
   background-color: #ffffff;
   padding: 32px;
+  border-radius: 16px;
+  
+}
+
+.exl-card2:nth-child(1) {
+  width: 48.68%;
+  margin-right: 15px;
+}
+
+.exl-card2:nth-child(2) {
+  width: 48.68%;
+  margin-left: 15px;
+}
+
+.exl-card2.tab {
+  padding: 8px 16px;
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 600;
 }
 
 .overlay-container {
