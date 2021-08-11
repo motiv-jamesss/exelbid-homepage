@@ -2457,8 +2457,13 @@
   background-color: #babbbe;
 }
 
+.feature-banner.tag-container {
+  margin-bottom: 5px;
+}
+
 .feature-banner.tag {
   padding: 8px 16px;
+  margin-right: 5px;
   color: #ffffff;
   background-color: #4C58A9;
 }
