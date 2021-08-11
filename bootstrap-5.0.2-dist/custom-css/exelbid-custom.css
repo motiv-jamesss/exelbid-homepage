@@ -2458,7 +2458,7 @@
 }
 
 .tag-container {
-  margin-bottom: 5px;
+  margin-bottom: 22px;
 }
 
 .tag-container.tag {
@@ -2466,6 +2466,7 @@
   margin-right: 5px;
   color: #ffffff;
   background-color: #4C58A9;
+  border-radius: 16px
 }
 
 /*/////////////////////*/
