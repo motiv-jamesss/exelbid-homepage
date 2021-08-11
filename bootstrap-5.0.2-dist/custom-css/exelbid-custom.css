@@ -2045,11 +2045,6 @@
   }
 }
 
-/* @media (min-width: 992px)
-.mw-lg-130 {
-    max-width: 130%!important;
-} */
-
 /*////////////////*/
 /*   커스텀 요소   */
 /*////////////////*/
@@ -2463,8 +2458,8 @@
 }
 
 /*/////////////////////*/
-/*   섹션 관련   */
-/*/////////////////////*/
+/*       섹션관련      */
+/*////////////////////*/
 
 .main-banner {
   background-color: #3A419F;
@@ -2476,6 +2471,12 @@
   .main-banner {
     padding: 60px 0;
   }
+}
+
+.feature-banner {
+  background-color: #3A419F;
+  padding: 130px 0;
+  overflow: hidden;
 }
 
 .section-grey {
