@@ -58,6 +58,12 @@
   color: #ED61B5 !important;
 }
 
+.color-grey1 {
+  color: #828282 !important;
+}
+
+
+
 
 .p-10 {
   padding: 10px;
@@ -2492,6 +2498,17 @@
   color: #ffffff;
   background-color: #4C58A9;
   border-radius: 16px
+}
+
+.ssp-feature {
+  text-align: center;
+}
+
+.ssp-feature.item p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #828282;
+  line-height: 150%;
 }
 
 /*/////////////////////*/
