@@ -2283,6 +2283,12 @@
   width: max-content;
 }
 
+div.exl-card2 div hr {
+  background-color: #fff;
+  opacity: 1;
+  margin: 32px 0;
+}
+
 .exl-tgt {
   background-color: #2F3247;
   border-radius: 16px;
