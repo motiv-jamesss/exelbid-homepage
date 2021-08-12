@@ -2236,6 +2236,17 @@
 }
 
 .exl-card2:nth-child(1) {
+  width: 48.68%;
+  margin-right: 15px;
+}
+
+.exl-card2:nth-child(2) {
+  width: 48.68%;
+  margin-left: 15px;
+}
+
+@media (max-width:1200px) {
+.exl-card2:nth-child(1) {
   width: 47.88%;
   margin-right: 15px;
 }
@@ -2243,6 +2254,7 @@
 .exl-card2:nth-child(2) {
   width: 47.88%;
   margin-left: 15px;
+}
 }
 
 .exl-card2.tab {
