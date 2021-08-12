@@ -2286,7 +2286,7 @@
 div.exl-card2 div hr {
   background-color: #fff;
   opacity: 1;
-  margin: 32px 0;
+  margin: 32px 0!important;
 }
 
 .exl-tgt {
