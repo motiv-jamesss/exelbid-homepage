@@ -2238,6 +2238,10 @@
   background-color: #ffffff;  
 }
 
+.exl-card2.grey {
+  background-color: #F3F7FC;  
+}
+
 .exl-card2:nth-child(1) {
   width: 48.68%;
   margin-right: 15px;
