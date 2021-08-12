@@ -6394,7 +6394,7 @@ nav(GNB) 요소 custom-css/exelbid-custom.css에서 작업
 }
 
 .shadow2 {
-box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.15);
+box-shadow: 13px 13px 30px rgb(30 36 53 / 25%);
 }
 
 .shadow-sm {
