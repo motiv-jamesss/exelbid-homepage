@@ -2263,6 +2263,15 @@
 }
 }
 
+.exl-card2-single {
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.exl-card2-single.white {
+  background-color: #ffffff;  
+}
+
 .exl-card2.tab {
   padding: 8px 16px;
   color: #ffffff;
