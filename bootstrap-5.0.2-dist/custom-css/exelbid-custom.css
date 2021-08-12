@@ -2229,10 +2229,13 @@
 }
 
 .exl-card2 {
-  background-color: #ffffff;
   padding: 32px;
   border-radius: 16px;
   
+}
+
+.exl-card2.white {
+  background-color: #ffffff;  
 }
 
 .exl-card2:nth-child(1) {
