@@ -2241,6 +2241,10 @@
   background-color: #F3F7FC;  
 }
 
+.exl-card2.navy {
+  background-color: #303247;  
+}
+
 .exl-card2.gradient {
   background-image: linear-gradient(120deg, #359CD7 0%, #7B70FA 100%);
 }
