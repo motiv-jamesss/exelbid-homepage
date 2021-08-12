@@ -2256,6 +2256,7 @@
   background-color: #2F3247;
   border-radius: 16px;
   padding: 32px;
+  display: flex;
 }
 
 div.exl-tgt div .mute {
