@@ -1070,7 +1070,7 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .col-sm-auto {
     flex: 0 0 auto;
     width: auto;
@@ -1244,7 +1244,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .col-md-auto {
     flex: 0 0 auto;
     width: auto;
@@ -1418,7 +1418,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 1140px) {
+@media (max-width: 1140px) {
   .col-lg-auto {
     flex: 0 0 auto;
     width: auto;
@@ -1592,7 +1592,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .col-xl-auto {
     flex: 0 0 auto;
     width: auto;
