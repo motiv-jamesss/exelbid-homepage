@@ -2595,6 +2595,7 @@ div.exl-tgt div .mute {
   color: #ffffff;
   background-color: #4C58A9;
   border-radius: 16px;
+  min-width: fit-content;
 }
 
 .ssp-feature {
