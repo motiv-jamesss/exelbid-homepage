@@ -2326,6 +2326,15 @@
   color: #ffa011;
 }
 
+@media (max-width: 1200px) {
+  .exl-card2 h2 h3.dev {
+    padding: 3px 8px;
+    border-radius: 8px;
+    margin: 1px 10px 4px 0;
+    font-size: 16px;
+  }
+}
+
 .exl-card2 h2 div h2 {
   font-weight: 600;
 }
