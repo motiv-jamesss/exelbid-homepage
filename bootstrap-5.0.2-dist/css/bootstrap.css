@@ -613,12 +613,12 @@ progress {
 
 @media (min-width: 640px) {
   .container-sm, .container {
-    max-width: 600px;
+    /*max-width: 600px;*/
   }
 }
 @media (min-width: 800px) {
   .container-md, .container-sm, .container {
-    max-width: 768px;
+    /*max-width: 768px;*/
   }
 }
 @media (min-width: 1200px) {
