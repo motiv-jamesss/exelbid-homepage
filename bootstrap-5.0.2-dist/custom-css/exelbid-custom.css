@@ -2341,6 +2341,11 @@ div.exl-tgt div .mute {
   color: #a5a5a5;
 }
 
+.exl-card2.grey div.icon{
+  max-width: fit-content;
+  float: right;
+}
+
 .overlay-container {
   position: relative;
   /* width: 50%; */
