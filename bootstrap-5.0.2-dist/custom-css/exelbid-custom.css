@@ -2314,6 +2314,10 @@ div.exl-card2 h2 h3.dev {
   color: #ffa011;
 }
 
+.exl-card2 h2 div h2 {
+  font-weight: 600;
+}
+
 .exl-tgt {
   background-color: #2F3247;
   border-radius: 16px;
