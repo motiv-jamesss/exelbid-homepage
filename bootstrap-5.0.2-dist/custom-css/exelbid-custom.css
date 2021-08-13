@@ -3044,7 +3044,7 @@ p {
 
 @media (max-width: 640px) {
   .navbar-nav {
-    margin: 20px;
+    margin: 20px!important;
   }
 }
 
