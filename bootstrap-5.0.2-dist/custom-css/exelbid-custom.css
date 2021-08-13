@@ -2246,15 +2246,15 @@
 }
 
 .exl-card2.white {
-  background-color: #ffffff;  
+  background-color: #ffffff;
 }
 
 .exl-card2.grey {
-  background-color: #F3F7FC;  
+  background-color: #F3F7FC;
 }
 
 .exl-card2.navy {
-  background-color: #303247;  
+  background-color: #303247;
 }
 
 .exl-card2.gradient {
@@ -2272,15 +2272,15 @@
 }
 
 @media (max-width:1200px) {
-.exl-card2:nth-child(1) {
-  width: 47.88%;
-  margin-right: 15px;
-}
+  .exl-card2:nth-child(1) {
+    width: 47.88%;
+    margin-right: 15px;
+  }
 
-.exl-card2:nth-child(2) {
-  width: 47.88%;
-  margin-left: 15px;
-}
+  .exl-card2:nth-child(2) {
+    width: 47.88%;
+    margin-left: 15px;
+  }
 }
 
 .exl-card2-single {
@@ -2289,7 +2289,7 @@
 }
 
 .exl-card2-single.white {
-  background-color: #ffffff;  
+  background-color: #ffffff;
 }
 
 .exl-card2.tab {
@@ -2302,7 +2302,17 @@
 div.exl-card2 div hr {
   background-color: #fff;
   opacity: 1;
-  margin: 32px 0!important;
+  margin: 32px 0 !important;
+}
+
+div.exl-card2 h2 h3.dev {
+  background-color: #484B6B;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 35px;
+  margin: 4px 10px 4px 0;
+  color: #ffa011;
 }
 
 .exl-tgt {
