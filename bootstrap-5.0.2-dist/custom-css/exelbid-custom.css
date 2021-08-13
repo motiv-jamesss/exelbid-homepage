@@ -2594,11 +2594,12 @@ div.exl-tgt div .mute {
 }
 
 .tag-container.tag {
-  padding: 8px 16px;
-  margin-right: 5px;
+  padding: 6px 16px;
+  margin-right: 10px;
   color: #ffffff;
   background-color: #4C58A9;
-  border-radius: 16px
+  border-radius: 16px;
+  margin-bottom: 22px;
 }
 
 .ssp-feature {
