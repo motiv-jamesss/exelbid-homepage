@@ -2311,13 +2311,13 @@
   width: max-content;
 }
 
-div.exl-card2 div hr {
+.exl-card2 div hr {
   background-color: #fff;
   opacity: 1;
   margin: 32px 0 !important;
 }
 
-div.exl-card2 h2 h3.dev {
+.exl-card2 h2 h3.dev {
   background-color: #484B6B;
   padding: 4px 8px;
   border-radius: 16px;
@@ -2328,6 +2328,12 @@ div.exl-card2 h2 h3.dev {
 
 .exl-card2 h2 div h2 {
   font-weight: 600;
+}
+
+.exl-card2 div.dev {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #F3F7FC;
 }
 
 .exl-tgt {
@@ -2341,7 +2347,7 @@ div.exl-tgt div .mute {
   color: #a5a5a5;
 }
 
-.exl-card2.grey div.icon{
+.exl-card2.grey div.icon {
   max-width: fit-content;
   float: right;
 }
@@ -2655,7 +2661,7 @@ div.exl-tgt div .mute {
     padding: 60px 30px;
     border-radius: 0px;
   }
-  }
+}
 
 .section-grey {
   background-color: #F3F7FC;
