@@ -2589,13 +2589,9 @@ div.exl-tgt div .mute {
   background-color: #babbbe;
 }
 
-.tag-container {
-  margin-bottom: 22px;
-}
-
-.tag-container.tag {
+.feature-banner div div div.tag {
   padding: 6px 16px;
-  margin: 0 10px 22px 0;
+  margin: 0 10px 10px 0;
   color: #ffffff;
   background-color: #4C58A9;
   border-radius: 16px;
