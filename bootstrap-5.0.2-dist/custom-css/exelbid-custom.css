@@ -2334,6 +2334,9 @@
   padding: 32px;
   border-radius: 16px;
   background-color: #F3F7FC;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .exl-tgt {
