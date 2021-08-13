@@ -2595,11 +2595,10 @@ div.exl-tgt div .mute {
 
 .tag-container.tag {
   padding: 6px 16px;
-  margin-right: 10px;
+  margin: 0 10px 22px 0;
   color: #ffffff;
   background-color: #4C58A9;
   border-radius: 16px;
-  margin-bottom: 22px;
 }
 
 .ssp-feature {
