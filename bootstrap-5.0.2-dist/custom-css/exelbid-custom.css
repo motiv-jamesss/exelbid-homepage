@@ -2632,7 +2632,7 @@ div.exl-tgt div .mute {
   border-radius: 16px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1200px) {
   .feature-banner {
     background-color: #3A419F;
     padding: 30px 30px;
