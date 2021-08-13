@@ -2873,7 +2873,7 @@ p {
 
 }
 
-@media(max-width: 768px) {
+@media(max-width: 640px) {
   .nav-item {
     margin: 10px 0;
   }
@@ -3137,7 +3137,7 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .navbar-expand-md {
     flex-wrap: nowrap;
     justify-content: flex-start;
