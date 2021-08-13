@@ -2632,6 +2632,14 @@ div.exl-tgt div .mute {
   border-radius: 16px;
 }
 
+@media (max-width: 640px) {
+  .feature-banner {
+    background-color: #3A419F;
+    padding: 30px 30px;
+    border-radius: 0px;
+  }
+  }
+
 .section-grey {
   background-color: #F3F7FC;
 }
