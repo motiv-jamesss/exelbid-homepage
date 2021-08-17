@@ -2448,7 +2448,7 @@
     opacity: 1;
     color: #b2b2b2;
   }
-  
+
 }
 
 .exl-tgt {
@@ -2599,6 +2599,19 @@
     min-width: 130px;
   }
 
+}
+
+.partners-logo {
+  display: flex;
+  max-width: 150px;
+  min-height: 90px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.partners-logo.1 {
+  background-color: #3F3DB7;
 }
 
 .footer-row {
