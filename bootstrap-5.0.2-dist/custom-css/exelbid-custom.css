@@ -2434,6 +2434,23 @@
   color: #b2b2b2;
 }
 
+@media(max-width: 768px) {
+
+  .exl-card2 div.traffic {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .exl-card2 hr.traffic {
+    margin: 0;
+    opacity: 1;
+    color: #b2b2b2;
+  }
+  
+  }
+
 .exl-tgt {
   background-color: #2F3247;
   border-radius: 16px;
