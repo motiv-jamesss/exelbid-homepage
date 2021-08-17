@@ -2429,9 +2429,10 @@
 }
 
 .exl-card2 hr.traffic {
-  margin: 0 32px;
+  margin: 0 0 0 32px;
   opacity: 1;
   color: #b2b2b2;
+  max-width: 90%;
 }
 
 @media(max-width: 768px) {
@@ -2447,6 +2448,7 @@
     margin: 0;
     opacity: 1;
     color: #b2b2b2;
+    max-width: 100%;
   }
 
 }
@@ -2469,7 +2471,6 @@
 
 .overlay-container {
   position: relative;
-  /* width: 50%; */
 }
 
 .overlay-image {
