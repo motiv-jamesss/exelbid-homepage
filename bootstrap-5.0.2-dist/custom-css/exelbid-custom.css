@@ -70,47 +70,47 @@
 
 
 .p-10 {
-  padding: 10px!important;
+  padding: 10px !important;
 }
 
 .p-20 {
-  padding: 20px!important;
+  padding: 20px !important;
 }
 
 .p-30 {
-  padding: 30px!important;
+  padding: 30px !important;
 }
 
 .p-40 {
-  padding: 40px!important;
+  padding: 40px !important;
 }
 
 .p-50 {
-  padding: 50px!important;
+  padding: 50px !important;
 }
 
 .p-60 {
-  padding: 60px!important;
+  padding: 60px !important;
 }
 
 .p-70 {
-  padding: 70px!important;
+  padding: 70px !important;
 }
 
 .p-80 {
-  padding: 80px!important;
+  padding: 80px !important;
 }
 
 .p-90 {
-  padding: 90px!important;
+  padding: 90px !important;
 }
 
 .p-100 {
-  padding: 100px!important;
+  padding: 100px !important;
 }
 
 .pt-10 {
-  padding-top: 10px!important;
+  padding-top: 10px !important;
 }
 
 .pt-10 {
@@ -1427,30 +1427,31 @@
   .mw-md-130 {
     max-width: 130%;
   }
+
   .mw-md-140 {
     max-width: 140% !important;
   }
-  
+
   .mw-md-150 {
     max-width: 150% !important;
   }
-  
+
   .mw-md-160 {
     max-width: 160% !important;
   }
-  
+
   .mw-md-170 {
     max-width: 170% !important;
   }
-  
+
   .mw-md-180 {
     max-width: 180% !important;
   }
-  
+
   .mw-md-190 {
     max-width: 190% !important;
   }
-  
+
   .mw-md-200 {
     max-width: 200% !important;
   }
@@ -2135,27 +2136,27 @@
   .mw-sm-140 {
     max-width: 140% !important;
   }
-  
+
   .mw-sm-150 {
     max-width: 150% !important;
   }
-  
+
   .mw-sm-160 {
     max-width: 160% !important;
   }
-  
+
   .mw-sm-170 {
     max-width: 170% !important;
   }
-  
+
   .mw-sm-180 {
     max-width: 180% !important;
   }
-  
+
   .mw-sm-190 {
     max-width: 190% !important;
   }
-  
+
   .mw-sm-200 {
     max-width: 200% !important;
   }
@@ -3115,8 +3116,10 @@ p {
   }
 }
 
-.nav-link:hover,
-.nav-link:focus {background-color: #F3F7FC!important;}
+button.nav-link:hover,
+button.nav-link:focus {
+  background-color: #F3F7FC !important;
+}
 
 .nav-link.disabled {
   color: #6c757d;
@@ -3252,7 +3255,7 @@ p {
 
 @media (max-width: 640px) {
   .navbar-nav {
-    margin: 20px!important;
+    margin: 20px !important;
   }
 }
 
