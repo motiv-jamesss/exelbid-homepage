@@ -2602,6 +2602,17 @@
 
 }
 
+.partners-logo-container {
+  display: flex;
+}
+
+@media (max-width: 1300px){
+  .partners-logo-container-l {
+    display: none;
+    ;
+  }
+  }
+
 .partners-logo {
   display: flex;
   max-width: 150px;
