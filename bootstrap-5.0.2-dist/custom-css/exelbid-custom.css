@@ -2642,6 +2642,18 @@
   border-radius: 16px;
 }
 
+@media (min-width: 640px) {
+  .partners-logo {
+    display: flex;
+    max-width: 130px;
+    min-width: 90px;
+    min-height: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+  }
+}
+
 .partners-logo.color-white {
   background-color: #ffffff;
 }
