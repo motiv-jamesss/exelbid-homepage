@@ -3180,18 +3180,19 @@ button.nav-link:focus {
 @media (max-width: 1200px) {
   .nav-pills .nav-link {
     font-size: 15px;
-    text-align: left;
     width: 100px;
   }
-  }
-  
-  @media (max-width: 640px) {
+}
+
+@media (max-width: 640px) {
   .nav-pills .nav-link {
     font-size: 15px;
+    padding: 12px 10px;
+    margin-right: 10px;
     text-align: center;
-    width: 100px;
+    width: 80px;
   }
-  }
+}
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
