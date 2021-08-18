@@ -2618,7 +2618,14 @@
 }
 
 @media (max-width: 800px) {
-  .partners-logo-container {
+  .partners-logo-container-m {
+    display: none;
+    ;
+  }
+}
+
+@media (min-width: 800px) {
+  .partners-logo-container-s {
     display: none;
     ;
   }
