@@ -2642,7 +2642,7 @@
   border-radius: 16px;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .partners-logo {
     display: flex;
     max-width: 130px;
