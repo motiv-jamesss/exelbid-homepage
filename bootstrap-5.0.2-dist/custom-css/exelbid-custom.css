@@ -2602,16 +2602,27 @@
 
 }
 
-.partners-logo-container {
-  display: flex;
-}
 /*  비교적 안정적으로 가로길이 관리를 위해서 1300px로 제한  */
-@media (max-width: 1300px){
+@media (max-width: 1300px) {
   .partners-logo-container-l {
     display: none;
     ;
   }
+}
+
+@media (min-width: 1300px) {
+  .partners-logo-container-m {
+    display: none;
+    ;
   }
+}
+
+@media (max-width: 800px) {
+  .partners-logo-container {
+    display: none;
+    ;
+  }
+}
 
 .partners-logo {
   display: flex;
