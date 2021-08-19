@@ -194,7 +194,7 @@
                             </h2>
                             <div id="collapse3Two" class="accordion-collapse collapse" aria-labelledby="heading3Two" data-bs-parent="#accordionInv">
                               <div class="accordion-body">
-                                Minimim CPM은 RTB(Real Time Bidding)를 이용하여 Exchange에 광고 요청할 때 필요한 가격 정보입니다. ‘최저 입찰 가격’을 의미하며 단위는 미화($)입니다. 예를 들어 Minimum CPM을 0.5로 설정할 경우, Exchange 상에서 최저 입찰 가격이 0.5$ 설정되며, Bidder들은 0.5$ 이상으로만 입찰이 가능합니다. Minimum CPM이 너무 낮을 경우 수익률이 악화될 수 있으며, 반대로 너무 높을 경우 입찰하는 Bidder가 없어서 Fill Rate가 떨어질 수 있습니다.
+                                Minimum CPM은 RTB(Real Time Bidding)를 이용하여 Exchange에 광고 요청할 때 필요한 가격 정보입니다. ‘최저 입찰 가격’을 의미하며 단위는 미화($)입니다. 예를 들어 Minimum CPM을 0.5로 설정할 경우, Exchange 상에서 최저 입찰 가격이 0.5$ 설정되며, Bidder들은 0.5$ 이상으로만 입찰이 가능합니다. Minimum CPM이 너무 낮을 경우 수익률이 악화될 수 있으며, 반대로 너무 높을 경우 입찰하는 Bidder가 없어서 Fill Rate가 떨어질 수 있습니다.
                               </div>
                             </div>
                           </div>
@@ -341,13 +341,54 @@
                               </div>
                             </div>
                           </div>
-                          <!-- accordionInv End  -->
                         </div>
                       </div>
-                      
-                      <div class="tab-pane fade" id="v-pills-term" role="tabpanel" aria-labelledby="v-pills-term-tab">
-                          ...
+                      <!-- accordionInv End  -->
+                      <!-- accordionTerm Start  -->
+                      <div class="tab-pane fade" id="v-pills-Term" role="tabpanel" aria-labelledby="v-pills-Term-tab">
+                        <div class="accordion" id="accordionTerm">
+                          <!-- accordionTerm > heading4One / collapse4One  -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading4One">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapse4One" aria-expanded="false" aria-controls="collapse4One">
+                                Direct, Network, Exchange가 무엇인가요?
+                              </button>
+                            </h2>
+                            <div id="collapse4One" class="accordion-collapse collapse" aria-labelledby="heading4One"data-bs-parent="#accordionTerm">
+                              <div class="accordion-body">
+                                Direct의 경우 직접 수주한 광고 캠페인을 엑셀비드 내의 캠페인 관리 도구를 통해 집행한 내역입니다. 엑셀비드에서 제공하는 캠페인 관리 도구는 국내 최고 DSP인 크로스타겟의 기능을 대폭 적용하여 다양한 타겟팅 옵션 및 부가기능을 이용할 수 있습니다. Network의 경우 다양한 애드네트웍에서 받은 광고에 대한 수익입니다. Exchange는 RTB로 입찰된 광고 수익을 말합니다.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionTerm > heading4Two / collapse4Two  -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading4Two">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4Two" aria-expanded="false" aria-controls="collapse4Two">
+                                Fill Rate이 뭔가요?
+                              </button>
+                            </h2>
+                            <div id="collapse4Two" class="accordion-collapse collapse" aria-labelledby="heading4Two" data-bs-parent="#accordionTerm">
+                              <div class="accordion-body">
+                                광고 요청 대비 실제로 유료광고가 노출된 비율을 의미하는 지표입니다. Fill Rate은 다양한 변수의 영향을 받습니다. 가령 Minimum CPM이 낮은 경우 Fill Rate은 높지만, CPM 비용이 낮기 때문에 전체 수익은 낮을 수 있습니다. 반대로 Minimum CPM이 높을 경우 수익률은 높지만 입찰이 적기 때문에 Fill Rate이 낮을 수 있습니다. 엑셀비드는 단순히 100% Fill Rate을 채우는 것이 아닌 퍼블리셔분들이 최대의 수익을 얻으실 수 있도록 언제나 노력합니다.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionTerm > heading4Three / collapse4Three  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading4Three">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4Three" aria-expanded="false" aria-controls="collapse4Three">
+                                eCPM이 뭔가요?
+                              </button>
+                            </h5>
+                            <div id="collapse4Three" class="accordion-collapse collapse" aria-labelledby="heading4Three" data-bs-parent="#accordionTerm">
+                              <div class="accordion-body">
+                                광고 노출 1,000회를 통해 벌어들일 것으로 예상되는 기대수익금을 나타내는 지표입니다. 계산공식은 eCPM = (일정 기간 광고수익금) * 1000 / (일정 기간 광고 노출수)로 계산됩니다. 동일한 Fill Rate라더라도 eCPM이 다를 수 있으며 이에 따라 수익금 편차가 발생합니다. 엑셀비드는 머신러닝 기반의 자동화된 미디에이션 기능을 이용하여 퍼블리셔분들이 최대의 수익을 얻으실 수 있도록 노출 전략을 실시간 적용합니다.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
+                      <!-- accordionTerm End  -->
                     </div>
                   </div>
                 </div>
