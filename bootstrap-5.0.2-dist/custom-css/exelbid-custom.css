@@ -3733,8 +3733,8 @@ button.nav-link:focus {
 
 #gtt::after {
   content: url("data:image/svg+xml,%3Csvg width='20' height='12' viewBox='0 0 20 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19 10.8984L10 0.898438L1 10.8984' stroke='white' stroke-miterlimit='10'/%3E%3C/svg%3E%0A");
-  height: 26px;
-  width: 26px;
+  height: 65px;
+  width: 65px;
 }
 
 #gtt:hover {
