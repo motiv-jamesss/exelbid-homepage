@@ -2754,6 +2754,11 @@
   line-height: 1.5;
 }
 
+.accordion-item {
+  background-color: #fff;
+  border-bottom: 1px solid #828282;
+}
+
 @media (max-width: 1200px) {
   .accordion-body,
   .accordion-button {
