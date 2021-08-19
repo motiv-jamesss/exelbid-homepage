@@ -3712,22 +3712,36 @@ button.nav-link:focus {
   color: #fff;
 }
 
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
+#gtt {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
   border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
 }
-
-#myBtn:hover {
+#gtt::after {
+  content: "top";
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#gtt:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#gtt:active {
   background-color: #555;
+}
+#gtt.show {
+  opacity: 1;
+  visibility: visible;
 }
