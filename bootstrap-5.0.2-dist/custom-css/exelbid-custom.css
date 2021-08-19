@@ -2747,6 +2747,17 @@
   box-shadow: none;
 }
 
+.accordion-body {
+  padding: 18px;
+}
+
+@media (max-width: 1200px) {
+  .accordion-body,
+  .accordion-button {
+    font-size: 15px;
+  }
+}
+
 .footer-row {
   display: flex;
   flex-direction: column;
