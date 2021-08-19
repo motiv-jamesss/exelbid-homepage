@@ -3261,6 +3261,14 @@ button.nav-link:focus {
   color: #6495F7;
 }
 
+@media(max-width:640px) {
+
+  .nav-pills .nav-link.active,
+  .nav-pills .show>.nav-link {
+    background-color: #F3F7FC !important;
+  }
+}
+
 .nav-fill>.nav-link,
 .nav-fill .nav-item {
   flex: 1 1 auto;
