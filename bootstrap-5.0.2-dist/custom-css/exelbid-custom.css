@@ -3736,9 +3736,11 @@ button.nav-link:focus {
   background-color: #333;
 }
 
-#gtt.show {
-  opacity: .5;
-  visibility: visible;
+@media (min-width: 1200px) {
+  #gtt.show {
+    opacity: .5;
+    visibility: visible;
+  }
 }
 
 /* Go to top 버튼 */
