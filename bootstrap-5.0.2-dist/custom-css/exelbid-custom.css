@@ -2734,6 +2734,19 @@
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
 }
 
+.accordion-button:not(.collapsed) {
+  color: #232323;
+  background-color: #F3F7FC;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: rgb(0 0 0 / 0%);
+  outline: 0;
+  box-shadow: none;
+}
+
 .footer-row {
   display: flex;
   flex-direction: column;
