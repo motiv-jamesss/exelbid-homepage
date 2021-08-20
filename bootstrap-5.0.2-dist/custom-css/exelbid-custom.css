@@ -3721,7 +3721,7 @@ button.navbar-toggler {
   color: #fff;
 }
 
-/* nav toggle button animation / https://codepen.io/vajkri/pen/dVWoGj */
+/* nav toggle button animation 1 / https://codepen.io/vajkri/pen/dVWoGj */
 
 .menu-toggle {
   position: relative;
@@ -3757,7 +3757,7 @@ div.is-active:after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-/* 222 */
+/* nav toggle button animation 2 / https://codepen.io/KPCodes/pen/Ypwrdx */
 
 input {
   display: none;
