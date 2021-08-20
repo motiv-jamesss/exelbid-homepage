@@ -1,5 +1,3 @@
-$(document).ready(function(){
-	$('#nav-icon3').click(function(){
-		$(this).toggleClass('open');
-	});
-});
+$('button').on('click', function() {
+	$(this).toggleClass('is-active');
+  });
