@@ -3747,13 +3747,13 @@ button.navbar-toggler {
   transform: translate(-50%, -50%);
   transition: transform 0.2s ease-in-out;
 }
-button.is-active {
+div.is-active {
   border-color: transparent;
 }
-button.is-active:before {
+div.is-active:before {
   transform: translate(-50%, -50%) rotate(45deg);
 }
-button.is-active:after {
+div.is-active:after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 /* Go to top 버튼 */
