@@ -2986,7 +2986,6 @@
   background-color: #27313F;
 }
 
-
 .modal-header {
   display: block;
   flex-shrink: 0;
@@ -3003,17 +3002,19 @@
   font-weight: 600;
   line-height: 120%;
 }
-.modal-subtitle{
+
+.modal-subtitle {
   font-size: 15px;
   font-weight: 400;
   line-height: 120%;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .modal-title {
     font-size: 20px;
   }
-  .modal-subtitle{
+
+  .modal-subtitle {
     font-size: 15px;
     line-height: 120%;
   }
@@ -3036,6 +3037,13 @@
   position: relative;
   flex: 1 1 auto;
   padding: 0;
+}
+
+.modal-body form {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6495F7;
+  margin-top: 48px;
 }
 
 /*//////////////////*/
