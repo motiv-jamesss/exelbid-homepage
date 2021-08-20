@@ -3772,7 +3772,7 @@ label {
   transition: all 0.15s;
   text-align: left;
 }
-div, div:before, div:after {
+div.btnA, div.btnA:before, div.btnA:after {
   background: #232323;
   position: absolute;
   height: 2px;
@@ -3780,30 +3780,31 @@ div, div:before, div:after {
   border-radius: 16px;
   transition: all 0.15s;
 }
-label div:first-child {
+label div.btnA:first-child {
   top: 0px;
 }
-label div:nth-child(2) {
+label div.btnA:nth-child(2) {
   top: 8px;
 }
-label div:nth-child(3) {
+label div.btnA:nth-child(3) {
   top: 16px;
 }
-#menu33 + label div {
+#menu33 + label div.btnA {
   transition: top 0.15s 0.15s, transform 0.15s 0.15s;
 }
-#menu33 + label div:nth-child(3) {
+#menu33 + label div.btnA:nth-child(3) {
   transition: top 0.15s 0.15s, transform 0.15s;
 }
-#menu33:checked + label div {
+#menu33:checked + label div.btnA {
   top: 8px;
   transform: rotate(45deg);
   transition: top 0.15s, transform 0.15s 0.15s;
 }
-#menu33:checked + label div:nth-child(3) {
+#menu33:checked + label div.btnA:nth-child(3) {
   transform: rotate(135deg);
   transition: top 0.15s, transform 0.15s 0.15s;
 }
+
 
 
 /* Go to top 버튼 */
