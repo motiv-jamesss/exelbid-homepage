@@ -2986,6 +2986,10 @@
   background-color: #27313F;
 }
 
+.modal-title {
+  line-height: 120%;
+}
+
 .modal-content {
   position: relative;
   display: flex;
