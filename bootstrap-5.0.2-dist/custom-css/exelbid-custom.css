@@ -2986,6 +2986,19 @@
   background-color: #27313F;
 }
 
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 16px;
+  padding: 48px;
+  outline: 0;
+}
+
 /*//////////////////*/
 /*   타이포 그래피   */
 /*//////////////////*/
