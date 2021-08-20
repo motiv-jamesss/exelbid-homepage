@@ -2200,23 +2200,23 @@
 .btn-primary {
   color: #fff;
   background-color: #6495F7;
-  border-color: none;
+  border-color: #6495F7;
 }
 
 .btn-primary:hover {
   background-color: #4781F5;
-  border-color: none;
+  border-color: #4781F5;
 }
 
 .btn-secondary {
   color: #fff;
   background-color: #CCCCCC;
-  border-color: none;
+  border-color: #CCCCCC;
 }
 
 .btn-secondary:hover {
   background-color: #bfbfbf;
-  border-color: none;
+  border-color: #bfbfbf;
 }
 
 .exlBtn {
