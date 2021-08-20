@@ -3019,7 +3019,6 @@
   }
 }
 
-
 .modal-content {
   position: relative;
   display: flex;
@@ -3031,6 +3030,12 @@
   border-radius: 16px;
   padding: 48px;
   outline: 0;
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0;
 }
 
 /*//////////////////*/
