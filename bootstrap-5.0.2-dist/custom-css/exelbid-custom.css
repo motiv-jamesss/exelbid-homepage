@@ -3009,7 +3009,7 @@
   line-height: 120%;
 }
 
-@media (min-width: 1200px){
+@media (max-width: 1200px){
   .modal-title {
     font-size: 20px;
   }
