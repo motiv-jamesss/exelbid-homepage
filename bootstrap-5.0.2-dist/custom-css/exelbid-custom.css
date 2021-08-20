@@ -2999,6 +2999,11 @@
 }
 
 .modal-title {
+  font-size: 30px;
+  line-height: 120%;
+}
+.modal-subtitle{
+  font-size: 15px;
   line-height: 120%;
 }
 
