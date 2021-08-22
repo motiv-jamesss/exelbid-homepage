@@ -3371,7 +3371,7 @@ button.nav-link:focus {
 
   .nav-pills .nav-link.active,
   .nav-pills .show>.nav-link {
-    background-color: #F3F7FC !important;
+    background-color: #eef0f1 !important;
   }
 }
 
