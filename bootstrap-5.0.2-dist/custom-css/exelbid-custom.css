@@ -2761,7 +2761,7 @@
 .accordion-item {
   background-color: #fff;
   border: none;
-  border-bottom: 1px solid #828282;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 @media (max-width: 1200px) {
