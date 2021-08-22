@@ -2761,7 +2761,7 @@
 .accordion-item {
   background-color: #fff;
   border: none;
-  border-bottom: 1px solid #F3F7FC;
+  border-bottom: 1px solid #eef0f1;
 }
 
 @media (max-width: 1200px) {
@@ -3371,7 +3371,7 @@ button.nav-link:focus {
 
   .nav-pills .nav-link.active,
   .nav-pills .show>.nav-link {
-    background-color: #eef0f1 !important;
+    background-color: #F3F7FC !important;
   }
 }
 
