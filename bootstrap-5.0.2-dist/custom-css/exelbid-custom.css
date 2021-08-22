@@ -2638,10 +2638,13 @@
 
 .partners-logo-container {
   max-width: 1230px;
+  gap: 30px;
 }
 
-.partners-logo-gap {
-  gap: 30px 30px;
+@media (max-width: 640px){
+  .partners-logo-container {
+    gap: 15px;
+  }
 }
 
 .partners-logo {
