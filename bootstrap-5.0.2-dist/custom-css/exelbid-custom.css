@@ -2636,55 +2636,22 @@
 
 }
 
-/*  안정적인 가로길이 관리를 위해서 1300px로 제한  */
-@media (max-width: 1300px) {
-  .partners-logo-container-l {
-    display: none;
-    ;
-  }
+.partners-logo-container {
+  max-width: 1230px;
 }
 
-@media (min-width: 1301px) {
-  .partners-logo-container-m {
-    display: none;
-    ;
-  }
-}
-
-@media (max-width: 799px) {
-  .partners-logo-container-m {
-    display: none;
-    ;
-  }
-}
-
-@media (min-width: 800px) {
-  .partners-logo-container-s {
-    display: none;
-    ;
-  }
+.partners-logo-gap {
+  gap: 30px 30px;
 }
 
 .partners-logo {
   display: flex;
   max-width: 150px;
-  min-width: 90px;
+  min-width: 130px;
   min-height: 80px;
   align-items: center;
   justify-content: center;
   border-radius: 16px;
-}
-
-@media (max-width: 640px) {
-  .partners-logo {
-    display: flex;
-    max-width: 130px;
-    min-width: 90px;
-    min-height: 70px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 16px;
-  }
 }
 
 .partners-logo.color-white {
