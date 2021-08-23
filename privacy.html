@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta name="viewport" content="target-densitydpi=device-dpi width=device-width, initial-scale=1"-->
+    <meta name="viewport" content="target-densitydpi=device-dpi, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width" />
+    <title>Exelbid</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/payw-pro.css">
+    <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/exelbid-custom.css">
+    <script src="js/includeHTML.js"></script>
+  </head>
+  <body>
+    <div include-html="/exelbid-homepage/nav.html"></div>
+    <script>includeHTML();</script>
+    <!-- Go to top 버튼 start > https://codepen.io/matthewcain/pen/ZepbeR < -->
+    <a id="gtt"></a>
+    <!-- Go to top 버튼 end -->
+    <!-- GNB start -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/exelbid-homepage/index.html">
+          <svg width="106" height="38" viewBox="0 0 106 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 26.3148V9.7749H10.401V13.0985H3.71463V16.1484H9.89265V19.4329H3.71463V23.0303H10.401V26.3539H0V26.3148Z" fill="#1F2353"/>
+              <path d="M24.36 17.9471L29.365 26.3539H25.4549L22.2485 20.8797L19.0422 26.3539H15.1321L20.1371 17.9471L15.3276 9.7749H19.2377L22.2876 14.9754L25.2985 9.7749H29.2086L24.36 17.9471Z" fill="#1F2353"/>
+              <path d="M33.666 26.3148V9.7749H44.067V13.0985H37.4197V16.1484H43.5978V19.4329H37.4197V23.0303H44.1061V26.3539H33.666V26.3148Z" fill="#1F2353"/>
+              <path d="M72.7282 26.3148H65.6899V9.7749H72.2199C75.6608 9.7749 76.9511 11.1826 76.9511 13.4113V15.0927C76.9511 16.2657 76.4428 17.126 75.1134 17.7125C76.4819 18.0253 77.5377 19.2374 77.5377 20.7624V22.3656C77.5377 24.7116 76.0518 26.3148 72.7282 26.3148ZM73.1974 13.9588C73.1974 13.2549 72.7673 12.7857 71.7116 12.7857H69.4046V16.5785H71.7116C72.6891 16.5785 73.1974 16.0702 73.1974 15.4055V13.9588ZM73.7839 20.8797C73.7839 19.9413 73.1974 19.472 72.2199 19.472H69.4046V23.3431H71.7116C72.8846 23.3431 73.7839 23.1085 73.7839 21.8963V20.8797V20.8797Z" fill="#1F2353"/>
+              <path d="M83.3638 26.3148V9.7749H87.0784V26.3148H83.3638Z" fill="#1F2353"/>
+              <path d="M99.7085 26.3148H93.2959V9.7749H99.7085C103.775 9.7749 105.3 11.8473 105.3 14.0761V22.0136C105.3 24.2424 103.775 26.3148 99.7085 26.3148ZM101.585 15.0927C101.585 13.8023 101.155 13.0985 99.2784 13.0985H97.0496V23.0303H99.2784C101.155 23.0303 101.585 22.3265 101.585 21.0361V15.0927Z" fill="#1F2353"/>
+              <path d="M53.921 22.5224V5.5524H57.5183L52.005 0L46.4526 5.5524H50.0891V22.5224V26.3152H53.921H60.4118V22.5224H53.921Z" fill="#1D52A3"/>
+            </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <!-- custom 1 <div class="menu-toggle" id="navbtn">Menu</div> -->
+          <input type="checkbox" id="menu33" />
+          <label for="menu33">
+            <div class="btnA"></div>
+            <div class="btnA"></div>
+            <div class="btnA"></div>
+          </label>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/exelbid-homepage/ssp.html">SSP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/exelbid-homepage/dsp.html">DSP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/exelbid-homepage/faq.html"">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#none">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#none">DOCS</a>
+            </li>
+            <li class="nav-item dropdown visually-hidden">
+              <a class="nav-link dropdown-toggle" href="#none" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+          </ul>
+          <form class="d-flex visually-hidden">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- GNB end -->
+    <!-- terms start -->
+    <section class="mt-70">
+        <div class="container terms py-60">
+            <div class="col-12 d-flex flex-wrap flex-md-column mb-30">
+                <div class="col-12 col-md-4 d-flex">
+                    <h2 class="fw-semibold mb-30 mb-sm-0">개인정보보호정책</h2>
+                </div>
+                <div class="col-12 col-md-8 mt-sm-30">
+                    <p class="terms-txt">
+                        주식회사 모티브인텔리전스(이하 “회사”)는 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보보호법, 통신비밀보호법, 전기통신사업법 등 관련 법규에 따라 "회사"가
+                        제공하는 모든 서비스 이용자에 대하여 이용자의 개인 정보 및 권익을 보호하기 위한 정책입니다.
+                    </p>
+                </div>
+            </div>
+            <hr class="mb-50">
+            <div class="col-12">
+                <div class="mt-10 d-flex flex-wrap flex-md-column">
+                    <div class="col-12 col-md-4 d-flex">
+                        <h5 class="mb-30 mb-sm-0 chapter">라이선스 부여</h5>
+                    </div>
+                    <div class="col-12 col-md-8 mt-sm-30">
+                        <p class="terms-txt">
+                            본 계약의 이용 약관에 따라 회사는 다음과 같이 매체파트너에게 Exelbid를 사용하기 위한 목적으로만 SDK를 사용할 수 있는 비 독점적이고 양도 불가능하며
+                            로열티가 없는
+                            제한적인 라이센스를 부여합니다.
+                        </p>
+                        <ol>
+                            <li>
+                                Exelbid DashBoard 및 기타 Exelbid 제품 ("개발된 프로그램")과 함께 작동하도록 설계된 일부로 구성된 프로그램을 개발하기 위해서만 객체
+                                코드
+                                형식으로 SDK를 설치하고 사용합니다.
+                            </li>
+                            <li>
+                                개발된 프로그램의 구성 요소로만 SDK를 객체 코드 형태로 배포합니다.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="mt-60 d-flex flex-wrap flex-md-column">
+                    <div class="col-12 col-md-4 d-flex">
+                        <h5 class="mb-30 mb-sm-0 chapter">제한 사항</h5>
+                    </div>
+                    <div class="col-12 col-md-8 mt-sm-30">
+                        <p class="terms-txt">
+                            ⑴ SDK의 일부를 수정, 분해, 디 컴파일 또는 리버스 엔지니어링
+                        </p>
+                        <ol>
+                            <li>
+                                Exelbid DashBoard 및 기타 Exelbid 제품 ("개발된 프로그램")과 함께 작동하도록 설계된 일부로 구성된 프로그램을 개발하기 위해서만 객체
+                                코드
+                                형식으로 SDK를 설치하고 사용합니다.
+                            </li>
+                            <li>
+                                개발된 프로그램의 구성 요소로만 SDK를 객체 코드 형태로 배포합니다.
+                            </li>
+                        </ol>
+                        <p class="terms-txt">
+                            ⑵ SDK의 전체 또는 일부를 복사 (백업 목적 및 모든 레이블 및 저작권 고지 제외) 또는 기타 방식으로 복제하는 행위
+                        </p>
+                        <p class="terms-txt">
+                            ⑶ 여기에 명시적으로 허용된 경우를 제외하고 다른 소프트웨어를 수정, 개조, 변경, 번역 또는 통합하거나 SDK의 일부를 파생물로 만드는 행위
+                        </p>
+                        <p class="terms-txt">
+                            ⑷ SDK의 공지 또는 범례 또는 실제 미디어의 레이블을 제거, 수정 또는 변조하는 행위
+                        </p>
+                        <p class="terms-txt">
+                            ⑸ 서비스에 대한 공유 또는 기타 컴퓨터 서비스를 제 3 자에게 제공하기 위해 SDK를 사용하는 모든 행위
+                        </p>
+                        <p class="terms-txt">
+                            ⑹ SDK를 제3자에게 직간접적으로 배포 (본 계약 조건에 따라 개발 프로그램에 SDK의 배포 가능 요소를 통합한 경우 제외), 판매, 재라이센스, 대여하는 행위
+                        </p>
+                        <p class="terms-txt">
+                            ⑺ 회사의 사전 서면 동의없이 성능 벤치 마크 또는 유사한 SDK 테스트 결과를 제 3 자에게 공개하는 행위
+                        </p>
+                        <p class="terms-txt">
+                            ⑻ SDK를 사용하여 다른 플랫폼에 연결하거나 다른 플랫폼 용 응용 프로그램을 개발하는 행위
+                        </p>
+                        <p class="terms-txt">
+                            ⑼ 회사의 상표를 사용하여 회사의 서면 허가없이 개발된 프로그램을 마케팅하는 행위
+                        </p>
+                        <p class="terms-txt">
+                            ⑽ SDK를 이용하여,
+                        </p>
+                        <ol>
+                            <li>
+                                시스템, 데이터 또는 개인 정보를 손상, 방해, 또는 바이러스 또는 기타 컴퓨터 프로그래밍 루틴을 포함하는 행위
+                            </li>
+                            <li>
+                                해당 법률, 법령, 조례 또는 규정 (수출 통제, 불공정 경쟁, 차별 금지, 허위 광고 또는 데이터 프라이버시를 관장하는 법률 및 규정을 포함하되 이에 국한되지 않음)을 위반하는 행위
+                            </li>
+                            <li>
+                                다른 회사 또는 타사 프로그램 또는 소프트웨어의 작동을 방해하는 행위
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="mt-60 d-flex flex-wrap flex-md-column">
+                    <div class="col-12 col-md-4 d-flex">
+                        <h5 class="mb-30 mb-sm-0 chapter">데이터 수집</h5>
+                    </div>
+                    <div class="col-12 col-md-8 mt-sm-30">
+                        <p class="terms-txt">
+                            매체파트너는 SDK 및 모든 서비스에 액세스하거나 사용함으로써 SDK로 매체파트너와 회사간 정보를 교환할 수 있으며 회사가 매체파트너의 서비스 및 정보 사용에 관한
+                            정보를 수집 및 수신할 수 있음을 인정하고 동의합니다.<br><br>
+                            회사는 매체파트너가 사용을 명시 적으로 거부하지 않는 한 광고 식별자, 단말기·통신사 정보, 관련 IP 주소, 광고추적거부 설정값, 위치 정보 (매체파트너가 제공한
+                            경우)등을 포함하되 이에 국한되지 않는 특정 데이터를 SDK를 통해 수집할 수 있습니다. 이 정보는 https://www.exelbid.com/privacy/에서
+                            기술한 내용을 기반으로 회사의 개인 정보 보호 정책에 따라 수집 및 사용됩니다.<br><br>
+                            매체파트너는 회사와의 서비스를 통해 광고 식별자, 단말기·통신사 정보, 관련 IP 주소, 광고추적거부 설정값, 위치 정보 등의 수집 및 공유와 관련하여 관련 법령을
+                            준수해야합니다. 매체파트너는 광고 식별자, 단말기·통신사 정보, 관련 IP 주소, 광고추적거부 설정값, 위치 정보 등의 수집 및 공유와 관련하여 최종 사용자에게
+                            통지하고 필요한 경우 동의를 얻어야 하고, 수집한 정보 및 위 정보의 사용·공유 방법을 설명하는 개인 정보 보호 정책을 쉽게 식별할 수 있도록 표시하여야 합니다.
+                            매체파트너는 개인정보 수집 및 공유와 관련하여 관련 법령의 위반으로 인하여 발생하는 모든 청구로부터 회사를 면책시킵니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-60 d-flex flex-wrap flex-md-column">
+                    <div class="col-12 col-md-4 d-flex">
+                        <h5 class="mb-30 mb-sm-0 chapter">소유권</h5>
+                    </div>
+                    <div class="col-12 col-md-8 mt-sm-30">
+                        <p class="terms-txt">
+                            SDK에 대한 소유권 및 모든 지적 재산권은 회사 및 해당 공급 업체 또는 라이센스 제공자에게 있습니다. 매체파트너는 회사의 사전 서면 동의없이 본 계약에 따라
+                            부여된 매체파트너의 권리 또는 의무를 제 3 자에게 양도할 수 없습니다. 회사는 SDK와 관련하여 매체파트너가 제공 한 의견, 피드백, 제안 및 기타 정보를 수집하고
+                            사용할 수 있으며 회사는 매체파트너에게 아무런 의무없이 응용 프로그램 서비스의 개선, 개발을 위해 이 정보를 사용할 수 있습니다. 회사는 언제든지 SDK 제공을
+                            수정하거나 중단할 수 있습니다. 본 계약의 어떠한 내용도 회사의 이름, 상표, 서비스 마크, 로고 또는 기타 고유 한 브랜드 기능 및 기타 지적 재산권을 사용할 수
+                            있는 권리를 부여하지 않습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-60 d-flex flex-wrap flex-md-column">
+                    <div class="col-12 col-md-4 d-flex">
+                        <h5 class="mb-30 mb-sm-0 chapter">업데이트 및 지원</h5>
+                    </div>
+                    <div class="col-12 col-md-8 mt-sm-30">
+                        <p class="terms-txt">
+                            회사가 SDK의 업그레이드, 패치, 개선 사항 등("업데이트")을 제공하는 경우 해당 업데이트는 SDK의 일부가 되며 이 계약의 적용을 받습니다. 회사는 SDK에
+                            대한 업데이트 또는 기타 지원을 제공할 의무는 없습니다. 회사는 별도의 계약 또는 유료로 매체파트너에게 이러한 지원 서비스를 제공할 수 있습니다. 회사는 사전
+                            통지없이 SDK내의 기능 또는 회사의 단독 재량에 따라 SDK 지원을 영구적으로 또는 일시적으로 중단할 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-60 d-flex flex-wrap flex-md-column">
+                    <div class="col-12 col-md-4 d-flex">
+                        <h5 class="mb-30 mb-sm-0 chapter">면책</h5>
+                    </div>
+                    <div class="col-12 col-md-8 mt-sm-30">
+                        <ol>
+                            <li>
+                                '회사'는 천재지변, 전쟁 및 기타 이에 준하는 불가항력으로 인하여 '서비스'을 제공할 수 없는 경우, '서비스' 제공에 대한 책임이 면제됩니다.
+                            </li>
+                            <li>
+                                '회사'는 기간통신 사업자가 전기통신 서비스를 중지하거나 정상적으로 제공하지 아니하여 손해가 발생한 경우, 책임이 면제됩니다.
+                            </li>
+                            <li>
+                                '회사'는 '서비스' 설비의 보수, 교체, 정기점검, 공사 등 부득이한 사유로 발생한 손해에 대한 책임이 면제됩니다.
+                            </li>
+                            <li>
+                                '회사'는 '매체파트너'의 컴퓨터 오류, '매체파트너'가 신상정보 및 전자우편 주소 등을 부실하게 기재한 경우 등 ‘매체파트너’의 사정으로 인해 손해가 발생한
+                                경우, 책임을 지지 않습니다.
+                            </li>
+                            <li>
+                                '회사'는 '매체파트너'가 '서비스'를 이용하여 기대하는 수익 및 효과를 얻지 못하거나 상실한 것에 대하여 책임을 지지 않습니다.
+                            </li>
+                            <li>
+                                '회사'는 '매체파트너'가 '서비스'를 이용하면서 얻은 자료로 인한 손해에 대하여 책임을 지지 않습니다. 또한 '회사'는 '매체파트너'가 '서비스'을 이용하며
+                                다른 '매체파트너'로 인해 입게 되는 피해에 대하여 책임을 지지 않습니다.
+                            </li>
+                            <li>
+                                '회사'는 '매체파트너'가 '서비스'에 게재한 각종 정보, 자료, 사실의 신뢰도, 정확성 등 내용에 대하여 책임을 지지 않습니다.
+                            </li>
+                            <li>
+                                '회사'는 '매체파트너'와 제 3자 상호 간에 '서비스'을 매개로 발생한 분쟁에 대해 개입할 의무가 없으며, 이로 인한 손해를 배상할 책임도 없습니다.
+                            </li>
+                            <li>
+                                '회사'에서 '매체파트너'에게 무료로 제공하는 '서비스'의 이용과 관련해서는 어떠한 손해도 책임을 지지 않습니다.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="mt-60 d-flex flex-wrap flex-md-column">
+                    <div class="col-12 col-md-4 d-flex">
+                        <h5 class="mb-30 mb-sm-0 chapter">종료</h5>
+                    </div>
+                    <div class="col-12 col-md-8 mt-sm-30">
+                        <p class="terms-txt">
+                            매체파트너는 SDK 사용을 중단하고 SDK 및 노출 데이터의 모든 사본을 모든 하드 드라이브, 네트워크 및 기타 저장 매체에서 파기 또는 제거하여 언제든지 본 계약
+                            및 여기에 부여된 라이센스를 종료할 수 있습니다. 회사는 매체파트너가 본 계약의 조항을 위반할 경우 본 계약 및 여기에 부여된 라이센스를 종료하고 회사 서비스 사용
+                            및 액세스를 즉시 비활성화 할 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-60 d-flex flex-wrap flex-md-column">
+                    <div class="col-12 col-md-4 d-flex">
+                        <h5 class="mb-30 mb-sm-0 chapter">기타</h5>
+                    </div>
+                    <div class="col-12 col-md-8 mt-sm-30">
+                        <p class="terms-txt">
+                            회사는 언제든지 본 계약의 조건 또는 SDK 및 서비스에 적용되는 추가 조건을 수정할 수 있으며 계약을 정기적으로 업데이트하는 것은 매체파트너의 책임입니다. 이
+                            계약은 당사자 간 라이센스에 관한 완전한 계약을 나타내며 이전의 모든 계약 및 당사자 간의 진술을 대체합니다. 어떤 이유로든 본 계약의 조항을 시행할 수 없는 경우,
+                            그러한 조항은 계약을 집행하는 데 필요한 정도로만 개정해야 합니다. 본 계약과 SDK 사용에 관한 다른 계약 간에 상충되는 언어가 있는 경우 본 계약의 조건이
+                            우선합니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 mt-60 mt-sm-30 ms-auto">
+                    <h5 class="color-grey2 mb-20">SDK계약 버전 1.1 ( 시행일 : 2020년 11월 15일 )</h5>
+                    <h5 class="color-grey2 mb-20">SDK계약 버전 1.0 ( 시행일 : 2019년 08월 21일 )</h5>
+                </div>
+        </div>
+    </section>
+    <!-- terms end -->
+    <!-- 푸터 start -->
+    <section class="footer py-60">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="footer-row col-12 col-md-10">
+            <div class="footer company-name">모티브 인텔리전스</div>
+            <div class="footer social-icon">
+              <a class="footer social-icon icon bg-green" href="#none">
+                <img src="/exelbid-homepage/asset/footer/naver.svg">
+              </a>
+              <a class="footer social-icon icon bg-red" href="#none">
+                <img src="/exelbid-homepage/asset/footer/youtube.svg">
+              </a>
+              <a class="footer social-icon icon bg-blue" href="#none">
+                <img src="/exelbid-homepage/asset/footer/facebook.svg">
+              </a>
+            </div>
+            <div class="footer text">
+              <p class="d-block d-sm-none">
+                대표이사 : 양준모 | 개인정보보호책임자 : 김승범<br>
+                사업자등록번호 : 212-86-09248 | 통신판매번호: 2019-서울강남-00035<a class="footer mute" href="#none">[사업자정보확인]</a><br>
+                주소 : 서울시 강남구 테헤란로 110 캠브리지빌딩 12층<br>
+                이메일 : exelbid@motiv-i.com | 전화 : 02-6959-4633<br>
+              </p>
+              <p class="d-none d-sm-block">
+                대표이사 : 양준모 | 개인정보보호책임자 : 김승범<br>
+                사업자등록번호 : 212-86-09248<br>
+                통신판매번호: 2019-서울강남-00035<a class="footer mute" href="#none">[사업자정보확인]</a><br>
+                주소 : 서울시 강남구 테헤란로 110 캠브리지빌딩 12층<br>
+                이메일 : exelbid@motiv-i.com | 전화 : 02-6959-4633<br>
+              </p>
+            </div>
+            <div class="text-link-row">
+              <a class="text-link mute" href="#none">서비스이용약관</a>
+              <p class="text-link text">|</p>
+              <a class="text-link mute" href="#none">SDK 계약</a>
+              <p class="text-link text">|</p>
+              <a class="text-link mute" href="#none">개인정보보호정책</a>
+            </div>
+          </div>
+          <hr class="footer hr d-none d-sm-block">
+          <div class="footer-row google-partners col-12 col-md-2">
+            <a href="https://www.google.com/partners/agency?id=5863129596" target="_blank" class="ms-auto m-sm-0">
+              <img class="google-partners img" src="/exelbid-homepage/asset/footer/google_partner.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-sub py-20">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <span class="footer-sub text">Copyright <span class="copyright">Ⓒ</span> 2021 Motiv-i / ExelBid. All Right
+              Reserved.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 푸터 end -->
+    <script src="/exelbid-homepage/js/jquery-3.1.1.min.js"></script>
+    <script src="/exelbid-homepage/js/iconAnimation.js"></script>
+    <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- GTP btn Start -->
+    <script>
+      var btn = $('#gtt');
+
+      $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+          btn.addClass('show');
+        } else {
+          btn.removeClass('show');
+        }
+      });
+
+      btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
+      });
+    </script>
+    <!-- GTP btn End  -->
+  </body>
+</html>
