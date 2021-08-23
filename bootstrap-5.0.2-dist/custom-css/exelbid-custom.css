@@ -3088,7 +3088,6 @@
   border-bottom-left-radius: 0;
   gap: 10px;
 }
-
 .terms {}
 
 .terms hr {
@@ -3128,20 +3127,25 @@
 }
 
 .terms ol li {
-  padding-left: 16px;
+  padding-left: 32px;
   counter-increment: terms-ol;
+  position: relative;
+  margin-bottom: 10px;
 }
 
 .terms ol>li:before {
   content: counter(terms-ol) ".";
-  font-weight: 500;
-  margin-right: 30px;
+  font-weight: 300;
+}
+
+.terms ol li:before {
+  position: absolute;
+  left: 0;
 }
 
 ::marker {
   content: "";
 }
-
 
 @media (max-width: 1200px) {
   .terms-txt {
@@ -3155,16 +3159,11 @@
   }
 
   .terms ol li {
-    padding-left: 8px;
+    padding-left: 26px;
   }
 
-  .terms ol>li:before {
-    margin-right: 10px;
-  }
+  .terms ol>li:before {}
 }
-
-
-
 
 /*//////////////////*/
 /*   타이포 그래피   */
