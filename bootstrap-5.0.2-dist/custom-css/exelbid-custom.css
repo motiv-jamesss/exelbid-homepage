@@ -3089,6 +3089,35 @@
   gap: 10px;
 }
 
+.terms {}
+
+.terms hr {
+  border-bottom: 1px solid #d5dadd;
+}
+
+.terms div div h5.chapter {
+  padding: 20px 40px;
+  background-color: #F3F7FC;
+  max-width: fit-content;
+  height: fit-content;
+  border-radius: 16px;
+  font-weight: 600;
+}
+
+.terms-txt {
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 300;
+}
+
+@media (max-width: 1200px) {
+  .terms-txt {
+    font-size: 15px;
+    line-height: 150%;
+    font-weight: 300;
+  }
+}
+
 
 
 /*//////////////////*/
