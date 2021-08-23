@@ -2249,6 +2249,12 @@
   background-color: #4781F5;
 }
 
+.exlBtn-s {
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
 .exlTab1 {
   padding: 4px 16px;
   border-radius: 16px;
