@@ -3118,7 +3118,7 @@
 }
 
 .terms ol {
-  padding-left: 16px;
+  padding-left: 30px;
   counter-reset: terms-ol;
   font-size: 20px;
   font-weight: 300;
