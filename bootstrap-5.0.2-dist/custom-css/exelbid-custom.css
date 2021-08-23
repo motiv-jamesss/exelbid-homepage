@@ -2989,6 +2989,10 @@
   background-color: #27313F;
 }
 
+.modal-content {
+  text-align: left;
+}
+
 .modal-header {
   display: block;
   flex-shrink: 0;
