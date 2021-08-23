@@ -3123,7 +3123,7 @@
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 20px;
-  line-height: 160%;
+  line-height: 150%;
 }
 
 .terms ol li {
@@ -3135,7 +3135,7 @@
 
 .terms ol>li:before {
   content: counter(terms-ol) ".";
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .terms ol li:before {
