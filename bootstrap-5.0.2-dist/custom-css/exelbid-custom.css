@@ -3118,13 +3118,51 @@
   margin-bottom: 20px;
 }
 
+.terms ol {
+  padding-left: 16px;
+  counter-reset: terms-ol;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 160%;
+}
+
+.terms ol li {
+  padding-left: 16px;
+  counter-increment: terms-ol;
+}
+
+.terms ol>li:before {
+  content: counter(terms-ol) ".";
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+::marker {
+  content: "";
+}
+
+
 @media (max-width: 1200px) {
   .terms-txt {
     font-size: 15px;
     line-height: 150%;
     font-weight: 300;
   }
+
+  .terms ol {
+    font-size: 15px;
+  }
+
+  .terms ol li {
+    padding-left: 8px;
+  }
+
+  .terms ol>li:before {
+    margin-right: 10px;
+  }
 }
+
 
 
 
