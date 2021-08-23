@@ -2989,10 +2989,6 @@
   background-color: #27313F;
 }
 
-.modal-content {
-  text-align: left;
-}
-
 .modal-header {
   display: block;
   flex-shrink: 0;
@@ -3037,6 +3033,7 @@
   border-radius: 16px;
   padding: 48px;
   outline: 0;
+  text-align: left;
 }
 
 .modal-body {
@@ -3050,6 +3047,13 @@
   font-weight: 500;
   color: #6495F7;
   margin-top: 35px;
+}
+
+.form-control {
+  padding: 11px 16px;
+  font-size: 15px;
+  color: #232323;
+  border: 1px solid #d5dadd;
 }
 
 .modal-footer > * {
