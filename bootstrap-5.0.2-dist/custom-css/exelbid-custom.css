@@ -3143,8 +3143,9 @@
   left: 0;
 }
 
-::marker {
+.terms ::marker {
   content: "";
+  display: none!important;
 }
 
 @media (max-width: 1200px) {
