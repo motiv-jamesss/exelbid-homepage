@@ -2928,6 +2928,13 @@
   background-color: #babbbe;
 }
 
+.tag-wrap {
+  display: flex;
+  max-width: 475px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 .feature-banner div div div.tag {
   padding: 6px 16px;
   margin: 0 10px 10px 0;
