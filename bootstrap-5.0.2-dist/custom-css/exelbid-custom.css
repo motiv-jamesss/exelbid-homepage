@@ -3104,6 +3104,13 @@
   font-weight: 600;
 }
 
+@media (max-width: 768px) {
+  .terms div div h5.chapter {
+    padding: 15px 20px;
+    border-radius: 8px;
+  }
+}
+
 .terms-txt {
   font-size: 20px;
   line-height: 150%;
