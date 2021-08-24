@@ -3088,6 +3088,91 @@
   border-bottom-left-radius: 0;
   gap: 10px;
 }
+
+.terms {}
+
+.terms hr {
+  border-bottom: 1px solid #d5dadd;
+}
+
+.terms div div h5.chapter {
+  padding: 20px 40px;
+  background-color: #F3F7FC;
+  max-width: fit-content;
+  height: fit-content;
+  border-radius: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .terms div div h5.chapter {
+    padding: 15px 20px;
+    border-radius: 8px;
+  }
+}
+
+.terms-txt {
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.terms ul {
+  padding-left: 0px;
+  counter-reset: terms-ol;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.terms ul li {
+  line-height: 150%;
+  padding-left: 50px;
+  position: relative;
+  margin: 30px 0;
+}
+
+.terms ul>li:before {
+  content: "■";
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.terms ul li:before {
+  position: absolute;
+  left: 25px;
+}
+
+.terms ol {
+  padding-left: 0px;
+  counter-reset: terms-ol;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.terms ol li {
+  line-height: 150%;
+  padding-left: 50px;
+  counter-increment: terms-ol;
+  position: relative;
+  margin: 30px 0;
+}
+
+.terms ol>li:before {
+  content: "("counter(terms-ol) ")";;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.terms ol li:before {
+  position: absolute;
+  left: 21px;
+}
+
+/*
 .terms {}
 
 .terms hr {
@@ -3165,6 +3250,7 @@
 
   .terms ol>li:before {}
 }
+*/
 
 /*//////////////////*/
 /*   타이포 그래피   */
