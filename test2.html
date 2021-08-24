@@ -12,6 +12,27 @@
     <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/payw-pro.css">
     <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/exelbid-custom.css">
     <script src="js/includeHTML.js"></script>
+    <script>
+        
+	document.addEventListener("DOMContentLoaded", function(){
+
+document.querySelectorAll('.navbar .dropdown').forEach(function(everydropdown){
+    
+    everydropdown.addEventListener('shown.bs.dropdown', function () {
+        el_overlay = document.createElement('span');
+        el_overlay.className = 'screen-darken';
+        document.body.appendChild(el_overlay)
+    });
+
+    everydropdown.addEventListener('hide.bs.dropdown', function () {
+        document.body.removeChild(document.querySelector('.screen-darken'));
+    });
+
+});
+
+}); 
+// DOMContentLoaded  end
+</script>
   </head>
   <body>
     <div include-html="/exelbid-homepage/nav.html"></div>
