@@ -4101,9 +4101,10 @@ label div.btnA:nth-child(3) {
 
 /* Go to top 버튼 */
 
+/* 모바일 메뉴 (collapse) 활성화시 화면 어둡게 */
 .screen-darken{
   content: ''; 
-  top: 0;
+  top: 380px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -4113,3 +4114,4 @@ label div.btnA:nth-child(3) {
   visibility:visible;
   position: fixed;
 }
+/* 모바일 메뉴 (collapse) 활성화시 화면 어둡게 */
