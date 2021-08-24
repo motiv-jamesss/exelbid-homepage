@@ -3185,6 +3185,22 @@
   left: 2px;
 }
 
+.terms ol ol ol li {
+  line-height: 150%;
+  padding-left: 15px;
+  counter-increment: terms-ol;
+  position: relative;
+  margin: 20px 0;
+}
+
+.terms ol ol ol>li:before {
+  content: "●";
+  font-family: Arial, Sans-serif;
+  font-weight: 500;
+  font-size: 7px;
+  left: 0px;
+}
+
 @media (max-width: 1200px) {
   .terms-txt {
     font-size: 15px;
