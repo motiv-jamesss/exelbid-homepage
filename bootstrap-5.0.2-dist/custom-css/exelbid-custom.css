@@ -3228,10 +3228,7 @@
   left: 0;
 }
 
-.terms ::marker {
-  content: "";
-  display: none!important;
-}
+*/
 
 @media (max-width: 1200px) {
   .terms-txt {
@@ -3245,12 +3242,19 @@
   }
 
   .terms ol li {
-    padding-left: 26px;
+    padding-left: 45px;
   }
 
-  .terms ol>li:before {}
+  .terms ol>li:before,
+  .terms ull>li:before {
+    font-size: 10px;
+  }
 }
-*/
+
+.terms ::marker {
+  content: "";
+  display: none!important;
+}
 
 /*//////////////////*/
 /*   타이포 그래피   */
