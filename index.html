@@ -81,13 +81,12 @@
             <h1 class="fw-bold text-white lh-1-1 mb-20 ">국내 최대</br>광고 거래 규모<br>Exelbid</h1>
             <h5 class="fw-semibold text-white mb-50 mb-md-40">앱 수익화 & 타겟 오디언스 고민을 해결해 드립니다</h5>
             <div>
-              <a class="exlBtn exlBtn-orange text-decoration-none me-10">상품소개서 신청</a>
-              <a class="exlBtn exlBtn-blue text-decoration-none me-10" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="#">제휴문의</a>
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <a class="exlBtn exlBtn-orange text-decoration-none me-10"data-bs-toggle="modal" data-bs-target="#proposalModal" data-bs-whatever="#">상품소개서 신청</a>
+              <div class="modal fade" id="proposalModal" tabindex="-1" aria-labelledby="proposalModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h3 class="modal-title fw-semibold" id="exampleModalLabel">엑셀비드에 제휴나 업무에 대한 문의가 있으신가요?</h3>
+                      <h3 class="modal-title fw-semibold" id="proposalModalLabel">어떤 상품소개서를 다운로드 하시겠어요?</h3>
                       <h5 class="modal-subtitle fw-regular">온라인 마케팅의 성공, 엑셀비드가 도울게요</h5>                      
                     </div>
                     <div class="modal-body">
@@ -98,7 +97,44 @@
                         </div>
                         <div class="mb-20">
                           <label for="email-add" class="col-form-label">이메일</label>
+                          <input type="text" class="form-control" id="recipient-email">
+                        </div>
+                        <div class="mb-20">
+                          <label for="message-text" class="col-form-label">내용</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                      <div class="form-check mb-20">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          <a href="#none">개인정보 수집 및 이용안내</a>에 동의합니다
+                        </label>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary exlBtn-s me-10" data-bs-dismiss="modal">취소</button>
+                      <button type="button" class="btn exlBtn-s btn-primary">문의</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="exlBtn exlBtn-blue text-decoration-none me-10" data-bs-toggle="modal" data-bs-target="#partnershipModal" data-bs-whatever="#">제휴문의</a>
+              <div class="modal fade" id="partnershipModal" tabindex="-1" aria-labelledby="partnershipModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title fw-semibold" id="partnershipModalLabel">엑셀비드에 제휴나 업무에 대한 문의가 있으신가요?</h3>
+                      <h5 class="modal-subtitle fw-regular">온라인 마케팅의 성공, 엑셀비드가 도울게요</h5>                      
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-20">
+                          <label for="recipient-name" class="col-form-label">이름</label>
                           <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-20">
+                          <label for="email-add" class="col-form-label">이메일</label>
+                          <input type="text" class="form-control" id="recipient-email">
                         </div>
                         <div class="mb-20">
                           <label for="message-text" class="col-form-label">내용</label>
