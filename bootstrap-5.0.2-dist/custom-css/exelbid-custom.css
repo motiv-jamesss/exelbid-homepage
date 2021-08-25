@@ -3239,6 +3239,11 @@
 
 /* 모달 */
 
+.form-check-label,
+.form-check-input {
+  cursor: pointer;
+}
+
 .form-check-input {
   width: 16px;
   height: 16px;
