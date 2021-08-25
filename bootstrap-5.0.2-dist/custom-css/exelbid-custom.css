@@ -3151,12 +3151,20 @@
   color: #BABBBE;
   transition: .15s ease-in-out;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .dl-propos-item:hover {
   background-color: #4781F5;
   border: 1px solid #4781F5;
   color: #fff;
+}
+
+.modal-body hr {
+  margin: 0;
+  margin-top: 40px;
+  color: #BABBBE;
+  opacity: .4;
 }
 
 /* terms 항목 */
