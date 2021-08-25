@@ -3130,13 +3130,23 @@
 .dl-propos-container {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
 .dl-propos-item {
   display: flex;
-  padding: 40px;
-  border: 1px solid #232323;
+  padding: 20px 40px;
+  border: 1px solid #BABBBE;
   border-radius: 16px;
+  color: #BABBBE;
+  transition: .15s ease-in-out;
+  text-decoration: none;
+}
+
+.dl-propos-item:hover {
+  background-color: #4781F5;
+  border: 1px solid #4781F5;
+  color: #fff;
 }
 
 /* terms 항목 */
