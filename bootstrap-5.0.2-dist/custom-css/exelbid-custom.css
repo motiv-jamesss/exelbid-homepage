@@ -3089,6 +3089,8 @@
   gap: 10px;
 }
 
+/* terms 항목 */
+
 .terms {}
 
 .terms hr {
@@ -3233,6 +3235,20 @@
 .terms ::marker {
   content: "";
   display: none!important;
+}
+
+/* 모달 */
+
+.form-check-input {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+  border: 1px solid #d5dadd;
+  -webkit-appearance: none;
+}
+
+.form-check-input[type=checkbox] {
+  border-radius: 2px;
 }
 
 /*//////////////////*/
