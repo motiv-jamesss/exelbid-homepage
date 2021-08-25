@@ -2219,6 +2219,16 @@
   border-color: #bfbfbf;
 }
 
+.btn-cancel {
+  color: #999999;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-cancel:hover {
+  color: #232323;
+}
+
 .exlBtn {
   padding: 15px 25px;
   border-radius: 16px;
