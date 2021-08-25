@@ -433,5 +433,27 @@
       });
     </script>
     <!-- GTP btn End  -->
+    <!-- collapsing 이후 screen dark  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+
+          document.querySelectorAll('.navbar .collapse').forEach(function (everycollapse) {
+
+              everycollapse.addEventListener('shown.bs.collapse', function () {
+                  el_overlay = document.createElement('span');
+                  el_overlay.className = 'screen-darken';
+                  document.body.appendChild(el_overlay)
+              });
+
+              everycollapse.addEventListener('hide.bs.collapse', function () {
+                  document.body.removeChild(document.querySelector('.screen-darken'));
+              });
+
+          });
+
+      });
+      // DOMContentLoaded  end
+  </script>
+  <!-- collapsing 이후 screen dark  -->
   </body>
 </html>
