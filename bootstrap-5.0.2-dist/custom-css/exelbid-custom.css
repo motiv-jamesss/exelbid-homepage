@@ -3644,6 +3644,15 @@ button.nav-link:focus {
   align-items: center;
 }
 
+.navbar-collapse.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height .15s ease;
+       -o-transition: height .15s ease;
+          transition: height .15s ease;
+}
+
 .navbar-toggler {
   font-size: 20px;
   line-height: 1;
