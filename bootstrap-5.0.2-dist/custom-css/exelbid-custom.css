@@ -4026,10 +4026,10 @@ div.is-active:after {
 
 /* nav toggle button animation 2 / https://codepen.io/KPCodes/pen/Ypwrdx */
 
-input {
+.navbar input {
   display: none;
 }
-label {
+.navbar label {
   position: relative;
   width: 18px;
   height: 18px;
