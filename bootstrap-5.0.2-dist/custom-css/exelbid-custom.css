@@ -3113,6 +3113,7 @@
   margin-top: 3px;
   border: 1px solid #d5dadd;
   -webkit-appearance: none;
+  transition: .15s ease-in-out;
 }
 
 .form-check-input[type=checkbox] {
