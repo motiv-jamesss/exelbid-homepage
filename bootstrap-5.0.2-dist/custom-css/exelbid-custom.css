@@ -3125,6 +3125,20 @@
     border-color: #4781F5;
 }
 
+/* modal 다운로드 컴포넌트 */
+
+.dl-propos-container {
+  display: flex;
+  gap: 30px;
+}
+
+.dl-propos-item {
+  display: flex;
+  padding: 40px;
+  border: 1px solid #232323;
+  border-radius: 16px;
+}
+
 /* terms 항목 */
 
 .terms {}
