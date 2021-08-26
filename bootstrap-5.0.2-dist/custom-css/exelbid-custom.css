@@ -3061,6 +3061,10 @@
   text-align: left;
 }
 
+.modal-content.proposal {
+  padding-bottom: 20px;
+}
+
 .modal-body {
   position: relative;
   flex: 1 1 auto;
@@ -3139,19 +3143,22 @@
 
 .dl-propos-container {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   justify-content: center;
 }
 
 .dl-propos-item {
   display: flex;
-  padding: 20px 40px;
+  padding: 40px;
   border: 1px solid #d5dadd;
   border-radius: 16px;
   color: #d5dadd;
   transition: .15s ease-in-out;
   text-decoration: none;
   font-weight: 500;
+  width: inherit;
+  font-size: 15px;
+  justify-content: center;
 }
 
 .dl-propos-item:hover {
