@@ -3146,9 +3146,9 @@
 .dl-propos-item {
   display: flex;
   padding: 20px 40px;
-  border: 1px solid #BABBBE;
+  border: 1px solid #d5dadd;
   border-radius: 16px;
-  color: #BABBBE;
+  color: #d5dadd;
   transition: .15s ease-in-out;
   text-decoration: none;
   font-weight: 500;
@@ -3163,7 +3163,7 @@
 .modal-body hr {
   margin: 0;
   margin-top: 40px;
-  color: #BABBBE;
+  color: #d5dadd;
   opacity: .4;
 }
 
