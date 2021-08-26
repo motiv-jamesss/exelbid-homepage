@@ -3114,6 +3114,7 @@ input {
 
 .form-check-label,
 .form-check-input {
+  font-size: 15px;
   cursor: pointer;
 }
 
