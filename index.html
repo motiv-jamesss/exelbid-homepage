@@ -144,7 +144,7 @@
                       <div class="form-check mb-40">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
-                          <a href="#none">개인정보 수집 및 이용안내</a>에 동의합니다
+                          <a href="https://www.motiv-i.com/privacy/" target="_blank">개인정보 수집 및 이용안내</a>에 동의합니다
                         </label>
                       </div>
                     </div>
@@ -388,7 +388,43 @@
           <div class="col-12 text-center">
             <h2 class="fw-semibold text-white lh-1-2 mb-10">시작하기 어려웠던 온라인 비즈니스,<br>온라인 마케팅 엑셀비드와 함께 해보세요</h2>
             <h5 class="fw-medium text-white lh-1-4 mb-30">국·내외 비지니스 동반 성장 그 중심에 엑셀비드가 있습니다</h5>
-            <a class="exlBtn exlBtn-blue text-decoration-none">제휴문의</a>
+            <a class="exlBtn exlBtn-blue text-decoration-none me-10" data-bs-toggle="modal" data-bs-target="#partnershipModal" data-bs-whatever="#">제휴문의</a>
+            <div class="modal fade" id="partnershipModal" tabindex="-1" aria-labelledby="partnershipModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title fw-semibold" id="partnershipModalLabel">엑셀비드에 제휴나 업무에 대한 문의가 있으신가요?</h3>
+                    <h5 class="modal-subtitle fw-regular mt-10">온라인 마케팅의 성공, 엑셀비드가 도울게요</h5>                      
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-20">
+                        <label for="recipient-name" class="col-form-label">이름</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-20">
+                        <label for="email-add" class="col-form-label">이메일</label>
+                        <input type="text" class="form-control" id="recipient-email">
+                      </div>
+                      <div class="mb-20">
+                        <label for="message-text" class="col-form-label">내용</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                    </form>
+                    <div class="form-check mb-40">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <a href="https://www.motiv-i.com/privacy/" target="_blank">개인정보 수집 및 이용안내</a>에 동의합니다
+                      </label>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary exlBtn-s me-10" data-bs-dismiss="modal">취소</button>
+                    <button type="button" class="btn exlBtn-s btn-primary">문의</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
