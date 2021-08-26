@@ -2187,7 +2187,8 @@
 }
 
 button,
-input {
+input,
+textarea {
   outline:none!important;
   box-shadow:none!important;
 }
@@ -3118,13 +3119,16 @@ input {
   cursor: pointer;
 }
 
-.form-check-label,
 .form-check-label a {
+  opacity: .4;
   color: #232323;
+  transition: .05s ease-in-out;
   text-decoration: none;
+  font-weight: 400;
 }
 
 .form-check-label a:hover {
+  opacity: 1;
   text-decoration: underline;
 }
 
