@@ -3067,10 +3067,6 @@ input {
   text-align: left;
 }
 
-.modal-content.proposal {
-  padding-bottom: 20px;
-}
-
 .modal-body {
   position: relative;
   flex: 1 1 auto;
@@ -3110,6 +3106,10 @@ input {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   gap: 10px;
+}
+
+.modal-footer.proposal {
+  justify-content: space-between;
 }
 
 .form-check-label,
