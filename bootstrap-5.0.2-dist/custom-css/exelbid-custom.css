@@ -3151,26 +3151,43 @@ input {
   display: flex;
   gap: 10px;
   justify-content: center;
+  flex-direction: column;
 }
 
-.dl-propos-item {
+.dl-propos {
   display: flex;
   padding: 40px;
   border: 1px solid #d5dadd;
   border-radius: 16px;
-  color: #d5dadd;
+  color: #4781F5;
   transition: .15s ease-in-out;
   text-decoration: none;
   font-weight: 500;
-  width: inherit;
   font-size: 15px;
-  justify-content: center;
+  background-color: #fff;
 }
 
-.dl-propos-item:hover {
+.dl-propos:hover {
   background-color: #4781F5;
   border: 1px solid #4781F5;
   color: #fff;
+}
+
+.dl-propos>.dl-item-icon {
+  background-color: #f7f7f7;
+  padding: 8px 9px;
+  border-radius: 28px;
+  width: 40px;
+  height: 40px;
+}
+
+.dl-propos>.dl-item {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 40px;
 }
 
 .modal-body hr {
