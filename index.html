@@ -450,7 +450,8 @@
             <div class="footer text">
               <p class="d-block d-sm-none">
                 대표이사 : 양준모 | 개인정보보호책임자 : 김승범<br>
-                사업자등록번호 : 212-86-09248 | 통신판매번호: 2019-서울강남-00035<a class="footer mute" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248" target="_blank">[사업자정보확인]</a><br>
+                <!-- 사업자등록번호 : 212-86-09248 | 통신판매번호: 2019-서울강남-00035<a class="footer mute" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248" target="_blank">[사업자정보확인]</a><br> -->
+                사업자등록번호 : 212-86-09248 | 통신판매번호: 2019-서울강남-00035<a class="footer mute" href="javascript:;">[사업자정보확인]</a><br>
                 주소 : 서울시 강남구 테헤란로 110 캠브리지빌딩 12층<br>
                 이메일 : exelbid@motiv-i.com | 전화 : 02-6959-4633<br>
               </p>
@@ -533,5 +534,17 @@
       // DOMContentLoaded  end
   </script>
   <!-- collapsing 이후 screen dark  -->
+  <!-- ftc popup  -->
+  <script>
+    var url =
+      "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248"
+    $(document).ready(function () {
+      $('.ftc_btn').click(function () {
+        window.open(url, "bizCommPop", "width=750, height=700;");
+        return false;
+      });
+    });
+  </script>
+  <!-- ftc popup  -->
   </body>
 </html>
