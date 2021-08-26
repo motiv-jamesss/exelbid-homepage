@@ -3120,16 +3120,15 @@ textarea {
 }
 
 .form-check-label a {
-  opacity: .4;
+  opacity: .5;
   color: #232323;
   transition: .05s ease-in-out;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 400;
 }
 
 .form-check-label a:hover {
   opacity: 1;
-  text-decoration: underline;
 }
 
 .form-check-input {
