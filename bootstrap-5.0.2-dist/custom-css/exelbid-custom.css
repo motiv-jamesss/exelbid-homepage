@@ -3186,7 +3186,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
+  width: 100%;
   height: 40px;
 }
 
