@@ -3154,6 +3154,10 @@ input {
   flex-direction: column;
 }
 
+.dl-propos-container a {
+  text-decoration: none!important;
+}
+
 .dl-propos {
   display: flex;
   padding: 40px;
