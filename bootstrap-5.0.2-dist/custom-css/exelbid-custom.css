@@ -4288,7 +4288,7 @@ label div.btnA:nth-child(3) {
 /* 모바일 메뉴 (collapse) 활성화시 화면 어둡게 */
 .screen-darken{
   content: ''; 
-  top: 402px;
+  top: 400px;
   right: 0;
   bottom: 0;
   left: 0;
