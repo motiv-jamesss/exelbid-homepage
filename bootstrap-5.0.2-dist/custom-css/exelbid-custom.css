@@ -3169,6 +3169,10 @@ textarea {
     border-color: #4781F5;
 }
 
+.modal .accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 4px;
+}
+
 .modal .accordion-button {
   position: relative;
   display: flex;
@@ -3187,15 +3191,13 @@ textarea {
 
 .modal .accordion-item {
   background-color: #fff;
-  border: none;
   border-bottom: none;
 }
 
 .modal .accordion-body {
-  padding: 30px 25px;
-  color: #232323;
+  padding: 0px;
+  margin-top: 20px;
   font-size: 15px;
-  font-weight: 300;
   line-height: 1.5;
 }
 
