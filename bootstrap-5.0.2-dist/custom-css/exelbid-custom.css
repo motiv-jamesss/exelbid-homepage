@@ -3185,6 +3185,10 @@ textarea {
   gap: 10px;
 }
 
+.modal .accordion-button:hover {
+  background-color: #e6e6e6
+}
+
 .modal .accordion-button::after {
   margin: 0;
 }
