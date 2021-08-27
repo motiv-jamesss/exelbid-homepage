@@ -3169,6 +3169,36 @@ textarea {
     border-color: #4781F5;
 }
 
+.modal .accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  font-size: 15px;
+  color: #232323;
+  background-color: #f7f7f7;
+  gap: 10px;
+}
+
+.modal .accordion-button::after {
+  margin: 0;
+}
+
+.modal .accordion-item {
+  background-color: #fff;
+  border: none;
+  border-bottom: none;
+}
+
+.modal .accordion-body {
+  padding: 30px 25px;
+  color: #232323;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
 /* modal 다운로드 컴포넌트 */
 
 .dl-propos-container {
