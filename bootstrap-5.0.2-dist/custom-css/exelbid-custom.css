@@ -2801,6 +2801,7 @@ button.shopBtn {
   border-radius: 8px;
   text-align: left;
   padding: 8px 18px;
+  transition: .15s ease-in-out;
 }
 
 button img.shopicon {
