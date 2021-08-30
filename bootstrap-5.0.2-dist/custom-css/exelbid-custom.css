@@ -2823,6 +2823,14 @@ button .shoptext span {
   font-weight: 400;
 }
 
+.carousel-control-prev-icon {
+  background-image: url(data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 16 16' style='enable-background:new 0 0 16 16;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23DEDEDE;%7D .st1%7Bfill:none;stroke:%23232323;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Ccircle class='st0' cx='8' cy='8' r='8'/%3E%3Cpath class='st1' d='M9,5.4L6.3,8L9,10.6'/%3E%3C/svg%3E%0A);
+}
+
+.carousel-control-next-icon {
+  background-image: url(data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 16 16' style='enable-background:new 0 0 16 16;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23DEDEDE;%7D .st1%7Bfill:none;stroke:%23232323;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Ccircle class='st0' cx='8' cy='8' r='8'/%3E%3Cpath class='st1' d='M7,10.6L9.7,8L7,5.4'/%3E%3C/svg%3E%0A);
+}
+
 .accordion-button {
   position: relative;
   display: flex;
