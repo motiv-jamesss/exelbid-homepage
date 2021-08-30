@@ -2781,6 +2781,13 @@ textarea {
   width: 3%;
 }
 
+.partner-carousel div.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 .accordion-button {
   position: relative;
   display: flex;
