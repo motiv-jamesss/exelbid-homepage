@@ -2766,14 +2766,14 @@ textarea {
 
 .partner-carousel {
   display: flex;
-  max-width: 1300px;
+  max-width: 1375px;
   justify-content: center;
 }
 
 .carousel-item.active {
   display: flex;
   gap: 30px;
-  padding: 0 80px;
+  padding: 0 120px;
 }
 
 .carousel-control-prev,
