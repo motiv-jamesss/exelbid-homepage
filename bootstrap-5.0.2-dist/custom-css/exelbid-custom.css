@@ -2794,7 +2794,7 @@ textarea {
   justify-content: center;
 }
 
-button.shopBt {
+button.shopBtn {
   display: flex;
   max-width: fit-content;
   background-color: #4D4D4D;
