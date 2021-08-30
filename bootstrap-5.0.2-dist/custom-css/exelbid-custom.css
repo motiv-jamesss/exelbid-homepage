@@ -2770,6 +2770,10 @@ textarea {
   justify-content: center;
 }
 
+.partner-carousel .video-border{
+  border-radius: 16px;
+}
+
 .carousel-item.active {
   display: flex;
   padding: 0 120px;
