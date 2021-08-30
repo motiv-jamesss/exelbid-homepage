@@ -2772,7 +2772,6 @@ textarea {
 
 .carousel-item.active {
   display: flex;
-  gap: 30px;
   padding: 0 120px;
 }
 
@@ -2824,7 +2823,7 @@ button .shoptext span {
 }
 
 button.shopBtn:hover {
-  background-color: #232323;
+  background-color: #333333;
 }
 
 button.shopBtn.un-active:hover {
