@@ -2770,6 +2770,17 @@ textarea {
   justify-content: center;
 }
 
+.carousel-item.active {
+  display: flex;
+  gap: 30px;
+  padding: 0 80px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 3%;
+}
+
 .accordion-button {
   position: relative;
   display: flex;
