@@ -2794,7 +2794,7 @@ textarea {
   justify-content: center;
 }
 
-button.shopBtn{
+button.shopBt {
   display: flex;
   max-width: fit-content;
   background-color: #4D4D4D;
@@ -2804,15 +2804,15 @@ button.shopBtn{
   padding: 8px 18px;
 }
 
-button img.shopicon{
+button img.shopicon {
   width: 30px;
   height: 30px;
   margin-right: 12px;
 }
 
-button .shoptext{
+button .shoptext {
   font-size:13px;
-  font-weight: 700;
+  font-weight: 600;
   color: #ffffff;
   line-height: 100%;
   margin: 0;
