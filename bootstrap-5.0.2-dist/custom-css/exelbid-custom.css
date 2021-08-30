@@ -2825,11 +2825,11 @@ button .shoptext span {
 
 button.shopBtn:hover {
   background-color: #232323;
-  cursor: not-allowed;
 }
 
 button.shopBtn.un-active:hover {
   background-color: #4d4d4d;
+  cursor: not-allowed;
 }
 
 button.un-active img.shopicon,
