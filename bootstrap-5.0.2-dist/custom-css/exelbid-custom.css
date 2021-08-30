@@ -2793,6 +2793,10 @@ textarea {
   justify-content: center;
 }
 
+.embed-responsive {
+  border-radius: 16px;
+}
+
 button.shopBtn {
   display: flex;
   max-width: fit-content;
