@@ -2764,6 +2764,12 @@ textarea {
   background-color: #0099FA;
 }
 
+.partner-carousel {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+}
+
 .accordion-button {
   position: relative;
   display: flex;
