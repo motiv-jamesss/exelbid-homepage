@@ -2779,6 +2779,13 @@ textarea {
   padding: 0 120px;
 }
 
+@media (max-width: 1200px) {
+  .carousel-item.active {
+  padding: 0;
+  flex-direction: column;
+}
+}
+
 .carousel-control-prev,
 .carousel-control-next {
   width: 3%;
