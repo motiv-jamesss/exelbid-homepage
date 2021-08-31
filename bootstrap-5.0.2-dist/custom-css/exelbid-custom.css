@@ -2684,8 +2684,14 @@ textarea {
   gap: 30px;
 }
 
+.partners-logo-container2 {
+  max-width: 900px;
+  gap: 30px;
+}
+
 @media (max-width: 640px){
-  .partners-logo-container {
+  .partners-logo-container,
+  .partners-logo-container2 {
     gap: 15px;
   }
 }
