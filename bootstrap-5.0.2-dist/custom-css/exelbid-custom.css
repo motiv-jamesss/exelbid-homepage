@@ -2770,6 +2770,34 @@ textarea {
   background-color: #0099FA;
 }
 
+.partners-logo2.color-1 {
+  background-color: #202f87;
+}
+
+.partners-logo2.color-2 {
+  background-color: #009bff;
+}
+
+.partners-logo2.color-3 {
+  background-color: #FFD200;
+}
+
+.partners-logo2.color-4 {
+  background-color: #00a0ff;
+}
+
+.partners-logo2.color-5 {
+  background-color: #014099;
+}
+
+.partners-logo2.color-6 {
+  background-color: #fb2942;
+}
+
+.partners-logo2.color-7 {
+  background-color: #0ADB90;
+}
+
 .partner-carousel {
   display: flex;
   max-width: 1375px;
