@@ -2840,7 +2840,7 @@ a img.shopicon {
 
 a .shoptext {
   font-size:13px;
-  font-weight: 600;
+  font-weight: 500;
   color: #ffffff;
   line-height: 100%;
   margin: 0;
@@ -2882,9 +2882,11 @@ a.un-active .shoptext {
 
 @media(max-width: 640px) {
 
+  /*
   .button-container {
     flex-direction: column;
   }
+  */
 
   .carousel-control-prev,
   .carousel-control-next {
