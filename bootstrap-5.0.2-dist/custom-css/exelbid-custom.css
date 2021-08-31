@@ -2839,15 +2839,15 @@ a img.shopicon {
 }
 
 a .shoptext {
-  font-size:13px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 600;
   color: #ffffff;
   line-height: 100%;
   margin: 0;
 }
 
 a .shoptext span {
-  font-size:10px;
+  font-size: 10px;
   font-weight: 400;
 }
 
@@ -2882,11 +2882,15 @@ a.un-active .shoptext {
 
 @media(max-width: 640px) {
 
-  /*
-  .button-container {
-    flex-direction: column;
+  a img.shopicon {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
   }
-  */
+  
+  a .shoptext {
+    font-size: 10px
+  }
 
   .carousel-control-prev,
   .carousel-control-next {
