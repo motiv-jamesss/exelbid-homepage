@@ -2920,6 +2920,10 @@ a.un-active .shoptext {
 
 @media(max-width: 640px) {
 
+  a.shopBtn {
+    padding: 13px 18px;
+  }
+
   a img.shopicon {
     width: 20px;
     height: 20px;
