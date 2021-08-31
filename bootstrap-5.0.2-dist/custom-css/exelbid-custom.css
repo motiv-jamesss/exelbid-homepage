@@ -2806,6 +2806,7 @@ textarea {
   display: flex;
   gap: 12px;
   justify-content: center;
+  align-items: center;
 }
 
 .embed-responsive {
