@@ -2813,7 +2813,7 @@ textarea {
   border-radius: 16px;
 }
 
-button.shopBtn {
+a.shopBtn {
   display: flex;
   max-width: fit-content;
   min-width: fit-content;
@@ -2821,17 +2821,18 @@ button.shopBtn {
   border: 0px;
   border-radius: 8px;
   text-align: left;
+  text-decoration: none;
   padding: 8px 18px;
   transition: .15s ease-in-out;
 }
 
-button img.shopicon {
+a img.shopicon {
   width: 30px;
   height: 30px;
   margin-right: 12px;
 }
 
-button .shoptext {
+a .shoptext {
   font-size:13px;
   font-weight: 600;
   color: #ffffff;
@@ -2839,22 +2840,22 @@ button .shoptext {
   margin: 0;
 }
 
-button .shoptext span {
+a .shoptext span {
   font-size:10px;
   font-weight: 400;
 }
 
-button.shopBtn:hover {
+a.shopBtn:hover {
   background-color: #333333;
 }
 
-button.shopBtn.un-active:hover {
+a.shopBtn.un-active:hover {
   background-color: #4d4d4d;
   cursor: not-allowed;
 }
 
-button.un-active img.shopicon,
-button.un-active .shoptext {
+a.un-active img.shopicon,
+a.un-active .shoptext {
   opacity: .4;
 }
 
