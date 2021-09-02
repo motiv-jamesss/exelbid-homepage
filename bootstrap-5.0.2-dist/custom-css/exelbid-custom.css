@@ -2302,6 +2302,10 @@ textarea {
   }
 }
 
+.exl-card-container {
+  gap: 35px;
+}
+
 .exl-card-base {
   width: auto;
   border-radius: 16px;
