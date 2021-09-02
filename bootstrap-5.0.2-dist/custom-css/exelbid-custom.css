@@ -2582,6 +2582,7 @@ textarea {
 }
 
 .overlay-text {
+  width: fit-content;
   color: white;
   font-size: 20px;
   font-weight: 500;
