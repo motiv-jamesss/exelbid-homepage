@@ -2306,6 +2306,11 @@ textarea {
   gap: 35px;
 }
 
+.exl-card-container-s {
+  max-width: 1280px;
+  gap: 35px;
+}
+
 .exl-card-base {
   width: auto;
   border-radius: 16px;
