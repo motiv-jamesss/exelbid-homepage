@@ -3976,7 +3976,7 @@ button.nav-link:focus {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .navbar-nav .nav-link {
@@ -4359,6 +4359,12 @@ button.navbar-toggler {
   margin-left: 50px;
 }
 
+@media (max-width: 640px) {
+  .kr-en {
+    margin: 30px 0 10px;
+  }
+}
+
 .kr-en .lang{
   padding: 1px 10px;
   text-decoration: none;
@@ -4503,7 +4509,7 @@ label div.btnA:nth-child(3) {
 /* 모바일 메뉴 (collapse) 활성화시 화면 어둡게 */
 .screen-darken{
   content: ''; 
-  top: 400px;
+  top: 470px;
   right: 0;
   bottom: 0;
   left: 0;
