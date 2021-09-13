@@ -3783,6 +3783,7 @@ p {
 @media(max-width: 640px) {
   .nav-item {
     margin: 10px 0;
+    text-align: right;
   }
 }
 
