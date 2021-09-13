@@ -4365,12 +4365,17 @@ button.navbar-toggler {
   color: rgba(35, 35, 35, 0.3);
   font-size: 13px;
   font-weight: 500;
+  transition: color 0.15s ease-in-out;
 }
 
 .kr-en .lang.atv{
   background-color: #ffffff;
   border-radius: 5px;
   color: #6495F7;
+}
+
+.kr-en .lang.unatv:hover{
+  color: rgba(35, 35, 35);
 }
 
 /* nav toggle button animation 1 / https://codepen.io/vajkri/pen/dVWoGj */
