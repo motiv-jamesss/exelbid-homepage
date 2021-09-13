@@ -3977,7 +3977,7 @@ button.nav-link:focus {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .navbar-nav .nav-link {
@@ -3987,7 +3987,8 @@ button.nav-link:focus {
 
 @media (max-width: 640px) {
   .navbar-nav {
-    margin: 20px !important;
+    margin: 20px 0 !important;
+    align-items: flex-end;
   }
 }
 
@@ -4362,15 +4363,15 @@ button.navbar-toggler {
 
 @media (max-width: 640px) {
   .kr-en {
-    margin: 30px 0 10px;
+    margin: 30px 0 20px;
   }
 }
 
 .kr-en .lang{
-  padding: 1px 10px;
+  padding: 4px 15px;
   text-decoration: none;
   color: rgba(35, 35, 35, 0.3);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   transition: color 0.15s ease-in-out;
 }
