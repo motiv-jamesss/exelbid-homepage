@@ -4520,59 +4520,77 @@ label div.btnA:nth-child(3) {
   }
   */
 
-  .icon[aria-expanded="false"] {
-    border: 0;
-    height: 22px;
-    width: 18px;
-    border-radius: 50%;
-    cursor: pointer;
-    position: relative;
-  }
+.icon[aria-expanded="false"] {
+  border: 0;
+  height: 22px;
+  width: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
 
-  .icon[aria-expanded="false"] span {
-    display: block;
-    height: 2px;
-    width: 18px;
-    border-radius: 2px;
-    position: absolute;
-    transition: all .15s ease-in-out;
-  }
+.icon[aria-expanded="false"] span {
+  display: block;
+  height: 2px;
+  width: 18px;
+  border-radius: 2px;
+  position: absolute;
+  transition: all .15s ease-in-out;
+}
 
-  .icon[aria-expanded="false"] span:first-child {
-    top: 0px;
-  }
+.icon[aria-expanded="false"] span:first-child {
+  top: 0px;
+}
 
-  .icon[aria-expanded="false"] span:nth-child(2) {
-    top: 8px;
-  }
+.icon[aria-expanded="false"] span:nth-child(2) {
+  top: 8px;
+}
 
-  .icon[aria-expanded="false"] span:last-child {
-    top: 16px;
-  }
+.icon[aria-expanded="false"] span:last-child {
+  top: 16px;
+}
 
-  .icon-active[aria-expanded="true"] span:first-child {
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    position: absolute;
-    top: 8px;
-  }
+.icon-active[aria-expanded="true"] {
+  border: 0;
+  height: 22px;
+  width: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
 
-  .icon-active[aria-expanded="true"] span:last-child {
-    -webkit-transform: rotate(135deg);
-    -ms-transform: rotate(135deg);
-    transform: rotate(135deg);
-    position: absolute;
-    top: 8px;
-  }
+.icon-active[aria-expanded="true"] span {
+  display: block;
+  height: 2px;
+  width: 18px;
+  border-radius: 2px;
+  position: absolute;
+  transition: all .15s ease-in-out;
+}
 
-  .icon-active[aria-expanded="true"] span:nth-child(2) {
-    opacity: 0;
-  }
+.icon-active[aria-expanded="true"] span:first-child {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 8px;
+}
 
-  .icon-transparent span {
-    background-color: #232323;
-  }
+.icon-active[aria-expanded="true"] span:last-child {
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  position: absolute;
+  top: 8px;
+}
+
+.icon-active[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+
+.icon-transparent span {
+  background-color: #232323;
+}
   
 
 
