@@ -4386,91 +4386,7 @@ button.navbar-toggler {
   color: rgba(35, 35, 35);
 }
 
-/* nav toggle button animation 1 / https://codepen.io/vajkri/pen/dVWoGj */
-
-.menu-toggle {
-  position: relative;
-  display: block;
-  width: 18px;
-  height: 18px;
-  background: transparent;
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  color: #232323;
-  font-size: 0;
-  transition: all 0.2s ease-in-out;
-}
-.menu-toggle:before, .menu-toggle:after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 2px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  background: currentColor;
-  transform: translate(-50%, -50%);
-  transition: transform 0.2s ease-in-out;
-}
-div.is-active {
-  border-color: transparent;
-}
-div.is-active:before {
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-div.is-active:after {
-  transform: translate(-50%, -50%) rotate(-45deg);
-}
-
-/* nav toggle button animation 2 / https://codepen.io/KPCodes/pen/Ypwrdx */
-
-.navbar input {
-  display: none;
-}
-.navbar label {
-  position: relative;
-  width: 18px;
-  height: 18px;
-  display: inline-block;
-  cursor: pointer;
-  margin: 0px;
-  transition: all 0.15s;
-  text-align: left;
-}
-div.btnA, div.btnA:before, div.btnA:after {
-  background: #232323;
-  position: absolute;
-  height: 2px;
-  width: 18px;
-  border-radius: 16px;
-  transition: all 0.15s;
-}
-label div.btnA:first-child {
-  top: 0px;
-}
-label div.btnA:nth-child(2) {
-  top: 8px;
-}
-label div.btnA:nth-child(3) {
-  top: 16px;
-}
-#menu33 + label div.btnA {
-  transition: top 0.15s 0.15s, transform 0.15s 0.15s;
-}
-#menu33 + label div.btnA:nth-child(3) {
-  transition: top 0.15s 0.15s, transform 0.15s;
-}
-#menu33:checked + label div.btnA {
-  top: 8px;
-  transform: rotate(45deg);
-  transition: top 0.15s, transform 0.15s 0.15s;
-}
-#menu33:checked + label div.btnA:nth-child(3) {
-  transform: rotate(135deg);
-  transition: top 0.15s, transform 0.15s 0.15s;
-}
-
-/* nav toggle button animation 3 / https://www.sanwebcorner.com/2016/12/onclick-change-mobile-menu-three-bar.html */
+/* nav toggle button animation 오리지널 소스 / https://www.sanwebcorner.com/2016/12/onclick-change-mobile-menu-three-bar.html */
 
 /* 
 .icon {
@@ -4520,7 +4436,8 @@ label div.btnA:nth-child(3) {
   }
   */
 
-.icon[aria-expanded="false"] {
+.icon[aria-expanded="false"],
+.icon-active[aria-expanded="true"] {
   border: 0;
   height: 22px;
   width: 18px;
@@ -4529,7 +4446,8 @@ label div.btnA:nth-child(3) {
   position: relative;
 }
 
-.icon[aria-expanded="false"] span {
+.icon[aria-expanded="false"] span,
+.icon-active[aria-expanded="true"] span {
   display: block;
   height: 2px;
   width: 18px;
@@ -4548,24 +4466,6 @@ label div.btnA:nth-child(3) {
 
 .icon[aria-expanded="false"] span:last-child {
   top: 16px;
-}
-
-.icon-active[aria-expanded="true"] {
-  border: 0;
-  height: 22px;
-  width: 18px;
-  border-radius: 50%;
-  cursor: pointer;
-  position: relative;
-}
-
-.icon-active[aria-expanded="true"] span {
-  display: block;
-  height: 2px;
-  width: 18px;
-  border-radius: 2px;
-  position: absolute;
-  transition: all .15s ease-in-out;
 }
 
 .icon-active[aria-expanded="true"] span:first-child {
@@ -4592,9 +4492,6 @@ label div.btnA:nth-child(3) {
   background-color: #232323;
 }
   
-
-
-
 /* Go to top 버튼 */
 #gtt {
   display: inline-block;
