@@ -9,7 +9,7 @@
 	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
 	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
 	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
-	<!ENTITY st0 "fill:#DAE3E8;">
+	<!ENTITY st0 "fill:#E4EBEF;">
 	<!ENTITY st1 "fill:#6495F7;">
 	<!ENTITY st2 "fill:#FFFFFF;">
 	<!ENTITY st3 "fill:#FFC011;">
