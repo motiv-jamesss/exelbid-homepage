@@ -3060,7 +3060,8 @@ a.un-active .shoptext {
 
 .footer.social-icon.icon.bg-green,
 .footer.social-icon.icon.bg-red,
-.footer.social-icon.icon.bg-blue {
+.footer.social-icon.icon.bg-blue,
+.footer.social-icon.icon.bg-blue2 {
   background-color: #41464D !important;
   transition: .2s ease-in-out;
 }
@@ -3075,6 +3076,10 @@ a.un-active .shoptext {
 
 .footer.social-icon.icon.bg-blue:hover {
   background-color: #6495F7 !important;
+}
+
+.footer.social-icon.icon.bg-blue2:hover {
+  background-color: #0a66c2 !important;
 }
 
 .footer.text {
