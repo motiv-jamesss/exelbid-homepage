@@ -4470,6 +4470,54 @@ label div.btnA:nth-child(3) {
   transition: top 0.15s, transform 0.15s 0.15s;
 }
 
+/* nav toggle button animation 3 / https://www.sanwebcorner.com/2016/12/onclick-change-mobile-menu-three-bar.html */
+
+.icon {
+  border: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  }
+  .icon span {
+  display: block;
+  height: 2px;
+  width: 18px;
+  border-radius: 2px;
+  position: absolute;
+  transition: all .15s ease-in-out;
+  }
+  .icon span:first-child {
+  top: 0px;
+  }
+  .icon span:nth-child(2) {
+  top: 8px;
+  }
+  .icon span:last-child {
+  top: 16px;
+  }
+  .icon-active span:first-child {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 8px;
+  }
+  .icon-active span:last-child {
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  position: absolute;
+  top: 8px;
+  }
+  .icon-active span:nth-child(2) {
+  opacity: 0;
+  }
+  .icon-transparent span {
+  background-color: #232323;
+  }
+
 
 
 /* Go to top 버튼 */
