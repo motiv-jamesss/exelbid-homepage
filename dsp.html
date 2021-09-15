@@ -6,11 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--meta name="viewport" content="target-densitydpi=device-dpi width=device-width, initial-scale=1"-->
     <meta name="viewport" content="target-densitydpi=device-dpi, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width" />
-    <title>구매자(DSPs)를 위한 엑셀비드 (Exelbid)</title>
+    <title>DSP | Exelbid (엑셀비드)</title>
     <meta name="description" content="모바일을 넘어 TV까지 매체 수익화 솔루션과 다양한 광고주를 만족시킬 타겟 오디언스 풀을 제공합니다." />
     <meta property="og:image" content="https://motiv-jamesss.github.io/exelbid-homepage/asset/OG_banner.jpg">
-    <meta property="og:title" content="구매자(DSPs)를 위한 엑셀비드 (Exelbid)">
-    <meta property="og:description" content="KPI 달성을 위한 모등 오디언스를 제공합니다 / KPI 달성 우위 선점 높은 타겟 매칭률의 풍부한 오디언스군">
     <meta name="robots" content="index,follow">
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/exelbid-homepage/fav/apple-icon-57x57.png">
@@ -35,9 +33,11 @@
     <script src="js/includeHTML.js"></script>
   </head>
   <body>
+    <div include-html="/exelbid-homepage/nav.html"></div>
+    <script>includeHTML();</script>
     <!-- Go to top 버튼 start > https://codepen.io/matthewcain/pen/ZepbeR < -->
     <a id="gtt"></a>
-    <!-- Go to top 버튼 end -->    
+    <!-- Go to top 버튼 end -->
     <!-- GNB start -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
       <div class="container">
@@ -52,16 +52,21 @@
               <path d="M53.921 22.5224V5.5524H57.5183L52.005 0L46.4526 5.5524H50.0891V22.5224V26.3152H53.921H60.4118V22.5224H53.921Z" fill="#1D52A3"/>
             </svg>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <!-- <span class="navbar-toggler-icon"></span> -->
+        <button class="navbar-toggler icon icon-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <!-- custom 1 <div class="menu-toggle" id="navbtn">Menu</div> -->
+          <!-- 
           <input type="checkbox" id="menu33" />
           <label for="menu33">
             <div class="btnA"></div>
             <div class="btnA"></div>
             <div class="btnA"></div>
           </label>
+          -->
+            <span></span>
+            <span></span>
+            <span></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -415,6 +420,9 @@
               <a class="footer social-icon icon bg-blue" href="https://www.facebook.com/motivintelligence" target="_blank">
                 <img src="/exelbid-homepage/asset/footer/facebook.svg">
               </a>
+              <a class="footer social-icon icon bg-blue2" href="https://kr.linkedin.com/company/onnuri-dmc" target="_blank">
+                <img src="/exelbid-homepage/asset/footer/linkedin.svg">
+              </a>
             </div>
             <div class="footer text">
               <p class="d-block d-sm-none">
@@ -462,6 +470,7 @@
     <!-- 푸터 end -->
     <script src="/exelbid-homepage/js/jquery-3.1.1.min.js"></script>
     <script src="/exelbid-homepage/js/iconAnimation.js"></script>
+    <script src="/exelbid-homepage/js/iconAnimation_.js"></script>
     <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <!-- GTP btn Start -->
     <script>
@@ -477,7 +486,7 @@
 
       btn.on('click', function(e) {
         e.preventDefault();
-        $('html, body').animate({scrollTop:0}, '100');
+        $('html, body').animate({scrollTop:0}, '100', 'linear');
       });
     </script>
     <!-- GTP btn End  -->
