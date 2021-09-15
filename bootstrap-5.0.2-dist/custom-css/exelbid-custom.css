@@ -4380,7 +4380,7 @@ button.navbar-toggler {
 .kr-en .lang{
   padding: 2px 11px;
   text-decoration: none;
-  color: rgba(35, 35, 35, 0.3);
+  color: rgba(35, 35, 35, 0.7);
   font-size: 13px;
   font-weight: 400;
   transition: color 0.15s ease-in-out;
