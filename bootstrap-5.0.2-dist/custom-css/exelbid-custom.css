@@ -2183,15 +2183,15 @@
 .shadow-hover {
   transition: all .2s ease-in-out;
   transition-property: box-shadow;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15)
 }
 
 .shadow-hover:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), 0 .5rem 2rem rgba(0, 0, 0, 0.15) !important
+  box-shadow:0 .5rem 2rem rgba(0, 0, 0, .15) !important
 }
 
 .lift-s {
-  transition: all .15s ease-in-out;
+  transition: all .2s ease-in-out;
   transition-property: transform, box-shadow
 }
 
@@ -2201,9 +2201,13 @@
 }
 
 .shadow-hover-s {
-  transition: all .2s ease-in-out;
+  transition: all .15s ease-in-out;
   transition-property: box-shadow;
-  box-shadow: 2px 2px 5px rgb(0 0 0 / 15%);
+  box-shadow: 2px 2px 5px rgb(0 0 0 / .15);
+}
+
+.shadow-hover-s:hover {
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, .15)!important;
 }
 
 button,
