@@ -2190,6 +2190,22 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), 0 .5rem 2rem rgba(0, 0, 0, 0.15) !important
 }
 
+.lift-s {
+  transition: all .15s ease-in-out;
+  transition-property: transform, box-shadow
+}
+
+.lift-s:focus,
+.lift-s:hover {
+  transform: translateY(-.15rem)
+}
+
+.shadow-hover-s {
+  transition: all .2s ease-in-out;
+  transition-property: box-shadow;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 15%);
+}
+
 button,
 input,
 textarea {
@@ -3184,6 +3200,14 @@ a.un-active .shoptext {
   font-weight: 500;
   color: #828282;
   line-height: 150%;
+}
+
+.link-box {
+  background-color: #6495F7;
+  border-radius: 8px;
+  padding: 0px 6px;
+  margin-left: 8px;
+  align-items: center;
 }
 
 /*/////////////////////*/
