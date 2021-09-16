@@ -3208,10 +3208,9 @@ a.un-active .shoptext {
 
 .link-box {
   background-color: #6495F7;
-  border-radius: 8px;
-  padding: 6px 6px;
-  margin-left: 8px;
-  align-items: center;
+  border-radius: 13px;
+  padding: 1px;
+  margin-left: 5px;
   transition: all .15s ease-in-out;
 }
 
