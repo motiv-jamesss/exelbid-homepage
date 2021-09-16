@@ -3209,10 +3209,17 @@ a.un-active .shoptext {
 .link-box {
   background-color: #6495F7;
   border-radius: 8px;
-  padding: 0px 6px;
+  padding: 6px 6px;
   margin-left: 8px;
   align-items: center;
+  transition: all .15s ease-in-out;
 }
+
+.link-box:hover {
+  background-color: #4781F5;
+}
+
+
 
 /*/////////////////////*/
 /*       섹션관련      */
