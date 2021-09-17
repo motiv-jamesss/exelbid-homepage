@@ -3964,6 +3964,12 @@ button.nav-link:focus {
   text-align: center;
 }
 
+.tab-body {
+  background-color: #F3F7FC;
+  padding: 5px;
+  border-radius: 16px;
+}
+
 .nav-pills-2 .nav-link {
   background: none;
   border: 0;
