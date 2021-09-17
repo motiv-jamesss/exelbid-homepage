@@ -3232,13 +3232,14 @@ a.un-active .shoptext {
 
 /* ssp / dsp 케로셀 박스 */
 
-
-#carouselDevice .carousel-item.active {
+#carouselDevice .carousel-item.active,
+#carouselDevice2 .carousel-item.active {
   display: flex;
   padding: 0;
 }
 
-#carouselDevice .carousel-indicators {
+#carouselDevice .carousel-indicators,
+#carouselDevice2 .carousel-indicators {
   position: relative;
   right: 0;
   bottom: 0;
@@ -3254,7 +3255,8 @@ a.un-active .shoptext {
   font-size: 15px;
 }
 
-#carouselDevice .carousel-indicators [data-bs-target] {
+#carouselDevice .carousel-indicators [data-bs-target],
+#carouselDevice2 .carousel-indicators [data-bs-target] {
   color: rgba(35, 35, 35, .5);
   box-sizing: content-box;
   flex: 0 1 auto;
@@ -3274,17 +3276,20 @@ a.un-active .shoptext {
   transition: all 0.15s ease;
 }
 
-#carouselDevice .carousel-indicators .active {
+#carouselDevice .carousel-indicators .active,
+#carouselDevice2 .carousel-indicators .active {
   color: #232323;
 }
 
-#carouselDevice .carousel-indicators [data-bs-target]:hover {
+#carouselDevice .carousel-indicators [data-bs-target]:hover,
+#carouselDevice2 .carousel-indicators [data-bs-target]:hover {
   background-color: #f3f7fc;
   border-radius: 16px;
 }
 
 @media (max-width: 640px) {
-  #carouselDevice .carousel-indicators [data-bs-target]:hover {
+  #carouselDevice .carousel-indicators [data-bs-target]:hover,
+  #carouselDevice2 .carousel-indicators [data-bs-target]:hover {
     background-color: #ffffff;
     border-radius: 16px;
   }
