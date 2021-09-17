@@ -3232,6 +3232,10 @@ a.un-active .shoptext {
 
 /* ssp / dsp 케로셀 박스 */
 
+#carouselDevice .carousel-item {
+  justify-content: center;
+}
+
 #carouselDevice .carousel-item.active {
   display: flex;
   padding: 0;
