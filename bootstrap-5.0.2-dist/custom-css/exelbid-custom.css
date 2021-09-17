@@ -2416,6 +2416,10 @@ textarea {
   border-radius: 16px;
 }
 
+.exl-card2.carousel {
+  padding-bottom: 0px!important;
+}
+
 .exl-card2.white {
   background-color: #ffffff;
 }
@@ -3224,6 +3228,57 @@ a.un-active .shoptext {
 
 .link-box:hover {
   background-color: #4781F5;
+}
+
+/* ssp / dsp 케로셀 박스 */
+
+#carouselDevice .carousel-item.active {
+  display: flex;
+  padding: 0;
+}
+
+#carouselDevice .carousel-indicators {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+#carouselDevice .carousel-indicators [data-bs-target] {
+  color: rgba(35, 35, 35, .5);
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 10px;
+  margin: 10px 3px;
+  text-indent: 0;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none;
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  opacity: 1;
+  border-radius: 16px;
+  transition: all 0.15s ease;
+}
+
+#carouselDevice .carousel-indicators .active {
+  color: #232323;
+}
+
+#carouselDevice .carousel-indicators [data-bs-target]:hover {
+  background-color: #f3f7fc;
+  border-radius: 16px;
 }
 
 
@@ -4623,8 +4678,3 @@ button.navbar-toggler {
   position: fixed;
 }
 /* 모바일 메뉴 (collapse) 활성화시 화면 어둡게 */
-
-#carouselDevice .carousel-item.active {
-  display: flex;
-  padding: 0;
-}
