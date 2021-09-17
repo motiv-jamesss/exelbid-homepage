@@ -4619,3 +4619,8 @@ button.navbar-toggler {
   position: fixed;
 }
 /* 모바일 메뉴 (collapse) 활성화시 화면 어둡게 */
+
+#carouselDevice .carousel-item.active {
+  display: flex;
+  padding: 0;
+}
