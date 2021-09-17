@@ -3282,6 +3282,13 @@ a.un-active .shoptext {
   border-radius: 16px;
 }
 
+@media (max-width: 640px) {
+  #carouselDevice .carousel-indicators [data-bs-target]:hover {
+    background-color: #ffffff;
+    border-radius: 16px;
+  }
+}
+
 
 
 /*/////////////////////*/
