@@ -3982,6 +3982,10 @@ button.nav-link:focus {
   width: fit-content;
 }
 
+.nav-pills-2 .nav-link:hover {
+  color: rgba(35, 35, 35);
+}
+
 .nav-pills-2 .nav-link.active,
 .nav-pills-2 .show>.nav-link {
   color: #6495F7;
