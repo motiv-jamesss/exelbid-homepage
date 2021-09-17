@@ -3251,6 +3251,7 @@ a.un-active .shoptext {
   margin-bottom: 0;
   margin-left: 0;
   list-style: none;
+  font-size: 15px;
 }
 
 #carouselDevice .carousel-indicators [data-bs-target] {
