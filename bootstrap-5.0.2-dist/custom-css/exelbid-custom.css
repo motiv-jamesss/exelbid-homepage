@@ -3964,6 +3964,25 @@ button.nav-link:focus {
   text-align: center;
 }
 
+.nav-pills-2 .nav-link {
+  background: none;
+  border: 0;
+  border-radius: 16px;
+  font-size: 15px;
+  color: rgba(35, 35, 35, .5);
+  font-weight: 500;
+  padding: 5px 10px;
+  text-align: left;
+  width: fit-content;
+}
+
+.nav-pills-2 .nav-link.active,
+.nav-pills-2 .show>.nav-link {
+  color: #6495F7;
+  background-color: #fff !important;
+  border-radius: 11px;
+}
+
 .nav-justified>.nav-link,
 .nav-justified .nav-item {
   flex-basis: 0;
