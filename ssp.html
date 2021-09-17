@@ -294,9 +294,86 @@
         <div class="row">
           <div class="col-6 exl-card2 white mb-sm-30">
             <h5 class="fw-semibold color-blue">다양한 포맷과 사이즈</h5>
-            <div class="d-flex justify-content-center align-items-center my-60 my-sm-30">
-              <div class="col-9">
-                <img src="/exelbid-homepage/asset/ssp/adgif.gif" class="mw-100 rounded-16 shadow2">
+            <div class="d-flex flex-column">
+              <div class="nav nav-pills-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-general-tab" data-bs-toggle="pill"data-bs-target="#v-pills-general" type="button" role="tab" aria-controls="v-pills-general"aria-selected="true">
+                  일반문의
+                </button>
+                <button class="nav-link" id="v-pills-term-tab" data-bs-toggle="pill" data-bs-target="#v-pills-term" type="button" role="tab" aria-controls="v-pills-term" aria-selected="false">
+                  용어정리
+                </button>
+              </div>
+              <div class="tab-content col-12 offset-0 offset-sm-1 col-sm-9" id="v-pills-tabContent">
+                <!-- accordionGeneral Start  -->
+                <div class="tab-pane fade active show" id="v-pills-general" role="tabpanel" aria-labelledby="v-pills-general-tab">
+                  <div class="accordion" id="accordionGeneral">
+                    <!-- accordionGeneral > heading1One / collapse1One  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading1One">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1One" aria-expanded="false" aria-controls="collapse1One">
+                          App 서비스를 운영하고 있습니다. 어떻게 가입해야 하나요?
+                        </button>
+                      </h2>
+                      <div id="collapse1One" class="accordion-collapse collapse" aria-labelledby="heading1One" data-bs-parent="#accordionGeneral">
+                        <div class="accordion-body">
+                          엑셀비드 홈페이지에서 회원가입이 가능합니다. 회원 가입 시 입력한 이메일로 인증 메일이 발송되며, 본인 소유의 이메일 계정에서 인증을 하셔야만 회원가입이 정상적으로 완료됩니다.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- accordionGeneral > heading1Two / collapse1Two  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading1Two">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse1Two" aria-expanded="false" aria-controls="collapse1Two">
+                          권한을 받아 App을 운영할 수 있나요?
+                        </button>
+                      </h2>
+                      <div id="collapse1Two" class="accordion-collapse collapse" aria-labelledby="heading1Two" data-bs-parent="#accordionGeneral">
+                        <div class="accordion-body">
+                          엑셀비드는 퍼블리셔 회원이 아니더라도 권한을 부여받아 대행사 또는 운영자가 쉽게 App을 운영할 수 있습니다.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- accordionGeneral > heading1Three / collapse1Three  -->
+                    <div class="accordion-item">
+                      <h5 class="accordion-header" id="heading1Three">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1Three" aria-expanded="false" aria-controls="collapse1Three">
+                          광고주 계정은 별도로 없나요?
+                        </button>
+                      </h5>
+                      <div id="collapse1Three" class="accordion-collapse collapse" aria-labelledby="heading1Three" data-bs-parent="#accordionGeneral">
+                        <div class="accordion-body">
+                          엑셀비드는 App을 보유한 퍼블리셔들의 수익화를 목적으로 만들어진 SSP 서비스입니다. 광고 집행을 원하실 경우 국내 최고의 DSP 서비스인
+                          크로스타겟(www.crosstarget.co.kr)으로 문의주세요.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- accordionGeneralr End  -->
+                <!-- accordionTerm Start  -->
+                <div class="tab-pane fade" id="v-pills-term" role="tabpanel" aria-labelledby="v-pills-term-tab">
+                  <div class="accordion" id="accordionTerm">
+                    <!-- accordionTerm > heading5One / collapse5One  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading5One">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse5One" aria-expanded="false" aria-controls="collapse5One">
+                          Direct, Exchange가 무엇인가요?
+                        </button>
+                      </h2>
+                      <div id="collapse5One" class="accordion-collapse collapse" aria-labelledby="heading5One"
+                        data-bs-parent="#accordionTerm" style="">
+                        <div class="accordion-body">
+                          Direct의 경우 직접 수주한 광고 캠페인을 엑셀비드 내의 캠페인 관리 도구를 통해 집행할 수 있는 기능입니다. 엑셀비드에서 제공하는 캠페인 관리 도구는 국내 최고
+                          DSP인 크로스타겟의 기능을 대폭 적용하여 다양한 타겟팅 옵션 및 부가기능을 이용할 수 있습니다. Exchange는 RTB로 입찰된 광고 수익으로 다양한 DSP들이 광고
+                          요청 당 입찰을 통해 진행된 거래를 말합니다.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- accordionTerm End  -->
               </div>
             </div>
           </div>
