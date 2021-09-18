@@ -4021,6 +4021,7 @@ button.nav-link:focus {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color: #6495F7;
+  background-color: #f3f7fc;
 }
 
 @media(max-width:640px) {
