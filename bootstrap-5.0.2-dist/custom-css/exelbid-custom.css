@@ -3195,7 +3195,7 @@ a.un-active .shoptext {
 .tag-wrap {
   display: flex;
   max-width: 475px;
-  gap: 10px;
+  gap: 5px 10px;
   flex-wrap: wrap;
 }
 
