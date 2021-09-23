@@ -3200,6 +3200,13 @@ a.un-active .shoptext {
   flex-wrap: wrap;
 }
 
+.tag-wrap-en {
+  display: flex;
+  max-width: 475px;
+  gap: 10px 10px;
+  flex-wrap: wrap;
+}
+
 .feature-banner div div div.tag {
   padding: 6px 16px;
   color: #ffffff;
