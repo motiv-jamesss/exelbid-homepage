@@ -30,11 +30,28 @@
     <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/payw-pro.css">
     <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/exelbid-custom.css">
-    <script src="js/includeHTML.js"></script>
+    <!-- <script src="js/includeHTML.js"></script> -->
   </head>
   <body>
-    <div include-html="/exelbid-homepage/nav.html"></div>
-    <script>includeHTML();</script>
+    <div data-include-path="/exelbid-homepage/nav.html"></div>
+    <script>
+      window.addEventListener('load', function() {
+          var allElements = document.getElementsByTagName('*');
+          Array.prototype.forEach.call(allElements, function(el) {
+              var includePath = el.dataset.includePath;
+              if (includePath) {
+                  var xhttp = new XMLHttpRequest();
+                  xhttp.onreadystatechange = function () {
+                      if (this.readyState == 4 && this.status == 200) {
+                          el.outerHTML = this.responseText;
+                      }
+                  };
+                  xhttp.open('GET', includePath, true);
+                  xhttp.send();
+              }
+          });
+      });
+  </script>
     <!-- Go to top 버튼 start > https://codepen.io/matthewcain/pen/ZepbeR < -->
     <a id="gtt"></a>
     <!-- Go to top 버튼 end -->
