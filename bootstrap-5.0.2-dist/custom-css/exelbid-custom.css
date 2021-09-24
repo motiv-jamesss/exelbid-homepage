@@ -4688,13 +4688,11 @@ button.navbar-toggler {
 
 /* 모바일 메뉴 (collapse) 활성화시 화면 어둡게 */
 .screen-darken{
-  content: ''; 
-  left: 0;
+    left: 0;
   background-color: rgba(0,0,0,.5);
   pointer-events: none;
   z-index: 1029;
   opacity: 1;
-  visibility: visible;
   position: fixed;
   width: 100%;
   height: 100%;
