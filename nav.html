@@ -1,7 +1,27 @@
     <!-- nav import start -->
-    <!-- Go to top 버튼 start > https://codepen.io/matthewcain/pen/ZepbeR < -->
+    <!-- go to top 버튼 트리거
     <a id="gtt"></a>
-    <!-- Go to top 버튼 end -->
+    -->
+    <!-- Go to top 버튼 start > https://codepen.io/matthewcain/pen/ZepbeR <
+    <script>
+      var btn = $('#gtt');
+
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+          btn.addClass('show');
+        } else {
+          btn.removeClass('show');
+        }
+      });
+
+      btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+          scrollTop: 0
+        }, '100', 'linear');
+      });
+    </script>
+    Go to top 버튼 end -->
     <!-- GNB start -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
       <div class="container">
