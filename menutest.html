@@ -528,5 +528,48 @@
     </section>
     <!-- 텍스트 베너 end -->
     <div data-include-path="/exelbid-homepage/footer.html"></div>
+    <script src="/exelbid-homepage/js/jquery-3.1.1.min.js"></script>
+    <script src="/exelbid-homepage/js/iconAnimation.js"></script>
+    <script src="/exelbid-homepage/js/iconAnimation_.js"></script>
+    <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- collapsing 이후 screen dark  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+
+        document.querySelectorAll('.navbar .collapse').forEach(function (everycollapse) {
+
+          everycollapse.addEventListener('shown.bs.collapse', function () {
+            el_overlay = document.createElement('span');
+            el_overlay.className = 'screen-darken';
+            everycollapse.appendChild(el_overlay);
+            el_overlay.addEventListener('click', function () {
+              var collapseElementList = [].slice.call(document.querySelectorAll('#navbarSupportedContent.collapse'))
+              var collapseList = collapseElementList.map(function (collapseEl) {
+                return new bootstrap.Collapse(collapseEl)
+              })
+            })
+          });
+          everycollapse.addEventListener('hide.bs.collapse', function () {
+            everycollapse.removeChild(document.querySelector('.screen-darken'));
+          });
+
+        });
+
+      })
+      // DOMContentLoaded  end
+    </script>
+  <!-- collapsing 이후 screen dark  -->
+  <!-- ftc popup  -->
+  <script>
+    var url =
+      "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248"
+    $(document).ready(function () {
+      $('.ftc').click(function () {
+        window.open(url, "bizCommPop", "width=750, height=700;");
+        return false;
+      });
+    });
+  </script>
+  <!-- ftc popup  -->
   </body>
   </html>
