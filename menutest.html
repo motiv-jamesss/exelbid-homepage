@@ -93,10 +93,6 @@
                 Dropdown
               </a>
           </ul>
-          <form class="d-flex d-none">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -130,7 +126,7 @@
         document.querySelectorAll('.navbar .collapse').forEach(function (everycollapse) {
 
           everycollapse.addEventListener('shown.bs.collapse', function () {
-            el_overlay = document.createElement('span');
+            el_overlay = document.createElement('div');
             el_overlay.className = 'screen-darken';
             everycollapse.appendChild(el_overlay);
             el_overlay.addEventListener('click', function () {
