@@ -674,7 +674,7 @@
             el_overlay.className = 'screen-darken';
             everycollapse.appendChild(el_overlay)
             el_overlay.addEventListener('click', function () {
-              var collapseElementList = [].slice.call(document.querySelectorAll('.collapse'))
+              var collapseElementList = [].slice.call(document.querySelectorAll('#navbarSupportedContent.collapse'))
               var collapseList = collapseElementList.map(function (collapseEl) {
                 return new bootstrap.Collapse(collapseEl)
               })
