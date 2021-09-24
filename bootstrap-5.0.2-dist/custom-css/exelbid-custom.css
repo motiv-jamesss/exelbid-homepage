@@ -4692,7 +4692,7 @@ button.navbar-toggler {
   left: 0;
   background-color: rgba(0,0,0,.5);
   pointer-events: none;
-  z-index: 1030;
+  z-index: 1029;
   opacity: 1;
   visibility: visible;
   position: fixed;
