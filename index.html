@@ -667,23 +667,28 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
 
-          document.querySelectorAll('.navbar .collapse').forEach(function (everycollapse) {
+        document.querySelectorAll('.navbar .collapse').forEach(function (everycollapse) {
 
-              everycollapse.addEventListener('shown.bs.collapse', function () {
-                  el_overlay = document.createElement('span');
-                  el_overlay.className = 'screen-darken';
-                  document.body.appendChild(el_overlay)
-              });
-
-              everycollapse.addEventListener('hide.bs.collapse', function () {
-                  document.body.removeChild(document.querySelector('.screen-darken'));
-              });
-
+          everycollapse.addEventListener('shown.bs.collapse', function () {
+            el_overlay = document.createElement('span');
+            el_overlay.className = 'screen-darken';
+            everycollapse.appendChild(el_overlay)
+            el_overlay.addEventListener('click', function () {
+              var collapseElementList = [].slice.call(document.querySelectorAll('.collapse'))
+              var collapseList = collapseElementList.map(function (collapseEl) {
+                return new bootstrap.Collapse(collapseEl)
+              })
+            })
+          });
+          everycollapse.addEventListener('hide.bs.collapse', function () {
+            everycollapse.removeChild(document.querySelector('.screen-darken'));
           });
 
-      });
+        });
+
+      })
       // DOMContentLoaded  end
-  </script>
+    </script>
   <!-- collapsing 이후 screen dark  -->
   <!-- ftc popup  -->
   <script>
