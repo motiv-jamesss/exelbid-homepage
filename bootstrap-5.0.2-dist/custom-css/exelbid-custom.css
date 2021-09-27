@@ -3244,6 +3244,11 @@ a.un-active .shoptext {
 #carouselDevice2 .carousel-item.active {
   display: flex;
   padding: 0;
+  flex-direction: column;
+}
+
+#carouselDevice .carousel-item.active p {
+  margin: 0 auto 30px;
 }
 
 #carouselDevice .carousel-indicators,
@@ -3260,12 +3265,12 @@ a.un-active .shoptext {
   margin-bottom: 0;
   margin-left: 0;
   list-style: none;
-  font-size: 20px;
+  font-size: 15px;
   background-color: #F3F7FC;
   padding: 7px;
   border-radius: 16px;
   width: fit-content;
-  margin: auto;
+  margin: 0 auto 30px;
 }
 
 #carouselDevice .carousel-indicators [data-bs-target],
@@ -3311,7 +3316,6 @@ a.un-active .shoptext {
     border-radius: 16px;
   }
 }
-
 
 
 /*/////////////////////*/
