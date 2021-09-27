@@ -3247,10 +3247,6 @@ a.un-active .shoptext {
   flex-direction: column;
 }
 
-#carouselDevice .carousel-item.active p {
-  margin: 0 auto 30px;
-}
-
 #carouselDevice .carousel-indicators,
 #carouselDevice2 .carousel-indicators {
   position: relative;
