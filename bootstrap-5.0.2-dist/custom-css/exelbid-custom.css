@@ -3260,7 +3260,12 @@ a.un-active .shoptext {
   margin-bottom: 0;
   margin-left: 0;
   list-style: none;
-  font-size: 15px;
+  font-size: 20px;
+  background-color: #F3F7FC;
+  padding: 7px;
+  border-radius: 16px;
+  width: fit-content;
+  margin: auto;
 }
 
 #carouselDevice .carousel-indicators [data-bs-target],
@@ -3271,28 +3276,28 @@ a.un-active .shoptext {
   width: fit-content;
   height: fit-content;
   padding: 5px 10px;
-  margin: 10px 3px;
+  margin: 0 10px 0 0;
   text-indent: 0;
   cursor: pointer;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0);
   background-clip: padding-box;
   border: none;
   border-top: 0px solid transparent;
   border-bottom: 0px solid transparent;
   opacity: 1;
-  border-radius: 16px;
+  border-radius: 12px;
   transition: all 0.15s ease;
 }
 
 #carouselDevice .carousel-indicators .active,
 #carouselDevice2 .carousel-indicators .active {
-  color: #232323;
+  color: #6495f7;
+  background-color: #ffffff;
 }
 
 #carouselDevice .carousel-indicators [data-bs-target]:hover,
 #carouselDevice2 .carousel-indicators [data-bs-target]:hover {
-  background-color: #f3f7fc;
-  border-radius: 16px;
+  color: #232323;
 }
 
 @media (max-width: 640px) {
