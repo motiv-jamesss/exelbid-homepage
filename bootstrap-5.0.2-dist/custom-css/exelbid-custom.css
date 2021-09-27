@@ -3247,7 +3247,8 @@ a.un-active .shoptext {
   flex-direction: column;
 }
 
-#carouselDevice .carousel-item p {
+#carouselDevice .carousel-item p,
+#carouselDevice2 .carousel-item p {
   text-align: center;
 }
 
