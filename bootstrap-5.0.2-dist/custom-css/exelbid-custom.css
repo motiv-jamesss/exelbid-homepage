@@ -4058,6 +4058,7 @@ button.nav-link:focus {
   background-color: #F3F7FC;
   padding: 5px;
   border-radius: 8px;
+  margin-bottom: 30px;
 }
 
 .nav-pills-2 .nav-link {
