@@ -3558,6 +3558,10 @@ a.un-active .shoptext {
   font-weight: 400;
 }
 
+.col-form-label {
+  color: #6495F7;
+}
+
 /* modal 다운로드 컴포넌트 */
 
 .dl-propos-container {
