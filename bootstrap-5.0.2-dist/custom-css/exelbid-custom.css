@@ -3555,6 +3555,11 @@ a.un-active .shoptext {
   transition: all .15s ease-in-out;
 }
 
+.form-check-exl label.form-check-label {
+  color:#232323;
+  font-weight: 400;
+}
+
 /* modal 다운로드 컴포넌트 */
 
 .dl-propos-container {
