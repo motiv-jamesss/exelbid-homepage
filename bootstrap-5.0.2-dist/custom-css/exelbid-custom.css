@@ -3504,12 +3504,12 @@ a.un-active .shoptext {
   padding: 18px;
   font-size: 15px;
   color: #232323;
-  background-color: #f7f7f7;
+  background-color: #F3F7FC;
   gap: 10px;
 }
 
 .modal .accordion-button:hover {
-  background-color: #e6e6e6
+  background-color: #EAEFF6
 }
 
 .modal .accordion-button:after {
