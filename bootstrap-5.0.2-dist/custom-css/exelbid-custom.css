@@ -3539,7 +3539,6 @@ a.un-active .shoptext {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: -webkit-fill-available;
 }
 
 .form-check-exl {
