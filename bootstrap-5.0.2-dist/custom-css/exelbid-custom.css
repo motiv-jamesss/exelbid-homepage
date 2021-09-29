@@ -3529,6 +3529,32 @@ a.un-active .shoptext {
   line-height: 1.5;
 }
 
+.check-boxes-container{
+  display: flex;
+  gap: 10px;
+  /* margin-left: 9px; */
+  }
+
+.check-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: -webkit-fill-available;
+}
+
+.form-check-exl {
+    display: flex;
+    gap: 10px;
+    padding: 10px 46px 10px 15px;
+    border: 1px solid #d5dadd;
+    border-radius: 8px;
+}
+
+.form-check-exl:hover {
+  background-color: #f1f4f6;
+  transition: all .15s ease-in-out;
+}
+
 /* modal 다운로드 컴포넌트 */
 
 .dl-propos-container {
