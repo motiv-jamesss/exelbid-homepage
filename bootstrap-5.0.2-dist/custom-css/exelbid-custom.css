@@ -3547,6 +3547,7 @@ a.un-active .shoptext {
     background-color: #F3F7FC;
     border-radius: 0.25rem;
     transition: all .15s ease-in-out;
+    width: inherit;
 }
 
 .form-check-exl:hover {
