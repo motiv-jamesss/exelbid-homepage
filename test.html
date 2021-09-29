@@ -73,146 +73,98 @@
       </div>
     </nav>
     <!-- GNB end -->
-    <!-- 파트너사 start -->
-    <section class="section-grey py-120 py-md-60">
-        <div class="container">
-          <div class="row mb-60">
-            <div class="col-12 text-center">
-              <h5 class="fw-semibold color-blue mb-10">엑셀비드의 파트너</h5>
-              <h2 class="fw-semibold lh-1-2 mb-20">엑셀비드의 DSP<br>구매자 파트너</h2>
-              <h5 class="fw-light lh-1-4">많은 구매자 파트너들이 캠페인 전략 매체로 엑셀비드를 선택하였습니다</h5>
+<style>
+  body {
+    min-height: 100vh;
+    background: -webkit-gradient(linear, left bottom, right top, from(#92b5db), to(#1d466c));
+    background: -webkit-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
+    background: -moz-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
+    background: -o-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
+    background: linear-gradient(to top right, #92b5db 0%, #1d466c 100%);
+  }
+
+  .input-form {
+    max-width: 680px;
+    margin-top: 80px;
+    padding: 32px;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15)
+  }
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="input-form-backgroud row">
+      <div class="input-form col-md-12 mx-auto">
+        <h4 class="mb-3">회원가입</h4>
+        <form class="validation-form" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3"> <label for="name">이름</label> <input type="text" class="form-control" id="name"
+                placeholder="" value="" required>
+              <div class="invalid-feedback"> 이름을 입력해주세요. </div>
+            </div>
+            <div class="col-md-6 mb-3"> <label for="nickname">별명</label> <input type="text" class="form-control"
+                id="nickname" placeholder="" value="" required>
+              <div class="invalid-feedback"> 별명을 입력해주세요. </div>
             </div>
           </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row justify-content-center partners-logo-container">
-            <div class="col-2 partners-logo color-1">
-              <img src="/exelbid-homepage/asset/dsp/ptn-1.png" class="mw-70">
+          <div class="mb-3"> <label for="email">이메일</label> <input type="email" class="form-control" id="email"
+              placeholder="you@example.com" required>
+            <div class="invalid-feedback"> 이메일을 입력해주세요. </div>
+          </div>
+          <div class="mb-3"> <label for="address">주소</label> <input type="text" class="form-control" id="address"
+              placeholder="서울특별시 강남구" required>
+            <div class="invalid-feedback"> 주소를 입력해주세요. </div>
+          </div>
+          <div class="mb-3"> <label for="address2">상세주소<span class="text-muted">&nbsp;(필수 아님)</span></label> <input
+              type="text" class="form-control" id="address2" placeholder="상세주소를 입력해주세요."> </div>
+          <div class="row">
+            <div class="col-md-8 mb-3"> <label for="root">가입 경로</label> <select class="custom-select d-block w-100"
+                id="root">
+                <option value=""></option>
+                <option>검색</option>
+                <option>카페</option>
+              </select>
+              <div class="invalid-feedback"> 가입 경로를 선택해주세요. </div>
             </div>
-            <div class="col-2 partners-logo color-2">
-              <img src="/exelbid-homepage/asset/dsp/ptn-2.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-3">
-              <img src="/exelbid-homepage/asset/dsp/ptn-3.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-4">
-              <img src="/exelbid-homepage/asset/dsp/ptn-4.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-white">
-              <img src="/exelbid-homepage/asset/dsp/ptn-5.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-5">
-              <img src="/exelbid-homepage/asset/dsp/ptn-6.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-white">
-              <img src="/exelbid-homepage/asset/dsp/ptn-7.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-6">
-              <img src="/exelbid-homepage/asset/dsp/ptn-8.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-white">
-              <img src="/exelbid-homepage/asset/dsp/ptn-9.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-7">
-              <img src="/exelbid-homepage/asset/dsp/ptn-10.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-white">
-              <img src="/exelbid-homepage/asset/dsp/ptn-11.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-8">
-              <img src="/exelbid-homepage/asset/dsp/ptn-12.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-white">
-              <img src="/exelbid-homepage/asset/dsp/ptn-13.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-9">
-              <img src="/exelbid-homepage/asset/dsp/ptn-14.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-10">
-              <img src="/exelbid-homepage/asset/dsp/ptn-15.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-11">
-              <img src="/exelbid-homepage/asset/dsp/ptn-16.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-white">
-              <img src="/exelbid-homepage/asset/dsp/ptn-17.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-12">
-              <img src="/exelbid-homepage/asset/dsp/ptn-18.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-13">
-              <img src="/exelbid-homepage/asset/dsp/ptn-19.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-14">
-              <img src="/exelbid-homepage/asset/dsp/ptn-20.png" class="mw-70">
-            </div>
-            <div class="col-2 partners-logo color-15">
-              <img src="/exelbid-homepage/asset/dsp/ptn-21.png" class="mw-70">
+            <div class="col-md-4 mb-3"> <label for="code">추천인 코드</label> <input type="text" class="form-control"
+                id="code" placeholder="" required>
+              <div class="invalid-feedback"> 추천인 코드를 입력해주세요. </div>
             </div>
           </div>
-        </section>
-    <!-- 파트너사 start -->
-    <!-- 푸터 start -->
-    <section class="footer py-60">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="footer-row col-12 col-md-10">
-              <div class="footer company-name">모티브 인텔리전스</div>
-              <div class="footer social-icon">
-                <a class="footer social-icon icon bg-green" href="#none">
-                  <img src="/exelbid-homepage/asset/footer/naver.svg">
-                </a>
-                <a class="footer social-icon icon bg-red" href="#none">
-                  <img src="/exelbid-homepage/asset/footer/youtube.svg">
-                </a>
-                <a class="footer social-icon icon bg-blue" href="#none">
-                  <img src="/exelbid-homepage/asset/footer/facebook.svg">
-                </a>
-              </div>
-              <div class="footer text">
-                <p class="d-block d-sm-none">
-                  대표이사 : 양준모 | 개인정보보호책임자 : 김승범<br>
-                  사업자등록번호 : 212-86-09248 | 통신판매번호: 2019-서울강남-00035<a class="footer mute" href="#none">[사업자정보확인]</a><br>
-                  주소 : 서울시 강남구 테헤란로 110 캠브리지빌딩 12층<br>
-                  이메일 : exelbid@motiv-i.com | 전화 : 02-6959-4633<br>
-                </p>
-                <p class="d-none d-sm-block">
-                  대표이사 : 양준모 | 개인정보보호책임자 : 김승범<br>
-                  사업자등록번호 : 212-86-09248<br>
-                  통신판매번호: 2019-서울강남-00035<a class="footer mute" href="#none">[사업자정보확인]</a><br>
-                  주소 : 서울시 강남구 테헤란로 110 캠브리지빌딩 12층<br>
-                  이메일 : exelbid@motiv-i.com | 전화 : 02-6959-4633<br>
-                </p>
-              </div>
-              <div class="text-link-row">
-                <a class="text-link mute" href="#none">서비스이용약관</a>
-                <p class="text-link text">|</p>
-                <a class="text-link mute" href="#none">SDK 계약</a>
-                <p class="text-link text">|</p>
-                <a class="text-link mute" href="#none">개인정보보호정책</a>
-              </div>
-            </div>
-            <hr class="footer hr d-none d-sm-block">
-            <div class="footer-row google-partners col-12 col-md-2">
-              <a href="https://www.google.com/partners/agency?id=5863129596" target="_blank" class="ms-auto m-sm-0">
-                <img class="google-partners img" src="/exelbid-homepage/asset/footer/google_partner.png">
-              </a>
-            </div>
+          <hr class="mb-4">
+          <div class="custom-control custom-checkbox"> <input type="checkbox" class="custom-control-input"
+              id="aggrement" required> <label class="custom-control-label" for="aggrement">개인정보 수집 및 이용에 동의합니다.</label>
           </div>
-        </div>
-      </section>
-      <section class="footer-sub py-20">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-12">
-              <span class="footer-sub text">Copyright <span class="copyright">Ⓒ</span> 2021 Motiv-i / ExelBid. All Right
-                Reserved.</span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- 푸터 end -->
-  
+          <div class="mb-4"></div> <button class="btn btn-primary btn-lg btn-block" type="submit">가입 완료</button>
+        </form>
+      </div>
+    </div>
+    <footer class="my-3 text-center text-small">
+      <p class="mb-1">&copy; 2021 YD</p>
+    </footer>
+  </div>
+  <script>
+    window.addEventListener('load', () => {
+      const forms = document.getElementsByClassName('validation-form');
+      Array.prototype.filter.call(forms, (form) => {
+        form.addEventListener('submit', function (event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  </script>
+</body>
       <!-- Optional JavaScript; choose one of the two! -->
   
       <!-- Option 1: Bootstrap Bundle with Popper -->
