@@ -3531,12 +3531,12 @@ a.un-active .shoptext {
 
 .check-boxes-container{
   display: flex;
+  flex-direction: column;
   gap: 10px;
   }
 
 .check-boxes {
   display: flex;
-  flex-direction: column;
   gap: 10px;
 }
 
