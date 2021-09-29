@@ -3546,13 +3546,13 @@ a.un-active .shoptext {
     display: flex;
     gap: 10px;
     padding: 10px 46px 10px 15px;
-    border: 1px solid #d5dadd;
-    border-radius: 8px;
+    background-color: #F3F7FC;
+    border-radius: 0.25rem;
+    transition: all .15s ease-in-out;
 }
 
 .form-check-exl:hover {
-  background-color: #f1f4f6;
-  transition: all .15s ease-in-out;
+  background-color: #EAEFF6;
 }
 
 .form-check-exl label.form-check-label {
