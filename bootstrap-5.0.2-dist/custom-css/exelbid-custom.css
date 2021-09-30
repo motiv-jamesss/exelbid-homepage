@@ -3582,6 +3582,27 @@ a.un-active .shoptext {
 
 /* validation text inputs */
 
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    border-color: #d5dadd;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: none;/*url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 12 12' style='enable-background:new 0 0 12 12;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:none;stroke:%23ED5E5E;%7D .st1%7Bfill:none;stroke:%23ED5E5E;stroke-linejoin:round;%7D .st2%7Bfill:%23ED5E5E;%7D%0A%3C/style%3E%3Ccircle class='st0' cx='6' cy='6' r='4.5'/%3E%3Cpath class='st1' d='M5.8,3.6h0.4L6,6.5L5.8,3.6z'/%3E%3Ccircle class='st2' cx='6' cy='8.2' r='0.6'/%3E%3C/svg%3E%0A");*/
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
+    border-color: #d5dadd;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #ED5E5E;
+}
+
 
 
 /* modal 다운로드 컴포넌트 */
