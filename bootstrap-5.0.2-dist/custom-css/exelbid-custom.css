@@ -3431,7 +3431,8 @@ a.un-active .shoptext {
   border: 1px solid #d5dadd;
 }
 
-.form-control:hover {
+.form-control:hover,
+.form-control:focus {
   border-color: #999999;
 }
 
