@@ -3563,6 +3563,27 @@ a.un-active .shoptext {
   color: #6495F7;
 }
 
+/* validation radio boxes */
+
+.was-validated .form-check-input:valid ~ .form-check-label,
+.form-check-input.is-valid ~ .form-check-label {
+    color: #232323;
+}
+
+.was-validated .form-check-input:valid:checked,
+.form-check-input.is-valid:checked {
+    background-color: #4781f5;
+}
+
+.was-validated .form-check-input:valid,
+.form-check-input.is-valid {
+    border-color: #d5dadd;
+}
+
+/* validation text inputs */
+
+
+
 /* modal 다운로드 컴포넌트 */
 
 .dl-propos-container {
