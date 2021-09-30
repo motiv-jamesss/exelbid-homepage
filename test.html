@@ -673,37 +673,36 @@
     <script src="/exelbid-homepage/js/iconAnimation_.js"></script>
     <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script>
-      function changeBgcolor(obj) {
-        $('.radio-bg').removeClass('radio-active');
-        $('.radio-bg').css({
-          'background-color': '#F3F7FC',
-          'color': '#000' //기본 컬러 색상
-        });
+      function changeBgcolor(obj)
+      {
+          $('.radio-bg').removeClass('radio-active');
+          $('.radio-bg').css({
+              'background-color': '#F3F7FC',
+          });
+          $('.radio-bg').children().next().css('color', '#000');
 
-        $(obj).parent().css({
-          'background-color': '#4781F5',
-          'color': '#fff' //클릭 했을때 컬러 색상
-        });
+          $(obj).parent().css({
+              'background-color': '#4781F5',
+          });
+          $(obj).next().css('color', '#fff');
 
-        $(obj).parent().addClass('radio-active');
 
-        $('.radio-bg').hover(
-          function () {
+          $(obj).parent().addClass('radio-active');
 
-          },
-          function () {
+          $( '.radio-bg' ).hover(
+            function() {
 
-            $(".radio-bg").css({
-              "background": "#F3F7FC"
-            });
+            }, function() {
 
-            if ($('.radio-bg').hasClass('radio-active') == true) {
-              $(obj).parent().css('background-color', '#4781F5');
+              $(".radio-bg").css({"background":"#F3F7FC"});
 
-            }
+              if( $('.radio-bg').hasClass('radio-active') == true)
+              {
+                  $(obj).parent().css('background-color', '#4781F5');
+
+              }
           });
       }
-
       function mouserEvent(obj) {
         $(obj).not('.radio-active').css({
           "background": "#EAEFF6"
