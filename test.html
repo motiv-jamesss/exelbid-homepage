@@ -149,26 +149,26 @@
                         <div class="mb-20 mt-40">
                           <label for="recipient-name" class="col-form-label">문의 사항</label>
                           <div class="check-boxes-container">
-                            <div class="col-12 check-boxes flex-sm-column">
-                              <label class="form-check-exl radio-bg radio-active" style="background-color:#4781F5;">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="" onclick="changeBgcolor(this);">
-                                <label class="form-check-label" for="flexRadioDefault1">매체 구매</label>
-                              </label>
-                              <label class="form-check-exl radio-bg">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" onclick="changeBgcolor(this);">
-                                <label class="form-check-label" for="flexRadioDefault2">매체 판매</label>
-                              </label>
-                            </div>
-                            <div class="col-12 check-boxes flex-sm-column">
-                              <label class="form-check-exl radio-bg">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" onclick="changeBgcolor(this);">
-                                <label class="form-check-label" for="flexRadioDefault3">상품소개서 신청</label>
-                              </label>
-                              <label class="form-check-exl radio-bg">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" onclick="changeBgcolor(this);">
-                                <label class="form-check-label" for="flexRadioDefault4">기타</label>
-                              </label>
-                            </div>
+                          <div class="col-12 check-boxes flex-sm-column">
+                            <label class="form-check-exl radio-bg radio-active" style="background-color:#4781F5;" onmouseenter="mouserEvent(this);">
+                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="" onclick="changeBgcolor(this);">
+                              <label class="form-check-label" for="flexRadioDefault1">매체 구매</label>
+                            </label>
+                            <label class="form-check-exl radio-bg" onmouseenter="mouserEvent(this);">
+                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" onclick="changeBgcolor(this);">
+                              <label class="form-check-label" for="flexRadioDefault2">매체 판매</label>
+                            </label>
+                          </div>
+                          <div class="col-12 check-boxes flex-sm-column">
+                            <label class="form-check-exl radio-bg" onmouseenter="mouserEvent(this);">
+                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" onclick="changeBgcolor(this);">
+                              <label class="form-check-label" for="flexRadioDefault3">상품소개서 신청</label>
+                            </label>
+                            <label class="form-check-exl radio-bg" onmouseenter="mouserEvent(this);">
+                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" onclick="changeBgcolor(this);">
+                              <label class="form-check-label" for="flexRadioDefault4">기타</label>
+                            </label>
+                          </div>
                           </div>
                         </div>
                         <div class="mb-20">
@@ -675,18 +675,21 @@
     <script>
       function changeBgcolor(obj) {
         $('.radio-bg').removeClass('radio-active');
-        $('.radio-bg').css('background-color', '#F3F7FC');
+        $('.radio-bg').css({
+          'background-color': '#F3F7FC',
+          'color': '#000' //기본 컬러 색상
+        });
 
-        $(obj).parent().css('background-color', '#4781F5');
+        $(obj).parent().css({
+          'background-color': '#4781F5',
+          'color': '#fff' //클릭 했을때 컬러 색상
+        });
+
         $(obj).parent().addClass('radio-active');
-
 
         $('.radio-bg').hover(
           function () {
 
-            $(".radio-bg").not('.radio-active').css({
-              "background": "#EAEFF6"
-            });
           },
           function () {
 
@@ -699,6 +702,12 @@
 
             }
           });
+      }
+
+      function mouserEvent(obj) {
+        $(obj).not('.radio-active').css({
+          "background": "#EAEFF6"
+        });
       }
     </script>
     <!-- GTP btn Start -->
