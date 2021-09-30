@@ -3616,7 +3616,7 @@ a.un-active .shoptext {
 
 .was-validated .form-control:valid:focus,
 .form-control.is-valid:focus {
-    border-color: #d5dadd;
+    border-color: #999999;
 }
 
 /* validation terms */
