@@ -3493,6 +3493,16 @@ a.un-active .shoptext {
     border-color: #d5dadd;
 }
 
+.form-check-input:checked[type=checkbox] {
+  background-color: #6485f7;
+  background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e);
+}
+
+.was-validated .form-check-input:valid:checked.term,
+.form-check-input.is-valid:checked {
+  background-color: #6485f7;
+}
+
 .modal .accordion-item:last-of-type .accordion-button.collapsed {
   border-radius: 4px;
 }
