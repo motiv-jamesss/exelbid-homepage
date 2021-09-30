@@ -3603,6 +3603,16 @@ a.un-active .shoptext {
     color: #ED5E5E;
 }
 
+.was-validated .form-control:valid,
+.form-control.is-valid {
+    border-color: #d5dadd;
+}
+
+.was-validated .form-control:valid:focus,
+.form-control.is-valid:focus {
+    border-color: #d5dadd;
+}
+
 
 
 /* modal 다운로드 컴포넌트 */
