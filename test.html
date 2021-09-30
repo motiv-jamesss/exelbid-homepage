@@ -150,7 +150,7 @@
                           <label for="recipient-name" class="col-form-label">문의 사항</label>
                           <div class="check-boxes-container">
                             <div class="col-12 check-boxes flex-sm-column">
-                              <label class="form-check-exl radio-bg">
+                              <label class="form-check-exl radio-bg radio-active" style="background-color:#4781F5;">
                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="" onclick="changeBgcolor(this);">
                                 <label class="form-check-label" for="flexRadioDefault1">매체 구매</label>
                               </label>
@@ -169,7 +169,7 @@
                                 <label class="form-check-label" for="flexRadioDefault4">기타</label>
                               </label>
                             </div>
-                            </div>
+                          </div>
                         </div>
                         <div class="mb-20">
                           <label for="email" class="col-form-label">이메일</label>
@@ -674,8 +674,31 @@
     <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script>
       function changeBgcolor(obj) {
-        $('.radio-bg').css('background-color', '#EAEFF6');
+        $('.radio-bg').removeClass('radio-active');
+        $('.radio-bg').css('background-color', '#F3F7FC');
+
         $(obj).parent().css('background-color', '#4781F5');
+        $(obj).parent().addClass('radio-active');
+
+
+        $('.radio-bg').hover(
+          function () {
+
+            $(".radio-bg").not('.radio-active').css({
+              "background": "#EAEFF6"
+            });
+          },
+          function () {
+
+            $(".radio-bg").css({
+              "background": "#F3F7FC"
+            });
+
+            if ($('.radio-bg').hasClass('radio-active') == true) {
+              $(obj).parent().css('background-color', '#4781F5');
+
+            }
+          });
       }
     </script>
     <!-- GTP btn Start -->
