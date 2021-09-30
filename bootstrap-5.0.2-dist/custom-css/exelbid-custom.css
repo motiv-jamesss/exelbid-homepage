@@ -3592,7 +3592,7 @@ a.un-active .shoptext {
 }
 
 .was-validated .form-control:invalid:hover,
-.was-validated .form-control:valid {
+.was-validated .form-control:valid:hover {
   border-color: #999999;
 }
 
