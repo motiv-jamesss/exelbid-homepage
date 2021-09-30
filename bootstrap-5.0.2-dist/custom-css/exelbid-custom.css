@@ -3490,7 +3490,7 @@ a.un-active .shoptext {
 
 .form-check-input:checked {
     background-color: #fff;
-    border-color: #fff;
+    border-color: #d5dadd;
 }
 
 .modal .accordion-item:last-of-type .accordion-button.collapsed {
@@ -3574,7 +3574,7 @@ a.un-active .shoptext {
 
 .was-validated .form-check-input:valid:checked,
 .form-check-input.is-valid:checked {
-    background-color: #4781f5;
+    background-color: #fff;
 }
 
 .was-validated .form-check-input:valid,
