@@ -1,278 +1,946 @@
 <!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--meta name="viewport" content="target-densitydpi=device-dpi width=device-width, initial-scale=1"-->
-    <meta name="viewport" content="target-densitydpi=device-dpi, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width" />
-    <title>Exelbid</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/payw-pro.css">
-    <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/exelbid-custom.css">
-    <script src="js/includeHTML.js"></script>
-  </head>
-  <body>
-    <div include-html="/exelbid-homepage/nav.html"></div>
-    <script>includeHTML();</script>
-    <!-- Go to top 버튼 start > https://codepen.io/matthewcain/pen/ZepbeR < -->
-    <a id="gtt"></a>
-    <!-- Go to top 버튼 end -->
-    <!-- GNB start -->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="/exelbid-homepage/index.html">
-          <svg width="106" height="38" viewBox="0 0 106 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 26.3148V9.7749H10.401V13.0985H3.71463V16.1484H9.89265V19.4329H3.71463V23.0303H10.401V26.3539H0V26.3148Z" fill="#1F2353"/>
-              <path d="M24.36 17.9471L29.365 26.3539H25.4549L22.2485 20.8797L19.0422 26.3539H15.1321L20.1371 17.9471L15.3276 9.7749H19.2377L22.2876 14.9754L25.2985 9.7749H29.2086L24.36 17.9471Z" fill="#1F2353"/>
-              <path d="M33.666 26.3148V9.7749H44.067V13.0985H37.4197V16.1484H43.5978V19.4329H37.4197V23.0303H44.1061V26.3539H33.666V26.3148Z" fill="#1F2353"/>
-              <path d="M72.7282 26.3148H65.6899V9.7749H72.2199C75.6608 9.7749 76.9511 11.1826 76.9511 13.4113V15.0927C76.9511 16.2657 76.4428 17.126 75.1134 17.7125C76.4819 18.0253 77.5377 19.2374 77.5377 20.7624V22.3656C77.5377 24.7116 76.0518 26.3148 72.7282 26.3148ZM73.1974 13.9588C73.1974 13.2549 72.7673 12.7857 71.7116 12.7857H69.4046V16.5785H71.7116C72.6891 16.5785 73.1974 16.0702 73.1974 15.4055V13.9588ZM73.7839 20.8797C73.7839 19.9413 73.1974 19.472 72.2199 19.472H69.4046V23.3431H71.7116C72.8846 23.3431 73.7839 23.1085 73.7839 21.8963V20.8797V20.8797Z" fill="#1F2353"/>
-              <path d="M83.3638 26.3148V9.7749H87.0784V26.3148H83.3638Z" fill="#1F2353"/>
-              <path d="M99.7085 26.3148H93.2959V9.7749H99.7085C103.775 9.7749 105.3 11.8473 105.3 14.0761V22.0136C105.3 24.2424 103.775 26.3148 99.7085 26.3148ZM101.585 15.0927C101.585 13.8023 101.155 13.0985 99.2784 13.0985H97.0496V23.0303H99.2784C101.155 23.0303 101.585 22.3265 101.585 21.0361V15.0927Z" fill="#1F2353"/>
-              <path d="M53.921 22.5224V5.5524H57.5183L52.005 0L46.4526 5.5524H50.0891V22.5224V26.3152H53.921H60.4118V22.5224H53.921Z" fill="#1D52A3"/>
-            </svg>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <!-- <span class="navbar-toggler-icon"></span> -->
-          <!-- custom 1 <div class="menu-toggle" id="navbtn">Menu</div> -->
-          <input type="checkbox" id="menu33" />
-          <label for="menu33">
-            <div class="btnA"></div>
-            <div class="btnA"></div>
-            <div class="btnA"></div>
-          </label>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/exelbid-homepage/ssp.html">SSP</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/exelbid-homepage/dsp.html">DSP</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/exelbid-homepage/faq.html"">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#none">ABOUT US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#none">DOCS</a>
-            </li>
-            <li class="nav-item dropdown visually-hidden">
-              <a class="nav-link dropdown-toggle" href="#none" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-          </ul>
-          <form class="d-flex visually-hidden">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+<html lang="ko"><head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--meta name="viewport" content="target-densitydpi=device-dpi width=device-width, initial-scale=1"-->
+  <meta name="viewport" content="target-densitydpi=device-dpi, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width">
+  <title>SSP | Exelbid (엑셀비드)</title>
+  <meta name="description" content="모바일을 넘어 TV까지 매체 수익화 솔루션과 다양한 광고주를 만족시킬 타겟 오디언스 풀을 제공합니다.">
+  <meta property="og:image" content="https://motiv-jamesss.github.io/exelbid-homepage/asset/OG_banner.jpg">
+  <meta name="robots" content="index,follow">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/exelbid-homepage/fav/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/exelbid-homepage/fav/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/exelbid-homepage/fav/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/exelbid-homepage/fav/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/exelbid-homepage/fav/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/exelbid-homepage/fav/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/exelbid-homepage/fav/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/exelbid-homepage/fav/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/exelbid-homepage/fav/apple-icon-180x180.png">
+  <link rel="icon" type="image/exelbid-homepage/fav/png" sizes="192x192" href="/exelbid-homepage/fav/android-icon-192x192.png">
+  <link rel="icon" type="image/exelbid-homepage/fav/png" sizes="32x32" href="/exelbid-homepage/fav/favicon-32x32.png">
+  <link rel="icon" type="image/exelbid-homepage/fav/png" sizes="96x96" href="/exelbid-homepage/fav/favicon-96x96.png">
+  <link rel="icon" type="image/exelbid-homepage/fav/png" sizes="16x16" href="/exelbid-homepage/fav/favicon-16x16.png">
+  <link rel="manifest" href="/exelbid-homepage/fav/manifest.json">
+  <meta name="msapplication-TileImage" content="/exelbid-homepage/fav/ms-icon-144x144.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/payw-pro.css">
+  <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/exelbid-custom.css">
+  <script src="js/includeHTML.js"></script>
+</head>
+<body style="">
+  <div include-html="/exelbid-homepage/nav.html"></div>
+  <script>includeHTML();</script>
+  <!-- Go to top 버튼 start > https://codepen.io/matthewcain/pen/ZepbeR < -->
+  <a id="gtt" class="show"></a>
+  <!-- Go to top 버튼 end -->
+  <!-- GNB start -->
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/exelbid-homepage/index.html">
+        <svg width="106" height="38" viewBox="0 0 106 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 26.3148V9.7749H10.401V13.0985H3.71463V16.1484H9.89265V19.4329H3.71463V23.0303H10.401V26.3539H0V26.3148Z" fill="#1F2353"></path>
+            <path d="M24.36 17.9471L29.365 26.3539H25.4549L22.2485 20.8797L19.0422 26.3539H15.1321L20.1371 17.9471L15.3276 9.7749H19.2377L22.2876 14.9754L25.2985 9.7749H29.2086L24.36 17.9471Z" fill="#1F2353"></path>
+            <path d="M33.666 26.3148V9.7749H44.067V13.0985H37.4197V16.1484H43.5978V19.4329H37.4197V23.0303H44.1061V26.3539H33.666V26.3148Z" fill="#1F2353"></path>
+            <path d="M72.7282 26.3148H65.6899V9.7749H72.2199C75.6608 9.7749 76.9511 11.1826 76.9511 13.4113V15.0927C76.9511 16.2657 76.4428 17.126 75.1134 17.7125C76.4819 18.0253 77.5377 19.2374 77.5377 20.7624V22.3656C77.5377 24.7116 76.0518 26.3148 72.7282 26.3148ZM73.1974 13.9588C73.1974 13.2549 72.7673 12.7857 71.7116 12.7857H69.4046V16.5785H71.7116C72.6891 16.5785 73.1974 16.0702 73.1974 15.4055V13.9588ZM73.7839 20.8797C73.7839 19.9413 73.1974 19.472 72.2199 19.472H69.4046V23.3431H71.7116C72.8846 23.3431 73.7839 23.1085 73.7839 21.8963V20.8797V20.8797Z" fill="#1F2353"></path>
+            <path d="M83.3638 26.3148V9.7749H87.0784V26.3148H83.3638Z" fill="#1F2353"></path>
+            <path d="M99.7085 26.3148H93.2959V9.7749H99.7085C103.775 9.7749 105.3 11.8473 105.3 14.0761V22.0136C105.3 24.2424 103.775 26.3148 99.7085 26.3148ZM101.585 15.0927C101.585 13.8023 101.155 13.0985 99.2784 13.0985H97.0496V23.0303H99.2784C101.155 23.0303 101.585 22.3265 101.585 21.0361V15.0927Z" fill="#1F2353"></path>
+            <path d="M53.921 22.5224V5.5524H57.5183L52.005 0L46.4526 5.5524H50.0891V22.5224V26.3152H53.921H60.4118V22.5224H53.921Z" fill="#1D52A3"></path>
+          </svg>
+      </a>
+      <button class="navbar-toggler icon icon-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- custom 1 <div class="menu-toggle" id="navbtn">Menu</div> -->
+        <!-- 
+        <input type="checkbox" id="menu33" />
+        <label for="menu33">
+          <div class="btnA"></div>
+          <div class="btnA"></div>
+          <div class="btnA"></div>
+        </label>
+        -->
+          <span></span>
+          <span></span>
+          <span></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/exelbid-homepage/ssp.html">SSP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/exelbid-homepage/dsp.html">DSP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/exelbid-homepage/faq.html" "="">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.motiv-i.com/" target="_blank">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/onnuridmc" target="_blank">DOCS</a>
+          </li>
+          <div class="kr-en">
+            <a class="lang atv" href="#none">KR</a>
+            <a class="lang unatv" href="#none">EN</a>
+          </div>
+          <li class="nav-item dropdown d-none">
+            <a class="nav-link dropdown-toggle" href="#none" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+        </li></ul>
+        <form class="d-flex d-none">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
-    </nav>
-    <!-- GNB end -->
-    <!-- 메인 베너 start -->
-    <section class="main-banner mt-70">
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
-            <div class="col-12 col-md-6 text-md-center mb-md-50">
-                <h1 class="fw-bold text-white lh-1-1 mb-20 ">국내 최대</br>광고 거래 규모<br>Exelbid</h1>
-                <h5 class="fw-semibold text-white mb-50 mb-md-40">앱 수익화 & 타겟 오디언스 고민을 해결해 드립니다</h5>
-                <div>
-                <a class="exlBtn exlBtn-orange text-decoration-none me-10">관리자 페이지 방문</a>
-                <a class="exlBtn exlBtn-blue text-decoration-none me-10" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="#">제휴문의</a>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h3 class="modal-title fw-semibold" id="exampleModalLabel">엑셀비드에 제휴나 업무에 대한 문의가 있으신가요?</h3>
-                        <h5 class="modal-subtitle fw-regular">온라인 마케팅의 성공, 엑셀비드가 도울게요</h5>                      
-                        </div>
-                        <div class="modal-body">
-                        <form>
-                            <div class="mb-20">
-                            <label for="recipient-name" class="col-form-label">이름</label>
-                            <input type="text" class="form-control" id="recipient-name">
-                            </div>
-                            <div class="mb-20">
-                            <label for="email-add" class="col-form-label">이메일</label>
-                            <input type="text" class="form-control" id="recipient-name">
-                            </div>
-                            <div class="mb-20">
-                            <label for="message-text" class="col-form-label">내용</label>
-                            <textarea class="form-control" id="message-text"></textarea>
-                            </div>
-                        </form>
-                        </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary exlBtn-s me-10" data-bs-dismiss="modal">취소</button>
-                        <button type="button" class="btn exlBtn-s btn-primary">문의</button>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-7 col-md-6">
-                <img src="/exelbid-homepage/asset/main/main_banner-alpha_s.png" class="mw-130">
-            </div>
-            </div>
+    </div>
+  </nav>
+  <!-- GNB end -->
+  <!-- 메인 베너 start -->
+  <section class="mt-140 mt-md-70">
+    <div class="container feature-banner">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-12 col-md-4 py-60 py-sm-0 mb-sm-40">
+          <img src="/exelbid-homepage/asset/ssp/ssp_main.png" class="mw-120 mw-sm-100">
         </div>
-        </section>
-        <!-- 메인 베너 end -->
-        <!-- 소개 섹션 1 start -->
-        <section class="py-120 py-md-60">
-        <div class="container">
-            <div class="row justify-content-center align-items-center mb-100 mb-md-50" id="adx">
-            <div class="col-12 col-md-6 text-md-center">
-                <span class="exlTab1 lh-1-1 ">애드익스체인지 ADX</span>
-                <h2 class="fw-semibold lh-1-2 mb-20 mt-10">Advertisement<br>Exchange</h2>
-                <h5 class="fw-light lh-1-4">신뢰받는 글로벌 표준 광고 플랫폼<br>국내 최대 규모의 RTB 광고 거래 시장</h5>
-            </div>
-            <div class="col-10 col-md-5 ms-auto order-md-first mx-md-auto">
-                <img src="/exelbid-homepage/asset/main/adx.png" class="mw-80">
-            </div>
-            </div>
-            <div class="row align-items-center mb-100 mb-md-50" id="dsp">
-            <div class="col-10 col-md-5 ms-md-auto">
-                <img src="/exelbid-homepage/asset/main/dsp.png" class="mw-80">
-            </div>
-            <div class="col-12 col-md-4 ms-auto  text-md-center">
-                <span class="exlTab1 lh-1-1 ">구매자를 위한 DSP</span>
-                <h2 class="fw-semibold lh-1-2 mb-20 mt-10">Demand Side<br>Platform</h2>
-                <h5 class="fw-light lh-1-4 mb-10">고반응 유저 최다 보유<br>프리미엄 OTT/CTV RTB 구매<br>&ZeroWidthSpace;투명하고 안전한 트래픽</h5>
-                <a class="exl-a fw-semibold" href="/exelbid-homepage/dsp.html">매체 구매 더 알아보기 →</a>
-            </div>
-            </div>
-            <div class="row align-items-center" id="ssp">
-            <div class="col-12 col-md-6 text-md-center">
-                <span class="exlTab1 lh-1-1 ">판매자를 위한 SSP</span>
-                <h2 class="fw-semibold lh-1-2 mb-20 mt-10">Supply Side<br>Platform</h2>
-                <h5 class="fw-light lh-1-4 mb-10">한번의 연동으로 24시간 수익 창출<br>촘촘한 수익 다각화 솔루션<br>신뢰할 수 있는 광고 유치</h5>
-                <a class="exl-a fw-semibold" href="/exelbid-homepage/ssp.html">매체 구매 더 알아보기 →</a>
-            </div>
-            <div class="col-10 col-md-5 ms-auto order-md-first mx-md-auto">
-                <img src="/exelbid-homepage/asset/main/ssp.png" class="mw-80">
-            </div>
-            </div>
-        </div>
-        </section>
-        <!-- 소개 섹션 1 end -->
-    <!-- 텍스트 베너 start -->
-    <section class="text-banner py-120 py-md-60">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 text-center">
-            <h2 class="fw-semibold text-white lh-1-2 mb-10">시작하기 어려웠던 온라인 비즈니스,<br>온라인 마케팅 엑셀비드와 함께 해보세요</h2>
-            <h5 class="fw-medium text-white lh-1-4 mb-30">국·내외 비지니스 동반 성장 그 중심에 엑셀비드가 있습니다</h5>
-            <a class="exlBtn exlBtn-blue text-decoration-none">제휴문의</a>
+        <div class="col-12 col-md-5 offset-lg-1 offset-md-1 text-md-center">
+          <h5 class="fw-semibold text-white mb-10">매체 파트너를 위한 엑셀비드</h5>
+          <h2 class="fw-semibold text-white mb-30">빈틈없는 수익화 구조<br>안정적인 수익 채널</h2>
+          <div class="col-12 tag-wrap justify-content-md-center mx-md-auto">
+            <div class="tag">#수익채널통합관리</div>
+            <div class="tag">#완벽한네이티브</div>
+            <div class="w-100"></div>
+            <div class="tag">#다양한거래방식</div>
+            <div class="tag">#더많은광고유치</div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- 텍스트 베너 end -->
-    <!-- 푸터 start -->
-    <section class="footer py-60">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="footer-row col-12 col-md-10">
-            <div class="footer company-name">모티브 인텔리전스</div>
-            <div class="footer social-icon">
-              <a class="footer social-icon icon bg-green" href="#none">
-                <img src="/exelbid-homepage/asset/footer/naver.svg">
-              </a>
-              <a class="footer social-icon icon bg-red" href="#none">
-                <img src="/exelbid-homepage/asset/footer/youtube.svg">
-              </a>
-              <a class="footer social-icon icon bg-blue" href="#none">
-                <img src="/exelbid-homepage/asset/footer/facebook.svg">
-              </a>
-            </div>
-            <div class="footer text">
-              <p class="d-block d-sm-none">
-                대표이사 : 양준모 | 개인정보보호책임자 : 김승범<br>
-                사업자등록번호 : 212-86-09248 | 통신판매번호: 2019-서울강남-00035<a class="footer mute" href="#none">[사업자정보확인]</a><br>
-                주소 : 서울시 강남구 테헤란로 110 캠브리지빌딩 12층<br>
-                이메일 : exelbid@motiv-i.com | 전화 : 02-6959-4633<br>
-              </p>
-              <p class="d-none d-sm-block">
-                대표이사 : 양준모 | 개인정보보호책임자 : 김승범<br>
-                사업자등록번호 : 212-86-09248<br>
-                통신판매번호: 2019-서울강남-00035<a class="footer mute" href="#none">[사업자정보확인]</a><br>
-                주소 : 서울시 강남구 테헤란로 110 캠브리지빌딩 12층<br>
-                이메일 : exelbid@motiv-i.com | 전화 : 02-6959-4633<br>
-              </p>
-            </div>
-            <div class="text-link-row">
-              <a class="text-link mute" href="/exelbid-homepage/terms.html">서비스이용약관</a>
-              <p class="text-link text">|</p>
-              <a class="text-link mute" href="/exelbid-homepage/sdk.html">SDK 계약</a>
-              <p class="text-link text">|</p>
-              <a class="text-link mute" href="/exelbid-homepage/privacy.html">개인정보보호정책</a>
+    </div>
+  </section>
+  <!-- 메인 베너 end -->
+  <!-- 특장점 start -->
+  <section class="py-120 py-md-60">
+    <div class="container">
+      <div class="row align-items-center mb-60">
+        <div class="col-12">
+          <h5 class="fw-semibold color-blue mb-10">수익 극대화 전략</h5>
+          <h2 class="fw-semibold lh-1-2 mb-20">실시간 경쟁 입찰 판매부터<br>미디에이션까지</h2>
+          <h5 class="fw-light lh-1-4">광고 지면 판매율을 극대화하는<br class="d-block d-sm-none">엑셀비드의 토탈 솔루션을 경험하세요</h5>
+        </div>
+      </div>
+      <div class="row mb-30">
+        <div class="col-12 col-md-6 p-60 p-sm-30 mb-sm-30 exl-card2 grey">
+          <img src="/exelbid-homepage/asset/ssp/feature1.svg" class="icon">
+          <h5 class="fw-semibold mt-30">높은 광고 단가</h5>
+          <h5 class="fw-light lh-1-5 mt-10">일 수만개의 캠페인 간 경쟁 입찰로<br>언제나 최고가에 지면을 판매하고 관리합니다</h5>
+        </div>
+        <div class="col-6 p-60 p-sm-30 exl-card2 grey">
+          <img src="/exelbid-homepage/asset/ssp/feature2.svg" class="icon">
+          <h5 class="fw-semibold mt-30">맞춤형 수익화 솔루션</h5>
+          <h5 class="fw-light lh-1-5 mt-10">국내 애드테크 생태계에 대한 이해를 바탕으로<br>최적의 수익화 솔루션을 제공합니다</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 p-60 p-sm-30 mb-sm-30 exl-card2 grey">
+          <img src="/exelbid-homepage/asset/ssp/feature3.svg" class="icon">
+          <h5 class="fw-semibold mt-30">낮은 플랫폼 수수료</h5>
+          <h5 class="fw-light lh-1-5 mt-10">시스템의 높은 효율성으로 매출은 높이고<br>플랫폼 수수료는 낮추었습니다</h5>
+        </div>
+        <div class="col-6 p-60 p-sm-30 exl-card2 grey">
+          <img src="/exelbid-homepage/asset/ssp/feature4.svg" class="icon">
+          <h5 class="fw-semibold mt-30">고도화 된 미디에이션
+          </h5>
+          <h5 class="fw-light lh-1-5 mt-10">데이터 기반 가중치 모델링을 통해<br>최고 단가와 최대 판매율을 달성합니다</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 득장점 end -->
+  <!-- 수익구조 start -->
+  <section class="section-grey py-120 py-md-60">
+    <div class="container">
+      
+      <div class="row">
+        <!--
+        <div class="col-6 exl-card2 gradient d-flex flex-wrap justify-content-center mb-sm-30 d-none">
+          <div class="col-12">
+            <h5 class="fw-semibold text-white">퍼포먼스부터 브랜딩까지</h5>
+          </div>
+          <div class="col-8 my-sm-60">
+            <h3 class="fw-semibold text-white">모바일, PC, TV를 아우르는 다양한 디바이스 커버리지</h3>
+            <hr>
+            <h3 class="fw-semibold text-white">띠 배너, 전면 배너, 네이티브, 비디오 모바일 CTV, OTT</h3>
+            <h5 class="fw-regular text-white mt-10">(Smart TV, SKB 삼성TV플러스 등)</h5>
+          </div>
+        </div>
+      -->
+      <div class="col-6 exl-card2 gradient d-flex flex-wrap justify-content-center mb-sm-30">
+          <div class="col-12">
+            <h5 class="fw-semibold text-white">폭넓은 광고 지면 선택지 1</h5>
+          </div>
+          <div class="col-8 my-sm-60">
+            <h2 class="fw-semibold lh-1-2 mb-20" style="
+  color: white;
+">매체 특성과 사용자 경험을 우선한 
+다양한 광고 지면</h2>
+            
+            
+            <h5 class="fw-light text-white lh-1-4">사용자 경험을 해치지 않고<br>
+매체 맞춤형 수익화가 가능합니다</h5>
+          </div>
+        </div><div class="col-6 exl-card2 carousel white mb-sm-30">
+        <div class="d-flex flex-column align-items-center">
+          <div class="tab-body mt-30">
+            <div class="nav nav-pills-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="v-pills-first-tab" data-bs-toggle="pill" data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first" aria-selected="true">띠배너</button>
+              <button class="nav-link" id="v-pills-second-tab" data-bs-toggle="pill" data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second" aria-selected="false">전면배너</button> 
+              <button class="nav-link" id="v-pills-third-tab" data-bs-toggle="pill" data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third" aria-selected="false">네이티브</button>
+              <button class="nav-link" id="v-pills-fourth-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fourth" type="button" role="tab" aria-controls="v-pills-fourth" aria-selected="false">비디오</button>
             </div>
           </div>
-          <hr class="footer hr d-none d-sm-block">
-          <div class="footer-row google-partners col-12 col-md-2">
-            <a href="https://www.google.com/partners/agency?id=5863129596" target="_blank" class="ms-auto m-sm-0">
-              <img class="google-partners img" src="/exelbid-homepage/asset/footer/google_partner.png">
+          <div class="tab-content mt-30" id="v-pills-tabContent">
+            <!-- first carousel start  -->
+            <div class="tab-pane fade active show" id="v-pills-first" role="tabpanel" aria-labelledby="v-pills-first-tab">
+              <div id="carouselDevice" class="carousel slide" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+<img src="/exelbid-homepage/asset/ssp/carousel-item-1.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- first carousel End  -->
+            <!-- second carousel Start  -->
+            <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab">
+              <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">                  
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+<img src="/exelbid-homepage/asset/ssp/carousel-item-2.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- second carousel End  -->
+            <!-- third carousel start -->
+            <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab">
+              <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">                  
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+<img src="/exelbid-homepage/asset/ssp/carousel-item-3.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fourth carousel end -->
+              <div class="tab-pane fade" id="v-pills-fourth" role="tabpanel" aria-labelledby="v-pills-fourth-tab">
+                <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      
+                      <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+<img src="/exelbid-homepage/asset/ssp/carousel-item-4.png" class="d-block mw-100 mx-auto">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fourth carousel end -->
+          </div>
+        </div>
+      </div>
+         
+      </div>
+    </div>
+  </section>
+  <!-- 수익구조 start -->
+  <!-- 타겟팅 start -->
+  <section class="py-120 py-md-60">
+    <div class="container">
+      <div class="row align-items-center mb-60">
+        <div class="col-12">
+          <h5 class="fw-semibold color-blue mb-10">다양한 광고</h5>
+          <h2 class="fw-semibold lh-1-2">더 많은 광고주,<br>그리고 더 다양한 광고</h2>
+        </div>
+      </div>
+      <div class="row exl-tgt">
+        <div class="col-12 col-md-8">
+          <h3 class="fw-semibold text-white"><span class="mute">일 수만개의 캠페인 입찰로</span><br>사용자들의 광고 피로도는 낮아지고<br>매체 판매 수익은 높아집니다</h3>
+        </div>
+        <div class="col-4 ms-auto">
+          <img src="/exelbid-homepage/asset/ssp/tgt1.png" class="mw-90">
+        </div>
+      </div>
+      <div class="row mt-30">
+        <div class="col-12 col-md-6 exl-card2 grey mb-sm-30">
+          <div class="me-auto mb-30">
+            <h5 class="fw-medium">다양한 캠페인은 사용자가 접하는<br>반복 광고의 피로도를 낮춥니다</h5>
+          </div>
+          <div class="icon">
+            <img src="/exelbid-homepage/asset/ssp/tgt-icon1.svg" class="mw-130">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 exl-card2 grey">
+          <div class="me-auto mb-30">
+            <h5 class="fw-medium">글로벌 DSP 통해 국내는 물론<br>해외 캠페인 물량까지 손쉽게 유치 가능합니다</h5>
+          </div>
+          <div class="icon">
+            <img src="/exelbid-homepage/asset/ssp/tgt-icon2.svg" class="mw-130">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 타겟팅 end -->
+  <!-- 광고범위 start -->
+  <section class="section-grey py-120 py-md-60">
+    <div class="container">
+      <div class="col-12 text-center mb-60">
+          <h5 class="fw-semibold color-blue mb-10">폭넓은 광고 지면 선택지 2</h5>
+          <h2 class="fw-semibold lh-1-2 mb-20">매체 특성과 사용자 경험을<br>우선한 
+다양한 광고 지면</h2>
+          <h5 class="fw-light lh-1-4">사용자 경험을 해치지 않고<br>
+매체 맞춤형 수익화가 가능합니다</h5>
+        </div>
+      <div class="row">
+        <!--
+        <div class="col-6 exl-card2 gradient d-flex flex-wrap justify-content-center mb-sm-30 d-none">
+          <div class="col-12">
+            <h5 class="fw-semibold text-white">퍼포먼스부터 브랜딩까지</h5>
+          </div>
+          <div class="col-8 my-sm-60">
+            <h3 class="fw-semibold text-white">모바일, PC, TV를 아우르는 다양한 디바이스 커버리지</h3>
+            <hr>
+            <h3 class="fw-semibold text-white">띠 배너, 전면 배너, 네이티브, 비디오 모바일 CTV, OTT</h3>
+            <h5 class="fw-regular text-white mt-10">(Smart TV, SKB 삼성TV플러스 등)</h5>
+          </div>
+        </div>
+      -->
+      <div class="col-6 exl-card2 carousel white mb-sm-30">
+        <div class="d-flex flex-column align-items-center">
+          <div class="tab-body mt-30">
+            <div class="nav nav-pills-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link" id="v-pills-first-tab" data-bs-toggle="pill" data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first" aria-selected="false">띠배너</button>
+              <button class="nav-link active" id="v-pills-second-tab" data-bs-toggle="pill" data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second" aria-selected="true">전면배너</button> 
+              <button class="nav-link" id="v-pills-third-tab" data-bs-toggle="pill" data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third" aria-selected="false">네이티브</button>
+              <button class="nav-link" id="v-pills-fourth-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fourth" type="button" role="tab" aria-controls="v-pills-fourth" aria-selected="false">비디오</button>
+            </div>
+          </div>
+          <div class="tab-content mt-30" id="v-pills-tabContent">
+            <!-- first carousel start  -->
+            <div class="tab-pane fade" id="v-pills-first" role="tabpanel" aria-labelledby="v-pills-first-tab">
+              <div id="carouselDevice" class="carousel slide" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <img src="/exelbid-homepage/asset/ssp/carousel-item-1.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- first carousel End  -->
+            <!-- second carousel Start  -->
+            <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab">
+              <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">                  
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <img src="/exelbid-homepage/asset/ssp/carousel-item-2.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- second carousel End  -->
+            <!-- third carousel start -->
+            <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab">
+              <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">                  
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+                    <img src="/exelbid-homepage/asset/ssp/carousel-item-3.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fourth carousel end -->
+              <div class="tab-pane fade active show" id="v-pills-fourth" role="tabpanel" aria-labelledby="v-pills-fourth-tab">
+                <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      
+                      <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+<img src="/exelbid-homepage/asset/ssp/carousel-item-4.png" class="d-block mw-100 mx-auto">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fourth carousel end -->
+          </div>
+        </div>
+      </div>
+        <div class="col-6 exl-card2 carousel white">
+          <div class="d-flex flex-column align-items-center">
+            <div class="tab-body mt-30">
+              <div class="nav nav-pills-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-term-tab" data-bs-toggle="pill" data-bs-target="#v-pills-term" type="button" role="tab" aria-controls="v-pills-term" aria-selected="true">
+                  비디오
+                </button>
+              </div>
+            </div>
+            <div class="tab-content mt-30" id="v-pills-tabContent">
+              <!-- tv carousel Start  -->
+              <div class="tab-pane fade active show" id="v-pills-term" role="tabpanel" aria-labelledby="v-pills-term-tab">
+                <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      
+                      <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+<img src="/exelbid-homepage/asset/ssp/carousel-item-tv2.png" class="d-block mw-100 mx-auto">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- tv carousel End  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 광고범위 end -->
+  <!-- 연동성 start -->
+  <section class="py-120 py-md-60">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 exl-card2 d-flex flex-column pb-0 navy overflow-hidden mb-sm-30">
+          <h5 class="fw-semibold text-white mb-20">효율을 높여주는 연동성</h5>
+          <h2 class="fw-semibold text-white mb-10">
+            <div class="d-flex">
+              <h3 class="dev">&lt;/&gt;</h3>
+              <h2 class="color-orange m-0">개발자</h2>의
+            </div>
+            효율성을 높여 줄 쉽고<br>빠른 연동 지원
+          </h2>
+          <h5 class="fw-light color-grey2 lh-1-5 mb-50">국제 표준 규격을 준수하여<br>
+            누구나 쉽고 빠르게 연동이 가능합니다</h5>
+          <div class="ms-100 ms-md-0 mt-auto">
+            <img src="/exelbid-homepage/asset/ssp/mockup.png" class="mw-140">
+          </div>
+        </div>
+        <div class="col-6 exl-card2 d-flex flex-wrap p-0">
+          <div class="col-12 dev mb-30">
+            <h5 class="fw-semibold color-red mb-20"><img src="/exelbid-homepage/asset/ssp/dev-icon1.svg" class="me-10">퍼포먼스부터 브랜딩까지</h5>
+            <h5 class="fw-light lh-1-5">OpenRTB를 포함한 API 연동 지원과 코드 샘플을 제공하여 호환성 문제 없이 쉽게 연동 가능합니다</h5>
+          </div>
+          <div class="col-12 dev mb-30">
+            <h5 class="fw-semibold color-mint mb-20"><img src="/exelbid-homepage/asset/ssp/dev-icon2.svg" class="me-10">&ZeroWidthSpace;유연성과 확장성</h5>
+            <h5 class="fw-light lh-1-5">사용중인 광고 SDK가 있어도 엑셀비드 adaptor를 이용하면 SDK 추가 없이 쉽게 광고 유치가 가능합니다</h5>
+          </div>
+          <div class="col-12 dev">
+            <h5 class="fw-semibold color-orange mb-20"><img src="/exelbid-homepage/asset/ssp/dev-icon3.svg" class="me-10">&ZeroWidthSpace;적극적인 개발 지원</h5>
+            <h5 class="fw-light lh-1-5">애드테크 전문가들이 개발을 지원합니다 원하는 방향에 따른 UI/UX 컨설팅으로 100% 맞춤형 적용이 가능합니다</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section class="section-grey py-120 py-md-60">
+    <div class="container">
+      <div class="col-12 text-center mb-60">
+          <h5 class="fw-semibold color-blue mb-10">폭넓은 광고 지면 선택지 3</h5>
+          <h2 class="fw-semibold lh-1-2 mb-20">매체 특성과 사용자 경험을<br>우선한 
+다양한 광고 지면</h2>
+          <h5 class="fw-light lh-1-4">사용자 경험을 해치지 않고<br>
+매체 맞춤형 수익화가 가능합니다</h5>
+        </div>
+      <div class="row mb-30">
+        <!--
+        <div class="col-6 exl-card2 gradient d-flex flex-wrap justify-content-center mb-sm-30 d-none">
+          <div class="col-12">
+            <h5 class="fw-semibold text-white">퍼포먼스부터 브랜딩까지</h5>
+          </div>
+          <div class="col-8 my-sm-60">
+            <h3 class="fw-semibold text-white">모바일, PC, TV를 아우르는 다양한 디바이스 커버리지</h3>
+            <hr>
+            <h3 class="fw-semibold text-white">띠 배너, 전면 배너, 네이티브, 비디오 모바일 CTV, OTT</h3>
+            <h5 class="fw-regular text-white mt-10">(Smart TV, SKB 삼성TV플러스 등)</h5>
+          </div>
+        </div>
+      -->
+      <div class="col-6 exl-card2 carousel white mb-sm-30">
+        <div class="d-flex flex-column align-items-center">
+          <div class="tab-body mt-30">
+            <div class="nav nav-pills-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="v-pills-first-tab" data-bs-toggle="pill" data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first" aria-selected="true">띠배너</button>
+              <button class="nav-link" id="v-pills-second-tab" data-bs-toggle="pill" data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second" aria-selected="false">전면배너</button> 
+              <button class="nav-link" id="v-pills-third-tab" data-bs-toggle="pill" data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third" aria-selected="false">네이티브</button>
+              <button class="nav-link" id="v-pills-fourth-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fourth" type="button" role="tab" aria-controls="v-pills-fourth" aria-selected="false">비디오</button>
+            </div>
+          </div>
+          <div class="tab-content mt-30" id="v-pills-tabContent">
+            <!-- first carousel start  -->
+            <div class="tab-pane fade" id="v-pills-first" role="tabpanel" aria-labelledby="v-pills-first-tab">
+              <div id="carouselDevice" class="carousel slide" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <img src="/exelbid-homepage/asset/ssp/carousel-item-1.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- first carousel End  -->
+            <!-- second carousel Start  -->
+            <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab">
+              <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">                  
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <img src="/exelbid-homepage/asset/ssp/carousel-item-2.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- second carousel End  -->
+            <!-- third carousel start -->
+            <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab">
+              <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">                  
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+                    <img src="/exelbid-homepage/asset/ssp/carousel-item-3.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fourth carousel end -->
+              <div class="tab-pane fade active show" id="v-pills-fourth" role="tabpanel" aria-labelledby="v-pills-fourth-tab">
+                <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      
+                      <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+<img src="/exelbid-homepage/asset/ssp/carousel-item-1.png" class="d-block mw-100 mx-auto">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fourth carousel end -->
+          </div>
+        </div>
+      </div>
+        <div class="col-6 exl-card2 carousel white">
+          <div class="d-flex flex-column align-items-center">
+            <div class="tab-body mt-30">
+              <div class="nav nav-pills-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-term-tab" data-bs-toggle="pill" data-bs-target="#v-pills-term" type="button" role="tab" aria-controls="v-pills-term" aria-selected="true">
+                  비디오
+                </button>
+              </div>
+            </div>
+            <div class="tab-content mt-30" id="v-pills-tabContent">
+              <!-- tv carousel Start  -->
+              <div class="tab-pane fade active show" id="v-pills-term" role="tabpanel" aria-labelledby="v-pills-term-tab">
+                <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      
+                      <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+<img src="/exelbid-homepage/asset/ssp/carousel-item-2.png" class="d-block mw-100 mx-auto">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- tv carousel End  -->
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="row">
+        <!--
+        <div class="col-6 exl-card2 gradient d-flex flex-wrap justify-content-center mb-sm-30 d-none">
+          <div class="col-12">
+            <h5 class="fw-semibold text-white">퍼포먼스부터 브랜딩까지</h5>
+          </div>
+          <div class="col-8 my-sm-60">
+            <h3 class="fw-semibold text-white">모바일, PC, TV를 아우르는 다양한 디바이스 커버리지</h3>
+            <hr>
+            <h3 class="fw-semibold text-white">띠 배너, 전면 배너, 네이티브, 비디오 모바일 CTV, OTT</h3>
+            <h5 class="fw-regular text-white mt-10">(Smart TV, SKB 삼성TV플러스 등)</h5>
+          </div>
+        </div>
+      -->
+      <div class="col-6 exl-card2 carousel white mb-sm-30">
+        <div class="d-flex flex-column align-items-center">
+          <div class="tab-body mt-30">
+            <div class="nav nav-pills-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="v-pills-first-tab" data-bs-toggle="pill" data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first" aria-selected="true">띠배너</button>
+              <button class="nav-link" id="v-pills-second-tab" data-bs-toggle="pill" data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second" aria-selected="false">전면배너</button> 
+              <button class="nav-link" id="v-pills-third-tab" data-bs-toggle="pill" data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third" aria-selected="false">네이티브</button>
+              <button class="nav-link" id="v-pills-fourth-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fourth" type="button" role="tab" aria-controls="v-pills-fourth" aria-selected="false">비디오</button>
+            </div>
+          </div>
+          <div class="tab-content mt-30" id="v-pills-tabContent">
+            <!-- first carousel start  -->
+            <div class="tab-pane fade" id="v-pills-first" role="tabpanel" aria-labelledby="v-pills-first-tab">
+              <div id="carouselDevice" class="carousel slide" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <img src="/exelbid-homepage/asset/ssp/carousel-item-1.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- first carousel End  -->
+            <!-- second carousel Start  -->
+            <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab">
+              <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">                  
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <img src="/exelbid-homepage/asset/ssp/carousel-item-2.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- second carousel End  -->
+            <!-- third carousel start -->
+            <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab">
+              <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">                  
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+                    <img src="/exelbid-homepage/asset/ssp/carousel-item-3.png" class="d-block mw-100 mx-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fourth carousel end -->
+              <div class="tab-pane fade active show" id="v-pills-fourth" role="tabpanel" aria-labelledby="v-pills-fourth-tab">
+                <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      
+                      <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+<img src="/exelbid-homepage/asset/ssp/carousel-item-3.png" class="d-block mw-100 mx-auto">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fourth carousel end -->
+          </div>
+        </div>
+      </div>
+        <div class="col-6 exl-card2 carousel white">
+          <div class="d-flex flex-column align-items-center">
+            <div class="tab-body mt-30">
+              <div class="nav nav-pills-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-term-tab" data-bs-toggle="pill" data-bs-target="#v-pills-term" type="button" role="tab" aria-controls="v-pills-term" aria-selected="true">
+                  비디오
+                </button>
+              </div>
+            </div>
+            <div class="tab-content mt-30" id="v-pills-tabContent">
+              <!-- tv carousel Start  -->
+              <div class="tab-pane fade active show" id="v-pills-term" role="tabpanel" aria-labelledby="v-pills-term-tab">
+                <div id="carouselDevice2" class="carousel slide" data-bs-interval="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      
+                      <p>이부분에 샘플텍스트가 간략하게 들어가는건 어떨까요?</p>
+<img src="/exelbid-homepage/asset/ssp/carousel-item-tv2.png" class="d-block mw-100 mx-auto">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- tv carousel End  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section class="py-120 py-md-60">
+    <div class="container">
+      <div class="row align-items-center mb-60">
+        <div class="col-12">
+          <h5 class="fw-semibold color-blue mb-10">수익 극대화 전략</h5>
+          <h2 class="fw-semibold lh-1-2 mb-20">실시간 경쟁 입찰 판매부터<br>미디에이션까지</h2>
+          <h5 class="fw-light lh-1-4">광고 지면 판매율을 극대화하는<br class="d-block d-sm-none">엑셀비드의 토탈 솔루션을 경험하세요</h5>
+        </div>
+      </div>
+      <div class="row mb-30">
+        <div class="col-12 col-md-6 p-60 p-sm-30 mb-sm-30 exl-card2 grey">
+          <img src="/exelbid-homepage/asset/ssp/feature1.svg" class="icon">
+          <h5 class="fw-semibold mt-30">높은 광고 단가</h5>
+          <h5 class="fw-light lh-1-5 mt-10">일 수만개의 캠페인 간 경쟁 입찰로<br>언제나 최고가에 지면을 판매하고 관리합니다</h5>
+        </div>
+        <div class="col-6 p-60 p-sm-30 exl-card2 grey">
+          <img src="/exelbid-homepage/asset/ssp/feature2.svg" class="icon">
+          <h5 class="fw-semibold mt-30">맞춤형 수익화 솔루션</h5>
+          <h5 class="fw-light lh-1-5 mt-10">국내 애드테크 생태계에 대한 이해를 바탕으로<br>최적의 수익화 솔루션을 제공합니다</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 p-60 p-sm-30 mb-sm-30 exl-card2 grey">
+          <img src="/exelbid-homepage/asset/ssp/feature3.svg" class="icon">
+          <h5 class="fw-semibold mt-30">낮은 플랫폼 수수료</h5>
+          <h5 class="fw-light lh-1-5 mt-10">시스템의 높은 효율성으로 매출은 높이고<br>플랫폼 수수료는 낮추었습니다</h5>
+        </div>
+        <div class="col-6 p-60 p-sm-30 exl-card2 grey">
+          <img src="/exelbid-homepage/asset/ssp/feature4.svg" class="icon">
+          <h5 class="fw-semibold mt-30">고도화 된 미디에이션
+          </h5>
+          <h5 class="fw-light lh-1-5 mt-10">데이터 기반 가중치 모델링을 통해<br>최고 단가와 최대 판매율을 달성합니다</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 연동성 end -->
+  <!-- 파트너 소개 start -->
+  <section class="section-grey py-120 py-md-60">
+    <div class="container">
+        <div class="row text-center mb-60">
+            <div class="col-12">
+                <h5 class="fw-semibold color-blue mb-10">엑셀비드의 파트너</h5>
+                <h2 class="fw-semibold lh-1-2 mb-20">엑셀비드의 매체 파트너</h2>
+                <h5 class="fw-light lh-1-4">많은 매체사들이 성장 엔진으로 엑셀비드를 선택하였습니다</h5>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container d-flex justify-content-center mt-60">
+      <div class="row col-12 justify-content-center partners-logo-container2">
+        <div class="col-3 partners-logo2 color-1 overlay-container">
+          <img src="/exelbid-homepage/asset/ssp/partners/01-tvp.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://www.samsung.com/us/televisions-home-theater/tvs/tvplus/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 partners-logo color-white overlay-container">
+          <img src="/exelbid-homepage/asset/ssp/partners/02-btv.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://www.skbroadband.com/product/tv/SubMain.do" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 partners-logo2 color-2 overlay-container">
+          <img src="/exelbid-homepage/asset/ssp/partners/03-lpoint.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://www.lpoint.com/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 partners-logo2 color-3 overlay-container">
+          <img src="/exelbid-homepage/asset/ssp/partners/04-cashwalk.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://cashwalk.com/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 partners-logo color-white overlay-container">
+          <img src="/exelbid-homepage/asset/ssp/partners/05-polaris.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://hwp.polarisoffice.com/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 partners-logo2 color-4 overlay-container">
+          <img src="/exelbid-homepage/asset/ssp/partners/06-linkareer.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://linkareer.com/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 partners-logo color-white overlay-container">
+          <img src="/exelbid-homepage/asset/ssp/partners/07-nbt.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://nbt.com/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 partners-logo2 color-5 overlay-container">
+          <img src="/exelbid-homepage/asset/ssp/partners/08-thecheat.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://thecheat.co.kr/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 partners-logo2 color-6 overlay-container">
+          <img src="/exelbid-homepage/asset/ssp/partners/09-vingle.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://careers.vingle.net/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 partners-logo color-white overlay-container">
+          <img src="/exelbid-homepage/asset/ssp/partners/10-new.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://www.its-newid.com/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 partners-logo2 color-7 overlay-container">
+          <img src="/exelbid-homepage/asset/ssp/partners/11-adpie.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://www.adpies.com/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 overlay-container partners-logo color-11">
+          <img src="/exelbid-homepage/asset/dsp/ptn-16.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="http://tpmn.co.kr/kr/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 overlay-container partners-logo color-7">
+          <img src="/exelbid-homepage/asset/dsp/ptn-10.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="https://www.tnkfactory.com/tnk/tnk.home.main" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+        <div class="col-3 overlay-container partners-logo color-13">
+          <img src="/exelbid-homepage/asset/dsp/ptn-19.png" class="mw-70">
+          <div class="overlay-blk">
+            <a class="overlay-text" href="http://www.bidence.com/" target="_blank">
+              <img src="/exelbid-homepage/asset/dsp/homepage.svg" class="hpicon"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+  <!-- 파트너 소개 start -->
+  <!-- 푸터 start -->
+  <section class="footer py-60">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="footer-row col-12 col-md-10">
+          <div class="footer company-name">모티브 인텔리전스</div>
+          <div class="footer social-icon">
+            <a class="footer social-icon icon bg-red" href="https://www.youtube.com/channel/UCTdrm9OuCY0rzlB0fhMtkJw" target="_blank">
+              <img src="/exelbid-homepage/asset/footer/youtube.svg">
+            </a>
+            <a class="footer social-icon icon bg-green" href="https://tv.naver.com/motiv" target="_blank">
+              <img src="/exelbid-homepage/asset/footer/naver.svg">
+            </a>
+            <a class="footer social-icon icon bg-blue" href="https://www.facebook.com/motivintelligence" target="_blank">
+              <img src="/exelbid-homepage/asset/footer/facebook.svg">
+            </a>
+            <a class="footer social-icon icon bg-blue2" href="https://kr.linkedin.com/company/onnuri-dmc" target="_blank">
+              <img src="/exelbid-homepage/asset/footer/linkedin.svg">
             </a>
           </div>
-        </div>
-      </div>
-    </section>
-    <section class="footer-sub py-20">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12">
-            <span class="footer-sub text">Copyright <span class="copyright">Ⓒ</span> 2021 Motiv-i / ExelBid. All Right
-              Reserved.</span>
+          <div class="footer text">
+            <p class="d-block d-sm-none">
+              대표이사 : 양준모 | 개인정보보호책임자 : 김승범<br>
+              <!-- 사업자등록번호 : 212-86-09248 | 통신판매번호: 2019-서울강남-00035<a class="footer mute" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248" target="_blank">[사업자정보확인]</a><br> -->
+              사업자등록번호 : 212-86-09248 | 통신판매번호: 2019-서울강남-00035<a class="footer mute ftc" href="javascript:;">[사업자정보확인]</a><br>
+              주소 : 서울시 강남구 테헤란로 110 캠브리지빌딩 12층<br>
+              이메일 : exelbid@motiv-i.com | 전화 : 02-6959-4633<br>
+            </p>
+            <p class="d-none d-sm-block">
+              대표이사 : 양준모 | 개인정보보호책임자 : 김승범<br>
+              사업자등록번호 : 212-86-09248<br>
+              통신판매번호: 2019-서울강남-00035<a class="footer mute" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248" target="_blank">[사업자정보확인]</a><br>
+              주소 : 서울시 강남구 테헤란로 110 캠브리지빌딩 12층<br>
+              이메일 : exelbid@motiv-i.com | 전화 : 02-6959-4633<br>
+            </p>
+          </div>
+          <div class="text-link-row">
+            <a class="text-link mute" href="/exelbid-homepage/terms.html">서비스이용약관</a>
+            <p class="text-link text">|</p>
+            <a class="text-link mute" href="/exelbid-homepage/sdk.html">SDK 계약</a>
+            <p class="text-link text">|</p>
+            <a class="text-link mute" href="/exelbid-homepage/privacy.html">개인정보보호정책</a>
           </div>
         </div>
+        <hr class="footer hr d-none d-sm-block">
+        <div class="footer-row google-partners col-12 col-md-2">
+          <a href="https://www.google.com/partners/agency?id=5863129596" target="_blank" class="ms-auto m-sm-0">
+            <img class="google-partners img" src="/exelbid-homepage/asset/footer/google_partner.png">
+          </a>
+        </div>
       </div>
-    </section>
-    <!-- 푸터 end -->
-    <script src="/exelbid-homepage/js/jquery-3.1.1.min.js"></script>
-    <script src="/exelbid-homepage/js/iconAnimation.js"></script>
-    <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
+    </div>
+  </section>
+  <section class="footer-sub py-20">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12">
+          <span class="footer-sub text">Copyright <span class="copyright">Ⓒ</span> 2021 Motiv-i / ExelBid. All Right
+            Reserved.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 푸터 end -->
+  <script src="/exelbid-homepage/js/jquery-3.1.1.min.js"></script>
+  <script src="/exelbid-homepage/js/iconAnimation.js"></script>
+  <script src="/exelbid-homepage/js/iconAnimation_.js"></script>
+  <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <!-- GTP btn Start -->
+  <script>
+    var btn = $('#gtt');
 
-          document.querySelectorAll('.navbar .collapse').forEach(function (everycollapse) {
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
 
-              everycollapse.addEventListener('shown.bs.collapse', function () {
-                  el_overlay = document.createElement('span');
-                  el_overlay.className = 'screen-darken';
-                  document.body.appendChild(el_overlay)
-              });
-
-              everycollapse.addEventListener('hide.bs.collapse', function () {
-                  document.body.removeChild(document.querySelector('.screen-darken'));
-              });
-
-          });
-
-      });
-      // DOMContentLoaded  end
+    btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop:0}, '100', 'linear');
+    });
   </script>
-    <!-- GTP btn Start -->
-    <script>
-      var btn = $('#gtt');
+  <!-- GTP btn End  -->
+  <!-- collapsing 이후 screen dark  -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
 
-      $(window).scroll(function() {
-        if ($(window).scrollTop() > 300) {
-          btn.addClass('show');
-        } else {
-          btn.removeClass('show');
-        }
-      });
+        document.querySelectorAll('.navbar .collapse').forEach(function (everycollapse) {
 
-      btn.on('click', function(e) {
-        e.preventDefault();
-        $('html, body').animate({scrollTop:0}, '300');
-      });
-    </script>
-    <!-- GTP btn End  -->
-  </body>
-</html>
+            everycollapse.addEventListener('shown.bs.collapse', function () {
+                el_overlay = document.createElement('span');
+                el_overlay.className = 'screen-darken';
+                document.body.appendChild(el_overlay)
+            });
+
+            everycollapse.addEventListener('hide.bs.collapse', function () {
+                document.body.removeChild(document.querySelector('.screen-darken'));
+            });
+
+        });
+
+    });
+    // DOMContentLoaded  end
+</script>
+<!-- collapsing 이후 screen dark  -->
+<!-- ftc popup  -->
+<script>
+  var url =
+    "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248"
+  $(document).ready(function () {
+    $('.ftc').click(function () {
+      window.open(url, "bizCommPop", "width=750, height=700;");
+      return false;
+    });
+  });
+</script>
+<!-- ftc popup  -->
+
+</body></html>
