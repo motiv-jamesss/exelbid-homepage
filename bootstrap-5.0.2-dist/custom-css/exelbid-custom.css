@@ -3613,6 +3613,16 @@ a.un-active .shoptext {
     border-color: #d5dadd;
 }
 
+/* validation terms */
+
+.was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
+  color: #232323;
+}
+
+.was-validated .form-check-input:invalid, .form-check-input.is-invalid {
+  border-color: #d5dadd;
+}
+
 
 
 /* modal 다운로드 컴포넌트 */
