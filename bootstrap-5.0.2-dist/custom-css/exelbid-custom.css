@@ -3565,6 +3565,9 @@ a.un-active .shoptext {
 .form-check-exl:hover {
   background-color: #EAEFF6;
 }
+.form-check-exl.line1:first-child {
+  background-color: #6495f7;
+}
 
 .form-check-exl label.form-check-label {
   color:#232323;
