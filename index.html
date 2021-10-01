@@ -150,9 +150,9 @@
                           <label for="recipient-name" class="col-form-label">문의 사항</label>
                           <div class="check-boxes-container">
                             <div class="col-12 check-boxes flex-sm-column">
-                              <label class="form-check-exl radio-bg radio-active" style="background-color:#6495F7;" onmouseenter="mouserEvent(this);">
+                              <label class="form-check-exl radio-bg radio-active" onmouseenter="mouserEvent(this);">
                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="" onclick="changeBgcolor(this);">
-                                <label class="form-check-label" for="flexRadioDefault1" style="color: white">매체 구매</label>
+                                <label class="form-check-label" for="flexRadioDefault1"">매체 구매</label>
                               </label>
                               <label class="form-check-exl radio-bg" onmouseenter="mouserEvent(this);">
                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" onclick="changeBgcolor(this);">
@@ -674,36 +674,38 @@
     <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
     <script>
-      function changeBgcolor(obj)
-      {
-          $('.radio-bg').removeClass('radio-active');
-          $('.radio-bg').css({
-              'background-color': '#F3F7FC',
-          });
-          $('.radio-bg').children().next().css('color', '#232323');
+      function changeBgcolor(obj) {
+        $('.radio-bg').removeClass('radio-active');
+        $('.radio-bg').css({
+          'background-color': '#F3F7FC',
+        });
+        $('.radio-bg').children().next().css('color', '#232323');
 
-          $(obj).parent().css({
-              'background-color': '#6495F7',
-          });
-          $(obj).next().css('color', '#fff');
+        $(obj).parent().css({
+          'background-color': '#6495F7',
+        });
+        $(obj).next().css('color', '#fff');
 
 
-          $(obj).parent().addClass('radio-active');
+        $(obj).parent().addClass('radio-active');
 
-          $( '.radio-bg' ).hover(
-            function() {
+        $('.radio-bg').hover(
+          function () {
 
-            }, function() {
+          },
+          function () {
 
-              $(".radio-bg").css({"background":"#F3F7FC"});
+            $(".radio-bg").css({
+              "background": "#F3F7FC"
+            });
 
-              if( $('.radio-bg').hasClass('radio-active') == true)
-              {
-                  $(obj).parent().css('background-color', '#6495F7');
+            if ($('.radio-bg').hasClass('radio-active') == true) {
+              $(obj).parent().css('background-color', '#6495F7');
 
-              }
+            }
           });
       }
+
       function mouserEvent(obj) {
         $(obj).not('.radio-active').css({
           "background": "#EAEFF6"
@@ -715,7 +717,7 @@
     <script>
       var btn = $('#gtt');
 
-      $(window).scroll(function() {
+      $(window).scroll(function () {
         if ($(window).scrollTop() > 300) {
           btn.addClass('show');
         } else {
@@ -723,9 +725,11 @@
         }
       });
 
-      btn.on('click', function(e) {
+      btn.on('click', function (e) {
         e.preventDefault();
-        $('html, body').animate({scrollTop:0}, '100', 'linear');
+        $('html, body').animate({
+          scrollTop: 0
+        }, '100', 'linear');
       });
     </script>
     <!-- GTP btn End  -->
@@ -740,7 +744,8 @@
             el_overlay.className = 'screen-darken';
             everycollapse.appendChild(el_overlay);
             el_overlay.addEventListener('click', function () {
-              var collapseElementList = [].slice.call(document.querySelectorAll('#navbarSupportedContent.collapse'))
+              var collapseElementList = [].slice.call(document.querySelectorAll(
+                '#navbarSupportedContent.collapse'))
               var collapseList = collapseElementList.map(function (collapseEl) {
                 return new bootstrap.Collapse(collapseEl)
               })
@@ -755,35 +760,36 @@
       })
       // DOMContentLoaded  end
     </script>
-  <!-- collapsing 이후 screen dark  -->
-  <!-- ftc popup  -->
-  <script>
-    var url =
-      "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248"
-    $(document).ready(function () {
-      $('.ftc').click(function () {
-        window.open(url, "bizCommPop", "width=750, height=700;");
-        return false;
+    <!-- collapsing 이후 screen dark  -->
+    <!-- ftc popup  -->
+    <script>
+      var url =
+        "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248"
+      $(document).ready(function () {
+        $('.ftc').click(function () {
+          window.open(url, "bizCommPop", "width=750, height=700;");
+          return false;
+        });
       });
-    });
-  </script>
-  <!-- ftc popup  -->
-  <!-- modal validate check -->
-  <script>
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.querySelectorAll('.needs-validation')
+    </script>
+    <!-- ftc popup  -->
+    <!-- modal validate check -->
+    <script>
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
 
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
-      .forEach(function (form) {
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-        form.classList.add('was-validated')
-        }, false)
-      })
-  </script>
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+            form.classList.add('was-validated')
+          }, false)
+        })
+    </script>
+    <!-- modal validate check -->
   </body>
 </html>
