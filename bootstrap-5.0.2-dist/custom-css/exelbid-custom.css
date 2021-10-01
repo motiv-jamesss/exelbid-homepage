@@ -4202,6 +4202,7 @@ button.nav-link:focus {
   color: #6495F7;
   background-color: #fff !important;
   border-radius: 5px;
+  font-weight: 500;
 }
 
 .nav-justified>.nav-link,
