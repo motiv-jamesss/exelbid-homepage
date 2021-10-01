@@ -3566,6 +3566,18 @@ a.un-active .shoptext {
   background-color: #EAEFF6;
 }
 
+.form-check-exl:first-child {
+  background-color: #6495f7;
+}
+
+.form-check-exl:nth-child(n+2) {
+  background-color: #F3F7FC;
+}
+
+.form-check-exl:nth-child(n+2):hover {
+  background-color: #EAEFF6;
+}
+
 .form-check-exl label.form-check-label {
   color:#232323;
   font-weight: 400;
