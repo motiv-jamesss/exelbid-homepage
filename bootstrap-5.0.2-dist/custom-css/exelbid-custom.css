@@ -3271,7 +3271,7 @@ a.un-active .shoptext {
   padding: 5px;
   border-radius: 8px;
   width: fit-content;
-  margin: 0 auto 10px;
+  margin: 10px auto 30px;
 }
 
 #carouselDevice .carousel-indicators [data-bs-target],
