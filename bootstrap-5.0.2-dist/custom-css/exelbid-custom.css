@@ -3275,7 +3275,7 @@ a.un-active .shoptext {
   padding: 5px;
   border-radius: 8px;
   width: fit-content;
-  margin: 10px auto 30px;
+  margin: 0 auto 30px;
 }
 
 @media (max-width: 1200px) {
