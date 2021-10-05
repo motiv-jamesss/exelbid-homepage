@@ -3266,7 +3266,7 @@ a.un-active .shoptext {
   margin-bottom: 0;
   margin-left: 0;
   list-style: none;
-  font-size: 15px;
+  font-size: 20px;
   background-color: #ffffff;
   padding: 5px;
   border-radius: 8px;
@@ -3282,6 +3282,7 @@ a.un-active .shoptext {
   width: fit-content;
   height: fit-content;
   padding: 5px 10px;
+  margin: 0;
   text-indent: 0;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0);
@@ -3292,8 +3293,6 @@ a.un-active .shoptext {
   opacity: 1;
   border-radius: 33px;
   transition: all 0.15s ease;
-  margin: 0 3px;
-  font-size: 20px;
 }
 
 #carouselDevice .carousel-indicators .active,
