@@ -4200,6 +4200,12 @@ button.nav-link:focus {
   width: fit-content;
 }
 
+@media (max-width: 1200px) {
+  .nav-pills-2 .nav-link {
+    font-size: 15px;
+  }
+}
+
 .nav-pills-2 .nav-link:hover {
   color: rgba(35, 35, 35);
 }
