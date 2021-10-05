@@ -3278,6 +3278,7 @@ a.un-active .shoptext {
   #carouselDevice .carousel-indicators,
   #carouselDevice2 .carousel-indicators {
     font-size: 15px;
+    margin: 0 auto 10px;
   }
 }
 
