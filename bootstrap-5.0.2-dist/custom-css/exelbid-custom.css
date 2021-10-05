@@ -3274,6 +3274,13 @@ a.un-active .shoptext {
   margin: 10px auto 30px;
 }
 
+@media (max-width: 1200px) {
+  #carouselDevice .carousel-indicators,
+  #carouselDevice2 .carousel-indicators {
+    font-size: 15px;
+  }
+}
+
 #carouselDevice .carousel-indicators [data-bs-target],
 #carouselDevice2 .carousel-indicators [data-bs-target] {
   color: rgba(35, 35, 35, .5);
