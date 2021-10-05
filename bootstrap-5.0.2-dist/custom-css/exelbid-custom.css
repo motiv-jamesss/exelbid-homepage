@@ -4088,7 +4088,7 @@ p {
 
 button.nav-link:hover,
 button.nav-link:focus {
-  background-image: linear-gradient(120deg, #359CD7 0%, #7B70FA 100%);
+  background-color: #F3F7FC;
 }
 
 .nav-link.disabled {
