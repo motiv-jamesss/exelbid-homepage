@@ -4196,7 +4196,7 @@ button.nav-link:focus {
 .tab-exl{
   color: #ffffff;
   background-image: linear-gradient(120deg, #359CD7 0%, #7B70FA 100%);
-  padding: 13px 20px;
+  padding: 8px 15px;
   border-radius: 50px;
   margin-bottom: 15px;
 }
