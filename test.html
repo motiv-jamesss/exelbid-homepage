@@ -685,43 +685,6 @@
     <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
     <script>
-      function changeBgcolor(obj) {
-        $('.radio-bg').removeClass('radio-active');
-        $('.radio-bg').css({
-          'background-color': '#F3F7FC',
-        });
-        $('.radio-bg').children().next().css('color', '#232323');
-
-        $(obj).parent().css({
-          'background-color': '#6495F7',
-        });
-        $(obj).next().css('color', '#fff');
-
-
-        $(obj).parent().addClass('radio-active');
-
-        $('.radio-bg').hover(
-          function () {
-
-          },
-          function () {
-
-            $(".radio-bg").css({
-              "background": "#F3F7FC"
-            });
-
-            if ($('.radio-bg').hasClass('radio-active') == true) {
-              $(obj).parent().css('background-color', '#6495F7');
-
-            }
-          });
-      }
-
-      function mouserEvent(obj) {
-        $(obj).not('.radio-active').css({
-          "background": "#EAEFF6"
-        });
-      }
     </script>
     <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
     <!-- GTP btn Start -->
