@@ -2348,6 +2348,7 @@ textarea {
   width: fit-content;
   border-radius: 16px;
   padding: 0;
+  transition: all .15s ease-in-out;
 }
 
 .exl-card-inner {
