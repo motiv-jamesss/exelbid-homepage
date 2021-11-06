@@ -747,25 +747,17 @@
     <!-- collapsing 이후 screen dark  -->
     <script>
       const button = document.querySelector(".navbar-toggler");
-
       function screenDarken() {
-        const spanPlace = document.querySelector("#navbarSupportedContent");
-        const span = document.querySelector("#navbarSupportedContent span");
-        const attributeControl = document.querySelector(".navbar-toggler").getAttribute("aria-expanded");
+        const attribute = document.querySelector(".navbar-toggler").getAttribute("aria-expanded");
         const newSpan = document.createElement("span");
         newSpan.classList.add("screen-darken");
-
-        newSpan.addEventListener("click", function () {
-          button.click();
-        })
-
-        if (attributeControl === "true") {
-          spanPlace.appendChild(newSpan);
+        newSpan.addEventListener("click", function() {button.click()});
+        if (attribute === "true") {
+          document.querySelector("#navbarSupportedContent").appendChild(newSpan);
         } else {
-          span.remove();
+          document.querySelector("#navbarSupportedContent span").remove();
         }
       }
-
       button.addEventListener("click", screenDarken);
     </script>
     <!-- collapsing 이후 screen dark  -->
