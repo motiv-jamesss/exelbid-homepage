@@ -746,30 +746,33 @@
     <!-- GTP btn End  -->
     <!-- collapsing 이후 screen dark  -->
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-
-        document.querySelectorAll('.navbar .collapse').forEach(function (everycollapse) {
-
-          everycollapse.addEventListener('shown.bs.collapse', function () {
-            el_overlay = document.createElement('span');
-            el_overlay.className = 'screen-darken';
-            everycollapse.appendChild(el_overlay);
-            el_overlay.addEventListener('click', function () {
-              var collapseElementList = [].slice.call(document.querySelectorAll(
-                '#navbarSupportedContent.collapse'))
-              var collapseList = collapseElementList.map(function (collapseEl) {
-                return new bootstrap.Collapse(collapseEl)
-              })
-            })
-          });
-          everycollapse.addEventListener('hide.bs.collapse', function () {
-            everycollapse.removeChild(document.querySelector('.screen-darken'));
-          });
-
-        });
-
+      const myCollapsible = document.getElementById('navbarSupportedContent')
+      myCollapsible.addEventListener('hidden.bs.collapse', function () {
+        console.log("its hide")
       })
-      // DOMContentLoaded  end
+    </script>
+    <script>
+      const button = document.querySelector(".navbar-toggler");
+
+      function screenDarken() {
+        const spanPlace = document.querySelector("#navbarSupportedContent");
+        const span = document.querySelector("#navbarSupportedContent span");
+        const attributeControl = document.querySelector(".navbar-toggler").getAttribute("aria-expanded");
+        const newSpan = document.createElement("span");
+        newSpan.classList.add("screen-darken");
+
+        newSpan.addEventListener("click", function () {
+          button.click();
+        })
+
+        if (attributeControl === "true") {
+          spanPlace.appendChild(newSpan);
+        } else {
+          span.remove();
+        }
+      }
+
+      button.addEventListener("click", screenDarken);
     </script>
     <!-- collapsing 이후 screen dark  -->
     <!-- ftc popup  -->
