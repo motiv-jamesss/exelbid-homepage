@@ -3591,6 +3591,11 @@ a.un-active .shoptext {
   color: #6495F7;
 }
 
+.wow {
+  background-color: #6495f7!important;
+  color:#ffffff;
+}
+
 /* validation radio boxes */
 
 .was-validated .form-check-input:valid ~ .form-check-label,
