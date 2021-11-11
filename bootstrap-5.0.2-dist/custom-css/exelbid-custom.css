@@ -4150,7 +4150,7 @@ button.nav-link:focus {
   padding: 12px 18px;
   margin-bottom: 10px;
   text-align: left;
-  width: 120px;
+  width: fit-content;
 }
 
 @media (max-width: 1200px) {
