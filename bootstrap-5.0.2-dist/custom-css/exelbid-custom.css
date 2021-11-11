@@ -4165,9 +4165,12 @@ button.nav-link:focus {
     font-size: 15px;
     border-radius: 8px;
     padding: 7px 10px;
-    margin-right: 5px;
+    margin: 0 5px 0 0;
     text-align: center;
     max-width: fit-content;
+  }
+  .nav-pills .nav-link:last-child {
+    margin-bottom: 10px
   }
 }
 
