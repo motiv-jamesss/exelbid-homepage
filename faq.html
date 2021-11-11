@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--meta name="viewport" content="target-densitydpi=device-dpi width=device-width, initial-scale=1"-->
     <meta name="viewport" content="target-densitydpi=device-dpi, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width" />
-    <title>FAQ | Exelbid (엑셀비드)</title>
+    <title>Exelbid (엑셀비드) - 모바일&CTV 통합 광고 거래 플랫폼</title>
     <meta name="description" content="모바일을 넘어 TV까지 매체 수익화 솔루션과 다양한 광고주를 만족시킬 타겟 오디언스 풀을 제공합니다." />
     <meta property="og:image" content="https://motiv-jamesss.github.io/exelbid-homepage/asset/OG_banner.jpg">
     <meta name="robots" content="index,follow">
@@ -33,15 +33,13 @@
     <script src="js/includeHTML.js"></script>
   </head>
   <body>
-    <div include-html="/exelbid-homepage/nav.html"></div>
-    <script>includeHTML();</script>
     <!-- Go to top 버튼 start > https://codepen.io/matthewcain/pen/ZepbeR < -->
     <a id="gtt"></a>
     <!-- Go to top 버튼 end -->
     <!-- GNB start -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="/exelbid-homepage/index.html">
+        <a class="navbar-brand" href="/exelbid-homepage/en/index.html">
           <svg width="106" height="38" viewBox="0 0 106 38" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 26.3148V9.7749H10.401V13.0985H3.71463V16.1484H9.89265V19.4329H3.71463V23.0303H10.401V26.3539H0V26.3148Z" fill="#1F2353"/>
               <path d="M24.36 17.9471L29.365 26.3539H25.4549L22.2485 20.8797L19.0422 26.3539H15.1321L20.1371 17.9471L15.3276 9.7749H19.2377L22.2876 14.9754L25.2985 9.7749H29.2086L24.36 17.9471Z" fill="#1F2353"/>
@@ -53,30 +51,20 @@
             </svg>
         </a>
         <button class="navbar-toggler icon icon-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <!-- custom 1 <div class="menu-toggle" id="navbtn">Menu</div> -->
-          <!-- 
-          <input type="checkbox" id="menu33" />
-          <label for="menu33">
-            <div class="btnA"></div>
-            <div class="btnA"></div>
-            <div class="btnA"></div>
-          </label>
-          -->
             <span></span>
             <span></span>
             <span></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/exelbid-homepage/ssp.html">SSP</a>
+              <a class="nav-link" href="/exelbid-homepage/en/ssp.html">SSP</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/exelbid-homepage/dsp.html">DSP</a>
+              <a class="nav-link" href="/exelbid-homepage/en/dsp.html">DSP</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/exelbid-homepage/faq.html"">FAQ</a>
+              <a class="nav-link" href="/exelbid-homepage/en/faq.html"">FAQ</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.motiv-i.com/" target="_blank">ABOUT US</a>
@@ -700,11 +688,36 @@
     <script src="/exelbid-homepage/js/iconAnimation.js"></script>
     <script src="/exelbid-homepage/js/iconAnimation_.js"></script>
     <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
+    <script>
+      const modalInputs = document.querySelectorAll("input[name=flexRadioFirst]")
+      const modalBoxes = document.querySelectorAll(".first .form-check-exl")
+
+      function getChecked(e) {
+        if (e.checked) {
+          e.parentElement.classList.add("wow")
+          e.labels[1].classList.add("text-white")
+        } else {
+          e.parentElement.classList.remove("wow")
+          e.labels[1].classList.remove("text-white")
+        }
+      }
+
+      function handleEl() {
+        modalInputs.forEach(getChecked)
+      }
+      handleEl()
+
+      modalBoxes.forEach((item) => {
+        item.addEventListener("click", handleEl)
+      })
+    </script>
+    <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
     <!-- GTP btn Start -->
     <script>
       var btn = $('#gtt');
 
-      $(window).scroll(function() {
+      $(window).scroll(function () {
         if ($(window).scrollTop() > 300) {
           btn.addClass('show');
         } else {
@@ -712,45 +725,60 @@
         }
       });
 
-      btn.on('click', function(e) {
+      btn.on('click', function (e) {
         e.preventDefault();
-        $('html, body').animate({scrollTop:0}, '100', 'linear');
+        $('html, body').animate({
+          scrollTop: 0
+        }, '100', 'linear');
       });
     </script>
     <!-- GTP btn End  -->
     <!-- collapsing 이후 screen dark  -->
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-
-          document.querySelectorAll('.navbar .collapse').forEach(function (everycollapse) {
-
-              everycollapse.addEventListener('shown.bs.collapse', function () {
-                  el_overlay = document.createElement('span');
-                  el_overlay.className = 'screen-darken';
-                  document.body.appendChild(el_overlay)
-              });
-
-              everycollapse.addEventListener('hide.bs.collapse', function () {
-                  document.body.removeChild(document.querySelector('.screen-darken'));
-              });
-
-          });
-
+      const button = document.querySelector(".navbar-toggler");
+      function screenDarken() {
+        const attribute = document.querySelector(".navbar-toggler").getAttribute("aria-expanded");
+        const newSpan = document.createElement("span");
+        newSpan.classList.add("screen-darken");
+        newSpan.addEventListener("click", function() {button.click()});
+        if (attribute === "true") {
+          document.querySelector("#navbarSupportedContent").appendChild(newSpan);
+        } else {
+          document.querySelector("#navbarSupportedContent span").remove();
+        }
+      }
+      button.addEventListener("click", screenDarken);
+    </script>
+    <!-- collapsing 이후 screen dark  -->
+    <!-- ftc popup  -->
+    <script>
+      var url =
+        "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248"
+      $(document).ready(function () {
+        $('.ftc').click(function () {
+          window.open(url, "bizCommPop", "width=750, height=700;");
+          return false;
+        });
       });
-      // DOMContentLoaded  end
-  </script>
-  <!-- collapsing 이후 screen dark  -->
-  <!-- ftc popup  -->
-  <script>
-    var url =
-      "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248"
-    $(document).ready(function () {
-      $('.ftc').click(function () {
-        window.open(url, "bizCommPop", "width=750, height=700;");
-        return false;
-      });
-    });
-  </script>
-  <!-- ftc popup  -->
+    </script>
+    <!-- ftc popup  -->
+    <!-- modal validate check -->
+    <script>
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+            form.classList.add('was-validated')
+          }, false)
+        })
+    </script>
+    <!-- modal validate check  -->
   </body>
 </html>
