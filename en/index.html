@@ -445,7 +445,7 @@
             <h2 class="fw-semibold text-white lh-1-2 mb-10">Having trouble with advertising business?<br>It is a lot easier with Exelbid</h2>
             <h5 class="fw-medium text-white lh-1-4 mb-30">Your growth is always our priority</h5>
             <a class="exlBtn exlBtn-orange text-decoration-none me-10" data-bs-toggle="modal" data-bs-target="#proposalModal2" data-bs-whatever="#">Partnership Inquiry</a>
-            <div class="modal fade" id="proposalModal" tabindex="-1" aria-labelledby="proposalModalLabel2" aria-hidden="true">
+            <div class="modal fade" id="proposalModal2" tabindex="-1" aria-labelledby="proposalModalLabel2" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content first">
                   <form class="needs-validation" novalidate id="gform" method="POST" data-email="minjun.lee@motiv-i.com" action="https://script.google.com/macros/s/AKfycbzEni_HFW9guxCRr4SGdNcbdD6SUodDIE9xbMaKZh-kge-Q94MDz8FfBlFWt4x6jM-2/exec">
@@ -641,6 +641,7 @@
     <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
     <script>
       const modalInputsFirst = document.querySelectorAll("input[name=inqueryRadioBoxFirst]")
+      const modalInputsSecond = document.querySelectorAll("input[name=inqueryRadioBoxSecond]")
       const modalBoxes = document.querySelectorAll(".first .form-check-exl")
 
       function getChecked(e) {
@@ -655,6 +656,7 @@
 
       function handleEl() {
         modalInputsFirst.forEach(getChecked)
+        modalInputsSecond.forEach(getChecked)
       }
       handleEl()
 
