@@ -3562,10 +3562,6 @@ a.un-active .shoptext {
   margin-top: 10px;
 }
 
-.modal .accordion-body li:last-child {
-  margin-top: 0;
-}
-
 .check-boxes-container {
   display: flex;
   flex-direction: column;
