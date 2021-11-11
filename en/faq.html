@@ -625,7 +625,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="footer-row col-12 col-md-10">
-            <div class="footer company-name">모티브 인텔리전스</div>
+            <div class="footer company-name">MOTIV INTELLIGENCE</div>
             <div class="footer social-icon">
               <a class="footer social-icon icon bg-red" href="https://www.youtube.com/channel/UCTdrm9OuCY0rzlB0fhMtkJw" target="_blank">
                 <img src="/exelbid-homepage/asset/footer/youtube.svg">
@@ -636,32 +636,35 @@
               <a class="footer social-icon icon bg-blue" href="https://www.facebook.com/motivintelligence" target="_blank">
                 <img src="/exelbid-homepage/asset/footer/facebook.svg">
               </a>
-              <a class="footer social-icon icon bg-blue2" href="https://kr.linkedin.com/company/onnuri-dmc" target="_blank">
-                <img src="/exelbid-homepage/asset/footer/linkedin.svg">
-              </a>
             </div>
             <div class="footer text">
               <p class="d-block d-sm-none">
-                대표이사 : 양준모 | 개인정보보호책임자 : 김승범<br>
+                CEO: JAY YANG | DATA PROTECTION OFFICER: SEUNGBUM KIM<br>
                 <!-- 사업자등록번호 : 212-86-09248 | 통신판매번호: 2019-서울강남-00035<a class="footer mute" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248" target="_blank">[사업자정보확인]</a><br> -->
-                사업자등록번호 : 212-86-09248 | 통신판매번호: 2019-서울강남-00035<a class="footer mute ftc" href="javascript:;">[사업자정보확인]</a><br>
-                주소 : 서울시 강남구 테헤란로 110 캠브리지빌딩 12층<br>
-                이메일 : exelbid@motiv-i.com | 전화 : 02-6959-4633<br>
+                BUSINESS REGISTRATION NO.: 212-86-09248<br>DIGITAL MARKETING BUSINESS REGISTRATION NO.:2019-서울강남-00035<a class="footer mute ftc" href="javascript:;">[LINK]</a><br>
+                ADDRESS: 12F, 110, TEHERAN-RO, GANGNAM-GU, SEOUL, REPUBLIC OF KOREA<br>
+                EMAIL : exelbid@motiv-i.com | CALL : 02-6959-4633 <br>
               </p>
-              <p class="d-none d-sm-block">
-                대표이사 : 양준모 | 개인정보보호책임자 : 김승범<br>
-                사업자등록번호 : 212-86-09248<br>
-                통신판매번호: 2019-서울강남-00035<a class="footer mute" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248" target="_blank">[사업자정보확인]</a><br>
-                주소 : 서울시 강남구 테헤란로 110 캠브리지빌딩 12층<br>
-                이메일 : exelbid@motiv-i.com | 전화 : 02-6959-4633<br>
-              </p>
+              <div class="d-none d-sm-block">
+                <p>CEO: JAY YANG<br>DATA PROTECTION OFFICER: SEUNGBUM KIM
+                </p>
+                <p class="pt-10">
+                  BUSINESS REGISTRATION NO.: 212-86-09248<br>
+                  DIGITAL MARKETING BUSINESS<br>REGISTRATION NO.:2019-서울강남-00035<a class="footer mute"
+                    href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248" target="_blank">[LINK]</a>
+                </p>
+                <p class="pt-10">
+                  ADDRESS: 12F, 110, TEHERAN-RO, GANGNAM-GU,<br>SEOUL, REPUBLIC OF KOREA<br>
+                  EMAIL : exelbid@motiv-i.com | CALL : 02-6959-4633 <br>
+                </p>
+              </div>
             </div>
             <div class="text-link-row">
-              <a class="text-link mute" href="/exelbid-homepage/terms.html">서비스이용약관</a>
+              <a class="text-link mute" href="/exelbid-homepage/terms.html">T&C</a>
               <p class="text-link text">|</p>
-              <a class="text-link mute" href="/exelbid-homepage/sdk.html">SDK 계약</a>
+              <a class="text-link mute" href="/exelbid-homepage/sdk.html">SDK T&C</a>
               <p class="text-link text">|</p>
-              <a class="text-link mute" href="/exelbid-homepage/privacy.html">개인정보보호정책</a>
+              <a class="text-link mute" href="/exelbid-homepage/privacy.html">PRIVACY POLICY</a>
             </div>
           </div>
           <hr class="footer hr d-none d-sm-block">
@@ -688,11 +691,36 @@
     <script src="/exelbid-homepage/js/iconAnimation.js"></script>
     <script src="/exelbid-homepage/js/iconAnimation_.js"></script>
     <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
+    <script>
+      const modalInputs = document.querySelectorAll("input[name=flexRadioFirst]")
+      const modalBoxes = document.querySelectorAll(".first .form-check-exl")
+
+      function getChecked(e) {
+        if (e.checked) {
+          e.parentElement.classList.add("wow")
+          e.labels[1].classList.add("text-white")
+        } else {
+          e.parentElement.classList.remove("wow")
+          e.labels[1].classList.remove("text-white")
+        }
+      }
+
+      function handleEl() {
+        modalInputs.forEach(getChecked)
+      }
+      handleEl()
+
+      modalBoxes.forEach((item) => {
+        item.addEventListener("click", handleEl)
+      })
+    </script>
+    <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
     <!-- GTP btn Start -->
     <script>
       var btn = $('#gtt');
 
-      $(window).scroll(function() {
+      $(window).scroll(function () {
         if ($(window).scrollTop() > 300) {
           btn.addClass('show');
         } else {
@@ -700,45 +728,60 @@
         }
       });
 
-      btn.on('click', function(e) {
+      btn.on('click', function (e) {
         e.preventDefault();
-        $('html, body').animate({scrollTop:0}, '100', 'linear');
+        $('html, body').animate({
+          scrollTop: 0
+        }, '100', 'linear');
       });
     </script>
     <!-- GTP btn End  -->
     <!-- collapsing 이후 screen dark  -->
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-
-          document.querySelectorAll('.navbar .collapse').forEach(function (everycollapse) {
-
-              everycollapse.addEventListener('shown.bs.collapse', function () {
-                  el_overlay = document.createElement('span');
-                  el_overlay.className = 'screen-darken';
-                  document.body.appendChild(el_overlay)
-              });
-
-              everycollapse.addEventListener('hide.bs.collapse', function () {
-                  document.body.removeChild(document.querySelector('.screen-darken'));
-              });
-
-          });
-
+      const button = document.querySelector(".navbar-toggler");
+      function screenDarken() {
+        const attribute = document.querySelector(".navbar-toggler").getAttribute("aria-expanded");
+        const newSpan = document.createElement("span");
+        newSpan.classList.add("screen-darken");
+        newSpan.addEventListener("click", function() {button.click()});
+        if (attribute === "true") {
+          document.querySelector("#navbarSupportedContent").appendChild(newSpan);
+        } else {
+          document.querySelector("#navbarSupportedContent span").remove();
+        }
+      }
+      button.addEventListener("click", screenDarken);
+    </script>
+    <!-- collapsing 이후 screen dark  -->
+    <!-- ftc popup  -->
+    <script>
+      var url =
+        "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248"
+      $(document).ready(function () {
+        $('.ftc').click(function () {
+          window.open(url, "bizCommPop", "width=750, height=700;");
+          return false;
+        });
       });
-      // DOMContentLoaded  end
-  </script>
-  <!-- collapsing 이후 screen dark  -->
-  <!-- ftc popup  -->
-  <script>
-    var url =
-      "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248"
-    $(document).ready(function () {
-      $('.ftc').click(function () {
-        window.open(url, "bizCommPop", "width=750, height=700;");
-        return false;
-      });
-    });
-  </script>
-  <!-- ftc popup  -->
+    </script>
+    <!-- ftc popup  -->
+    <!-- modal validate check -->
+    <script>
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+            form.classList.add('was-validated')
+          }, false)
+        })
+    </script>
+    <!-- modal validate check  -->
   </body>
 </html>
