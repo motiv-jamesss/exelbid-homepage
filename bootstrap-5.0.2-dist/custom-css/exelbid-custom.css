@@ -4166,7 +4166,7 @@ button.nav-link:focus {
     padding: 7px 6px;
     margin-right: 5px;
     text-align: center;
-    max-width: 70px;
+    max-width: fit-content;
   }
   .nav-pills .nav-link:nth-child(2) {
     margin-right: 15px;
