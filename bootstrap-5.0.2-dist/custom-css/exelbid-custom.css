@@ -4169,9 +4169,6 @@ button.nav-link:focus {
     text-align: center;
     max-width: fit-content;
   }
-  .nav-pills .nav-link:nth-child(2) {
-    margin-right: 15px;
-  }
 }
 
 .nav-pills .nav-link.active,
