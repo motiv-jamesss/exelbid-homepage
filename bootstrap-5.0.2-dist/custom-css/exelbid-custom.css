@@ -4156,14 +4156,15 @@ button.nav-link:focus {
 @media (max-width: 1200px) {
   .nav-pills .nav-link {
     font-size: 15px;
-    width: 100px;
+    width: fit-content;
   }
 }
 
 @media (max-width: 640px) {
   .nav-pills .nav-link {
     font-size: 15px;
-    padding: 7px 6px;
+    border-radius: 8px;
+    padding: 7px 10px;
     margin-right: 5px;
     text-align: center;
     max-width: fit-content;
