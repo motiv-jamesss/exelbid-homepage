@@ -112,21 +112,21 @@
                           <div class="check-boxes-container">
                             <div class="col-12 check-boxes flex-sm-column">
                               <label class="form-check-exl buy">
-                                <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault1"  value="매체 구매" checked>
+                                <input class="form-check-input" type="radio" name="inqueryRadioBoxFirst" id="flexRadioDefault1"  value="매체 구매" checked>
                                 <label class="form-check-label" for="flexRadioDefault1">매체 구매</label>
                               </label>
                               <label class="form-check-exl sell">
-                                <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault2" value="매체 판매">
+                                <input class="form-check-input" type="radio" name="inqueryRadioBoxFirst" id="flexRadioDefault2" value="매체 판매">
                                 <label class="form-check-label" for="flexRadioDefault2">매체 판매</label>
                               </label>
                             </div>
                             <div class="col-12 check-boxes flex-sm-column">
                               <label class="form-check-exl request">
-                                <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault3" value="상품소개서 신청">
+                                <input class="form-check-input" type="radio" name="inqueryRadioBoxFirst" id="flexRadioDefault3" value="상품소개서 신청">
                                 <label class="form-check-label" for="flexRadioDefault3">상품소개서 신청</label>
                               </label>
                               <label class="form-check-exl etc">
-                                <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault4" value="기타">
+                                <input class="form-check-input" type="radio" name="inqueryRadioBoxFirst" id="flexRadioDefault4" value="기타">
                                 <label class="form-check-label" for="flexRadioDefault4">기타</label>
                               </label>
                             </div>
@@ -459,21 +459,21 @@
                         <div class="check-boxes-container">
                           <div class="col-12 check-boxes flex-sm-column">
                             <label class="form-check-exl buy">
-                              <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault1"  value="매체 구매" checked>
+                              <input class="form-check-input" type="radio" name="inqueryRadioBoxSecond" id="flexRadioDefault1"  value="매체 구매" checked>
                               <label class="form-check-label" for="flexRadioDefault1">매체 구매</label>
                             </label>
                             <label class="form-check-exl sell">
-                              <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault2" value="매체 판매">
+                              <input class="form-check-input" type="radio" name="inqueryRadioBoxSecond" id="flexRadioDefault2" value="매체 판매">
                               <label class="form-check-label" for="flexRadioDefault2">매체 판매</label>
                             </label>
                           </div>
                           <div class="col-12 check-boxes flex-sm-column">
                             <label class="form-check-exl request">
-                              <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault3" value="상품소개서 신청">
+                              <input class="form-check-input" type="radio" name="inqueryRadioBoxSecond" id="flexRadioDefault3" value="상품소개서 신청">
                               <label class="form-check-label" for="flexRadioDefault3">상품소개서 신청</label>
                             </label>
                             <label class="form-check-exl etc">
-                              <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault4" value="기타">
+                              <input class="form-check-input" type="radio" name="inqueryRadioBoxSecond" id="flexRadioDefault4" value="기타">
                               <label class="form-check-label" for="flexRadioDefault4">기타</label>
                             </label>
                           </div>
@@ -640,7 +640,8 @@
     <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
     <script>
-      const modalInputs = document.querySelectorAll("input[name=flexRadioFirst]")
+      const modalInputsFirst = document.querySelectorAll("input[name=inqueryRadioBoxFirst]")
+      const modalInputsSecond = document.querySelectorAll("input[name=inqueryRadioBoxFirst]")
       const modalBoxes = document.querySelectorAll(".first .form-check-exl")
 
       function getChecked(e) {
@@ -654,7 +655,8 @@
       }
 
       function handleEl() {
-        modalInputs.forEach(getChecked)
+        modalInputsFirst.forEach(getChecked)
+        modalInputsSecond.forEach(getChecked)
       }
       handleEl()
 
