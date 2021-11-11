@@ -641,7 +641,6 @@
     <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
     <script>
       const modalInputsFirst = document.querySelectorAll("input[name=inqueryRadioBoxFirst]")
-      const modalInputsSecond = document.querySelectorAll("input[name=inqueryRadioBoxSecond]")
       const modalBoxes = document.querySelectorAll(".first .form-check-exl")
 
       function getChecked(e) {
@@ -656,7 +655,6 @@
 
       function handleEl() {
         modalInputsFirst.forEach(getChecked)
-        modalInputsSecond.forEach(getChecked)
       }
       handleEl()
 
