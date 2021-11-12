@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta name="viewport" content="target-densitydpi=device-dpi width=device-width, initial-scale=1"-->
+    <meta name="viewport" content="target-densitydpi=device-dpi, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width" />
+    <title>Exelbid (엑셀비드) - 모바일&CTV 통합 광고 거래 플랫폼</title>
+    <meta name="description" content="모바일을 넘어 TV까지 매체 수익화 솔루션과 다양한 광고주를 만족시킬 타겟 오디언스 풀을 제공합니다." />
+    <meta property="og:image" content="https://motiv-jamesss.github.io/exelbid-homepage/asset/OG_banner.jpg">
+    <meta name="robots" content="index,follow">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/exelbid-homepage/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/exelbid-homepage/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/exelbid-homepage/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/exelbid-homepage/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/exelbid-homepage/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/exelbid-homepage/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/exelbid-homepage/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/exelbid-homepage/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/exelbid-homepage/fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/exelbid-homepage/fav/png" sizes="192x192" href="/exelbid-homepage/fav/android-icon-192x192.png">
+    <link rel="icon" type="image/exelbid-homepage/fav/png" sizes="32x32" href="/exelbid-homepage/fav/favicon-32x32.png">
+    <link rel="icon" type="image/exelbid-homepage/fav/png" sizes="96x96" href="/exelbid-homepage/fav/favicon-96x96.png">
+    <link rel="icon" type="image/exelbid-homepage/fav/png" sizes="16x16" href="/exelbid-homepage/fav/favicon-16x16.png">
+    <link rel="manifest" href="/exelbid-homepage/fav/manifest.json">
+    <meta name="msapplication-TileImage" content="/exelbid-homepage/fav/ms-icon-144x144.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/payw-pro.css">
+    <link rel="stylesheet" href="/exelbid-homepage/bootstrap-5.0.2-dist/custom-css/exelbid-custom.css">
+    <script src="js/includeHTML.js"></script>
+  </head>
+  <body>
+    <!-- Go to top 버튼 start > https://codepen.io/matthewcain/pen/ZepbeR < -->
+    <a id="gtt"></a>
+    <!-- Go to top 버튼 end -->
+    <!-- GNB start -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/exelbid-homepage/en/index.html">
+          <svg width="106" height="38" viewBox="0 0 106 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 26.3148V9.7749H10.401V13.0985H3.71463V16.1484H9.89265V19.4329H3.71463V23.0303H10.401V26.3539H0V26.3148Z" fill="#1F2353"/>
+              <path d="M24.36 17.9471L29.365 26.3539H25.4549L22.2485 20.8797L19.0422 26.3539H15.1321L20.1371 17.9471L15.3276 9.7749H19.2377L22.2876 14.9754L25.2985 9.7749H29.2086L24.36 17.9471Z" fill="#1F2353"/>
+              <path d="M33.666 26.3148V9.7749H44.067V13.0985H37.4197V16.1484H43.5978V19.4329H37.4197V23.0303H44.1061V26.3539H33.666V26.3148Z" fill="#1F2353"/>
+              <path d="M72.7282 26.3148H65.6899V9.7749H72.2199C75.6608 9.7749 76.9511 11.1826 76.9511 13.4113V15.0927C76.9511 16.2657 76.4428 17.126 75.1134 17.7125C76.4819 18.0253 77.5377 19.2374 77.5377 20.7624V22.3656C77.5377 24.7116 76.0518 26.3148 72.7282 26.3148ZM73.1974 13.9588C73.1974 13.2549 72.7673 12.7857 71.7116 12.7857H69.4046V16.5785H71.7116C72.6891 16.5785 73.1974 16.0702 73.1974 15.4055V13.9588ZM73.7839 20.8797C73.7839 19.9413 73.1974 19.472 72.2199 19.472H69.4046V23.3431H71.7116C72.8846 23.3431 73.7839 23.1085 73.7839 21.8963V20.8797V20.8797Z" fill="#1F2353"/>
+              <path d="M83.3638 26.3148V9.7749H87.0784V26.3148H83.3638Z" fill="#1F2353"/>
+              <path d="M99.7085 26.3148H93.2959V9.7749H99.7085C103.775 9.7749 105.3 11.8473 105.3 14.0761V22.0136C105.3 24.2424 103.775 26.3148 99.7085 26.3148ZM101.585 15.0927C101.585 13.8023 101.155 13.0985 99.2784 13.0985H97.0496V23.0303H99.2784C101.155 23.0303 101.585 22.3265 101.585 21.0361V15.0927Z" fill="#1F2353"/>
+              <path d="M53.921 22.5224V5.5524H57.5183L52.005 0L46.4526 5.5524H50.0891V22.5224V26.3152H53.921H60.4118V22.5224H53.921Z" fill="#1D52A3"/>
+            </svg>
+        </a>
+        <button class="navbar-toggler icon icon-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/exelbid-homepage/en/ssp.html">SSP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/exelbid-homepage/en/dsp.html">DSP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/exelbid-homepage/en/faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.motiv-i.com/en/about-us/" target="_blank">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/onnuridmc" target="_blank">DOCS</a>
+            </li>
+            <div class="kr-en">
+              <a class="lang unatv" href="/exelbid-homepage/faq.html">KR</a>
+              <a class="lang atv" href="#none">EN</a>
+            </div>
+            <li class="nav-item dropdown d-none">
+              <a class="nav-link dropdown-toggle" href="#none" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+          </ul>
+          <form class="d-flex d-none">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- GNB end -->
+    <!-- FAQ start -->
+    <section class="py-120 py-md-60 mt-70">
+        <div class="container">
+            <div class="row align-items-center mb-60 mb-sm-30">
+                <div class="col-12">
+                    <h5 class="fw-semibold color-blue mb-10">​Questions and answers</h5>
+                    <h2 class="fw-semibold lh-1-2">Frequently asked question</h2>
+                    </h5>
+                </div>
+            </div>
+              <div class="row">
+                <div class="d-flex align-items-start flex-sm-column">
+                  <div class="nav flex-column flex-sm-row nav-pills col-12 col-sm-2 mb-sm-10" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <button class="nav-link active" id="v-pills-general-tab" data-bs-toggle="pill" data-bs-target="#v-pills-general" type="button" role="tab" aria-controls="v-pills-general" aria-selected="true">
+                        General
+                      </button>
+                      <button class="nav-link" id="v-pills-dev-tab" data-bs-toggle="pill" data-bs-target="#v-pills-dev" type="button" role="tab" aria-controls="v-pills-dev" aria-selected="false">
+                        Technical
+                      </button>
+                      <button class="nav-link" id="v-pills-oper-tab" data-bs-toggle="pill" data-bs-target="#v-pills-oper" type="button" role="tab" aria-controls="v-pills-oper" aria-selected="false">
+                        Operation
+                      </button>
+                      <button class="nav-link" id="v-pills-term-tab" data-bs-toggle="pill" data-bs-target="#v-pills-term" type="button" role="tab" aria-controls="v-pills-term" aria-selected="false">
+                        Terminology
+                      </button>
+                    </div>
+                    <div class="tab-content col-12 offset-0 offset-sm-1 col-sm-9" id="v-pills-tabContent">
+                      <!-- accordionGeneral Start  -->
+                      <div class="tab-pane fade active show" id="v-pills-general" role="tabpanel" aria-labelledby="v-pills-general-tab">
+                          <div class="accordion" id="accordionGeneral">
+                            <!-- accordionGeneral > heading1One / collapse1One  -->
+                              <div class="accordion-item">
+                                  <h2 class="accordion-header" id="heading1One">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1One" aria-expanded="false" aria-controls="collapse1One">
+                                        How to use the Exelbid service?
+                                      </button>
+                                  </h2>
+                                  <div id="collapse1One" class="accordion-collapse collapse" aria-labelledby="heading1One" data-bs-parent="#accordionGeneral">
+                                      <div class="accordion-body">
+                                        After Exelbid's internal review process, you can use the Exelbid service through platform integration. For more information, please leave an inquiry, or request, on the Exelbid homepage(exelbid.com), and you will be guided through by the person in charge.
+                                      </div>
+                                  </div>
+                              </div>
+                              <!-- accordionGeneral > heading1Two / collapse1Two  -->
+                              <div class="accordion-item">
+                                  <h2 class="accordion-header" id="heading1Two">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1Two" aria-expanded="false" aria-controls="collapse1Two">
+                                        This is an agency in charge. Can we use Exelbid on behalf of our clients?
+                                      </button>
+                                  </h2>
+                                  <div id="collapse1Two" class="accordion-collapse collapse" aria-labelledby="heading1Two" data-bs-parent="#accordionGeneral">
+                                      <div class="accordion-body">
+                                        Agencies can use Exelbid's services through Exelbid's partner DSPs or by connecting directly to Exelbid if they have their own platform.
+                                      </div>
+                                  </div>
+                              </div>
+                              <!-- accordionGeneral > heading1Three / collapse1Three  -->
+                              <div class="accordion-item">
+                                  <h5 class="accordion-header" id="heading1Three">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1Three" aria-expanded="false" aria-controls="collapse1Three">
+                                        Is there an account for a advertiser?
+                                      </button>
+                                  </h5>
+                                  <div id="collapse1Three" class="accordion-collapse collapse" aria-labelledby="heading1Three" data-bs-parent="#accordionGeneral">
+                                      <div class="accordion-body">
+                                        Exelbid does not provide accounts for advertisers. If you are an advertiser and wish to use Exelbid services, you can contact CrossTarget, our DSP service (www.crosstarget.co.kr) or other Exelbid affiliated DSPs.
+                                      </div>
+                                  </div>
+                              </div>
+                              <!-- accordionGeneral > heading1Four / collapse1Four  -->
+                              <div class="accordion-item">
+                                <h5 class="accordion-header" id="heading1Four">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1Four" aria-expanded="false" aria-controls="collapse1Four">
+                                      I lost my membership ID or password. How should I proceed?
+                                    </button>
+                                </h5>
+                                <div id="collapse1Four" class="accordion-collapse collapse" aria-labelledby="heading1Four" data-bs-parent="#accordionGeneral">
+                                    <div class="accordion-body">
+                                      In case of the loss of the Exelbid membership ID, please send an email to the Exelbid team (exelbid@motiv-i.com). In case of the loss of the Exelbid membership password, it could be reset by using the membership ID (personal email information).
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordionGeneral > heading1Five / collapse1Five  -->
+                            <div class="accordion-item">
+                                <h5 class="accordion-header" id="heading1Three">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1Five" aria-expanded="false" aria-controls="collapse1Five">
+                                      How should I proceed if I want to stop using Exelbid?
+                                    </button>
+                                </h5>
+                                <div id="collapse1Five" class="accordion-collapse collapse" aria-labelledby="heading1Five" data-bs-parent="#accordionGeneral">
+                                    <div class="accordion-body">
+                                      Please contact your account manager or Exelbid team(exelbid@motiv-i.com) for deregisterings.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordionGeneral > heading1Six / collapse1Six  -->
+                            <div class="accordion-item">
+                              <h5 class="accordion-header" id="heading1Six">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1Six" aria-expanded="false" aria-controls="collapse1Six">
+                                    What are the differences between Exelbid and other advertising networks or SSPs?
+                                  </button>
+                              </h5>
+                              <div id="collapse1Six" class="accordion-collapse collapse" aria-labelledby="heading1Six" data-bs-parent="#accordionGeneral">
+                                  <div class="accordion-body">
+                                    Exelbid is an Ad Exchange platform that provides integrated services on both the supply and demand side. Exelbid can connect to publishers, ad networks and SSPs on the seller's side, and also to the DSPs, ad networks and SSPs on the buyer's side.
+                                  </div>
+                              </div>
+                            </div>
+                            <!-- accordionGeneral > heading1Seven / collapse1Seven  -->
+                            <div class="accordion-item">
+                              <h5 class="accordion-header" id="heading1Seven">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1Seven" aria-expanded="false" aria-controls="collapse1Seven">
+                                    Can I get more revenue and profits with Exelbid?
+                                  </button>
+                              </h5>
+                              <div id="collapse1Seven" class="accordion-collapse collapse" aria-labelledby="heading1Seven" data-bs-parent="#accordionGeneral">
+                                  <div class="accordion-body">
+                                    Yes, that is correct. Exelbid provides Real Time Bidding (RTB), which is a real time auction method. It also provides various trading methods, such as mediation, PMP etc… Exelbid helps generating a higher advertising revenue by providing optimal solutions according to the monetization purpose of each publisher.
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <!-- accordionGeneralr End  -->
+                      <!-- accordionDev Start  -->
+                      <div class="tab-pane fade" id="v-pills-dev" role="tabpanel" aria-labelledby="v-pills-dev-tab">
+                        <div class="accordion" id="accordionDev">
+                          <!-- accordionDev > heading2One / collapse2One  -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2One">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapse2One" aria-expanded="false" aria-controls="collapse2One">
+                                Where would I be able to check the integration guidelines?
+                              </button>
+                            </h2>
+                            <div id="collapse2One" class="accordion-collapse collapse" aria-labelledby="heading2One"data-bs-parent="#accordionDev">
+                              <div class="accordion-body">
+                                Please leave us a business inquiry, then the person in charge will reach out to you for the integration guidelines.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionDev > heading2Two / collapse2Two  -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2Two">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2Two" aria-expanded="false" aria-controls="collapse2Two">
+                                What is the integration process?
+                              </button>
+                            </h2>
+                            <div id="collapse2Two" class="accordion-collapse collapse" aria-labelledby="heading2Two" data-bs-parent="#accordionDev">
+                              <div class="accordion-body">
+                                After submitting a business inquiry, you will receive preliminary questionnaire and the Exelbid team will review the information provided to determine if integration is possible. Once the integration is decided, agreement on T&C, and admin registration, integration test will take place. The procedures may vary depending on your integration type.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionDev > heading2Three / collapse2Three  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading2Three">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2Three" aria-expanded="false" aria-controls="collapse2Three">
+                                I am using other ad SDKs. Would that be an issue?
+                              </button>
+                            </h5>
+                            <div id="collapse2Three" class="accordion-collapse collapse" aria-labelledby="heading2Three" data-bs-parent="#accordionDev">
+                              <div class="accordion-body">
+                                It does not matter. Other apps oftern use multiple ad SDKs for advertising revenue.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionDev > heading2Four / collapse2Four  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading2Four">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2Four" aria-expanded="false" aria-controls="collapse2Four">
+                                Would the data be counted in real time?
+                              </button>
+                            </h5>
+                            <div id="collapse2Four" class="accordion-collapse collapse" aria-labelledby="heading2Four" data-bs-parent="#accordionDev">
+                              <div class="accordion-body">
+                                Exelbid's statistical data is compiled in an almost real time manner. Stastics such as requests/exposure/clicks could be checked, via the dashboard/API report, within 30 minutes.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionDev > heading2Five / collapse2Five  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading2Five">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2Five" aria-expanded="false" aria-controls="collapse2Five">
+                                Are mediation services provided?
+                              </button>
+                            </h5>
+                            <div id="collapse2Five" class="accordion-collapse collapse" aria-labelledby="heading2Five" data-bs-parent="#accordionDev">
+                              <div class="accordion-body">
+                                Yes, Exelbid can manage the ranking and reporting of various global media services, such as Google and Facebook at once through an integrated media management solution.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionDev > heading2Six / collapse2Six  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading2Six">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2Six" aria-expanded="false" aria-controls="collapse2Six">
+                                How can I register the app?
+                              </button>
+                            </h5>
+                            <div id="collapse2Six" class="accordion-collapse collapse" aria-labelledby="heading2Six" data-bs-parent="#accordionDev">
+                              <div class="accordion-body">
+                                You can register the App after signing up as an Exelbid admin member. Please refer to the 'Exelbid Admin User Guide', that is provided by Exelbid team for more details and information on the procedure.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordionDev End  -->
+                      <!-- accordionOper Start  -->
+                      <div class="tab-pane fade" id="v-pills-oper" role="tabpanel" aria-labelledby="v-pills-oper-tab">
+                        <div class="accordion" id="accordionOper">
+                          <!-- accordionOper > heading3One / collapse3One  -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3One">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapse3One" aria-expanded="false" aria-controls="collapse3One">
+                                What should I do if there are advertisements that I don't want to show my users?
+                              </button>
+                            </h2>                            
+                            <div id="collapse3One" class="accordion-collapse collapse" aria-labelledby="heading3One"data-bs-parent="#accordionOper">
+                              <div class="accordion-body">
+                                In this case, you can block specific ads via the "Exchange > Creative" page path on the dashboard. You can also manage your ad category blocklist or advertiser blocklist via "Exchange > Lineitem settings" Please mind that too many restrictions can drop the Fill Rate.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionOper > heading3Two / collapse3Two  -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3Two">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3Two" aria-expanded="false" aria-controls="collapse3Two">
+                                May I know which ads are shown through Exelbid?
+                              </button>
+                            </h2>
+                            <div id="collapse3Two" class="accordion-collapse collapse" aria-labelledby="heading3Two" data-bs-parent="#accordionOper">
+                              <div class="accordion-body">
+                                You can see ads in real time via "Exchange > Creative" page on the dashboard.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionOper > heading3Three / collapse3Three  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading3Three">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3Three" aria-expanded="false" aria-controls="collapse3Three">
+                                Can multiple lineitems be set on one ad unit?
+                              </button>
+                            </h5>
+                            <div id="collapse3Three" class="accordion-collapse collapse" aria-labelledby="heading3Three" data-bs-parent="#accordionOper">
+                              <div class="accordion-body">
+                                Yes, it can be done, but if multiple lineitems were set on the same ad unit, only the ones with the highest bid floor would be used.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionOper > heading3Four / collapse3Four  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading3Four">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3Four" aria-expanded="false" aria-controls="collapse3Four">
+                                I would like to do PMP buying. What should I do?
+                              </button>
+                            </h5>
+                            <div id="collapse3Four" class="accordion-collapse collapse" aria-labelledby="heading3Four" data-bs-parent="#accordionOper">
+                              <div class="accordion-body">
+                                PMP buying is a trading method that prioritizes winning a bid at a higher price than the open marketplace price. The basic usage period is 1 month, and may vary depending on the transaction situation. If you wish to trade PMP, please contact your account manager, and you will be informed of the availability and price.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionOper > heading3Five / collapse3Five  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading3Five">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3Five" aria-expanded="false" aria-controls="collapse3Five">
+                                Can I buy CTV inventory? 
+                              </button>
+                            </h5>
+                            <div id="collapse3Five" class="accordion-collapse collapse" aria-labelledby="heading3Five" data-bs-parent="#accordionOper">
+                              <div class="accordion-body">
+                                CTV inventory purchases require an additional integration process. Please contact your account manager for details.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionOper > heading3Six / collapse3Six  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading3Six">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3Six" aria-expanded="false" aria-controls="collapse3Six">
+                                How do fraudulent clicks or impressions appear in reports?
+                              </button>
+                            </h5>
+                            <div id="collapse3Six" class="accordion-collapse collapse" aria-labelledby="heading3Six" data-bs-parent="#accordionOper">
+                              <div class="accordion-body">
+                                Exelbid’s fraudulent click & exposure prevention algorithm will not show duplicate or multiple clicks or impressions in your reports. However, the user is still directed to the langing page to prevent the user from seeing the error page.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionOper > heading3Seven / collapse3Seven  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading3Seven">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3Seven" aria-expanded="false" aria-controls="collapse3Seven">
+                                How's the invoicing process?
+                              </button>
+                            </h5>
+                            <div id="collapse3Seven" class="accordion-collapse collapse" aria-labelledby="heading3Seven" data-bs-parent="#accordionOper">
+                              <div class="accordion-body">
+                                If you are a publisher partner, you can check the settlement at the beginning of the following month through the "Invoice" tab on the dashboard. If you issue the tax invoice according to the media fee and tax amount on the page, you will be paid in cash according to the credit information specified in the contract as of the date of the tax invoice.<br><br>If you are a buy-side partner, both parties will confirm the numbers according to the terms of the contract and issue tax invoices accordingly.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordionOper End  -->
+                      <!-- accordionTerm Start  -->
+                      <div class="tab-pane fade" id="v-pills-term" role="tabpanel" aria-labelledby="v-pills-term-tab">
+                        <div class="accordion" id="accordionTerm">
+                          <!-- accordionTerm > heading5One / collapse5One  -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading5One">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapse5One" aria-expanded="false" aria-controls="collapse5One">
+                                What is Direct and Exchange?
+                              </button>
+                            </h2>
+                            <div id="collapse5One" class="accordion-collapse collapse" aria-labelledby="heading5One"data-bs-parent="#accordionTerm">
+                              <div class="accordion-body">
+                                Both are media sales methods. Direct is a publisher's direct selling campaign or house ad with no commission required. The exchange is a real-time advertising transaction with fees included.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionTerm > heading5Two / collapse5Two  -->
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading5Two">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5Two" aria-expanded="false" aria-controls="collapse5Two">
+                                What is Fill Rate?
+                              </button>
+                            </h2>
+                            <div id="collapse5Two" class="accordion-collapse collapse" aria-labelledby="heading5Two" data-bs-parent="#accordionTerm">
+                              <div class="accordion-body">
+                                Fill Rate is an indicator of the ratio of the impressions(actually exposed paid ads) to ad requests.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionTerm > heading5Three / collapse5Three  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading5Three">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5Three" aria-expanded="false" aria-controls="collapse5Three">
+                                What is eCPM?
+                              </button>
+                            </h5>
+                            <div id="collapse5Three" class="accordion-collapse collapse" aria-labelledby="heading5Three" data-bs-parent="#accordionTerm">
+                              <div class="accordion-body">
+                                eCPM is an acronym that means effective cost per mille. eCPM = Total ad earnings / Impressions x 1000
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionTerm > heading5Four / collapse5Four  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading5Four">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5Four" aria-expanded="false" aria-controls="collapse5Four">
+                                What is GDPR?
+                              </button>
+                            </h5>
+                            <div id="collapse5Four" class="accordion-collapse collapse" aria-labelledby="heading5Four" data-bs-parent="#accordionTerm">
+                              <div class="accordion-body">
+                                GDPR is a law that aims to unify data privacy and consumer data privacy in countries that are part of the Eurpoean Union, in an attempt to strengthen data privacy laws.
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- accordionTerm > heading5Five / collapse5Five  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading5Five">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5Five" aria-expanded="false" aria-controls="collapse5Five">
+                                What is COPPA?
+                              </button>
+                            </h5>
+                            <div id="collapse5Five" class="accordion-collapse collapse" aria-labelledby="heading5Five" data-bs-parent="#accordionTerm">
+                              <div class="accordion-body">
+                                It stands for the "Children's Online Privacy Protection Act". It is a law that was put forward by the U.S. FTC, and that allows parents to have control over the online collection of personal information of children 13 years of age or younger.
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionTerm > heading5Six / collapse5Six  -->
+                          <div class="accordion-item">
+                            <h5 class="accordion-header" id="heading5Six">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5Six" aria-expanded="false" aria-controls="collapse5Six">
+                                What is Timeout?
+                              </button>
+                            </h5>
+                            <div id="collapse5Six" class="accordion-collapse collapse" aria-labelledby="heading5Six" data-bs-parent="#accordionTerm">
+                              <div class="accordion-body">
+                                Timeout is the case of no response between servers beyond the maximum response waiting time, after an ad request has been made, and is a standard processing way for connection failures.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordionTerm End  -->
+                    </div>
+                  </div>
+                </div>
+            </div>
+    </section>
+    <!-- 득장점 end -->
+    <!-- 텍스트 베너 start -->
+    <section class="text-banner py-120 py-md-60">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-md-6 offset-md-1 text-md-center my-sm-50">
+              <h2 class="fw-semibold text-white lh-1-1 mb-20 ">If you can't find<br>what you're questions<br>about in FAQ</h2>
+              <h5 class="fw-light text-white mb-50 mb-md-40">Please ask us</h5>
+            <div>
+              <a class="exlBtn exlBtn-orange text-decoration-none me-10" data-bs-toggle="modal" data-bs-target="#proposalModal" data-bs-whatever="#">Partnership Inquiry</a>
+              <div class="modal fade" id="proposalModal" tabindex="-1" aria-labelledby="proposalModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content first">
+                    <form class="needs-validation" novalidate id="gform" method="POST" data-email="minjun.lee@motiv-i.com" action="https://script.google.com/macros/s/AKfycbzEni_HFW9guxCRr4SGdNcbdD6SUodDIE9xbMaKZh-kge-Q94MDz8FfBlFWt4x6jM-2/exec">
+                      <div class="modal-header">
+                        <h3 class="fw-semibold" id="proposalModalLabel">Business Inquiry</h3>
+                        <h5 class="modal-subtitle lh-1-4 fw-regular mt-10">Unleash your growth with Exelbid</h5>
+                      </div>
+                      <div class="modal-body">
+                        <div class="mb-20 mt-40">
+                          <label for="recipient-name" class="col-form-label">Choose inquery</label>
+                          <div class="check-boxes-container">
+                            <div class="col-12 check-boxes flex-sm-column">
+                              <label class="form-check-exl buy">
+                                <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault1"  value="매체 구매" checked>
+                                <label class="form-check-label" for="flexRadioDefault1">매체 구매</label>
+                              </label>
+                              <label class="form-check-exl sell">
+                                <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault2" value="매체 판매">
+                                <label class="form-check-label" for="flexRadioDefault2">매체 판매</label>
+                              </label>
+                            </div>
+                            <div class="col-12 check-boxes flex-sm-column">
+                              <label class="form-check-exl request">
+                                <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault3" value="상품소개서 신청">
+                                <label class="form-check-label" for="flexRadioDefault3">상품소개서 신청</label>
+                              </label>
+                              <label class="form-check-exl etc">
+                                <input class="form-check-input" type="radio" name="flexRadioFirst" id="flexRadioDefault4" value="기타">
+                                <label class="form-check-label" for="flexRadioDefault4">기타</label>
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mb-20">
+                          <label for="email" class="col-form-label">E-mail</label>
+                          <input id="email" name="이메일주소" type="email" class="form-control" required>
+                          <div class="invalid-feedback">
+                            Please write it including @
+                          </div>
+                        </div>
+                        <div class="mb-20">
+                          <label for="name" class="col-form-label">Company or service name</label>
+                          <input id="name" name="회사명 및 서비스명" type="text" class="form-control" required>
+                          <div class="invalid-feedback">
+                            Please write down the company name and service name
+                          </div>
+                        </div>
+                        <div class="mb-20">
+                          <label for="message-text" class="col-form-label">Message</label>
+                          <textarea id="message-text" name="문의내용" class="form-control" required></textarea>
+                          <div class="invalid-feedback">
+                            Please write it message
+                          </div>
+                        </div>
+                        <div class="form-check mb-20">
+                          <input class="form-check-input term" type="checkbox" id="flexCheckDefault" required>
+                          <label class="form-check-label" for="flexCheckDefault">
+                            I agree to personal data use policy
+                          </label>
+                          <div class="invalid-feedback">
+                            Please agree to the personal data use policy
+                          </div>
+                        </div>
+                        <div class="tab-content mb-40" id="v-pills-tabContent">
+                          <!-- accordionMember Start  -->
+                          <div class="tab-pane fade active show" id="v-pills-member" role="tabpanel"
+                            aria-labelledby="v-pills-member-tab">
+                            <div class="accordion" id="accordionPrivacy">
+                              <!-- accordionPrivacy > heading1One / collapse1One  -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
+                                    Personal data use policy
+                                  </button>
+                                </h2>
+                                <div id="collapse" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionPrivacy">
+                                  <div class="accordion-body">
+                                    <p>
+                                      According to 「Privacy Policy」, a user's personal data that Motiv Intelligence Inc. collects and uses is required the user's consent, and Movit Intelligence Inc. collects personal data as below.
+                                    </p>
+                                    <ol>
+                                      <li>
+                                        Collected/Used Personal Data: Name, Email
+                                      </li>
+                                      <li>
+                                        Use of the Collected Personal Data: Motiv Intelligence uses personal data only for the purpose of responding to your inquiry.
+                                      </li>
+                                      <li>
+                                        Destruction of Personal Data: Personal Data as above will be retained and used from the date of agreement on the collection and use, and stored for one year for the records, then destroyed afterward. The unmentioned complies with 「Privacy Policy」.
+                                      </li>
+                                      <li>
+                                        Right to Refuse to the Consent: The personal data that Motiv Intelligence collects and uses is essential for the use of its service. Motiv Intelligence Inc. only collects and uses personal data on the consent. And please note that we may not be able to respond to your inquiry or provide the services in cases where you have not agreed to our conditions with regards to using your personal data.
+                                      </li>
+                                    </ol>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- accordionMember End  -->
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary exlBtn-s me-10" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn exlBtn-s btn-primary">Send</button>
+                      </div>
+                      <!-- Customise the Thankyou Message People See when they submit the form: -->
+                      <div style="display:none;" class="thankyou_message">
+                        <h2><em>Thanks</em> for contacting us!
+                          We will get back to you soon!</h2>
+                      </div>
+                      <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-7 col-md-4 offset-md-1 d-flex justify-content-md-center order-md-first">
+            <img src="/exelbid-homepage/asset/faq/qna.png" class="mw-70 mt-30">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 텍스트 베너 end -->
+    <!-- 푸터 start -->
+    <section class="footer py-60">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="footer-row col-12 col-md-10">
+            <div class="footer company-name">MOTIV INTELLIGENCE</div>
+            <div class="footer social-icon">
+              <a class="footer social-icon icon bg-red" href="https://www.youtube.com/channel/UCTdrm9OuCY0rzlB0fhMtkJw" target="_blank">
+                <img src="/exelbid-homepage/asset/footer/youtube.svg">
+              </a>
+              <a class="footer social-icon icon bg-green" href="https://tv.naver.com/motiv" target="_blank">
+                <img src="/exelbid-homepage/asset/footer/naver.svg">
+              </a>
+              <a class="footer social-icon icon bg-blue" href="https://www.facebook.com/motivintelligence" target="_blank">
+                <img src="/exelbid-homepage/asset/footer/facebook.svg">
+              </a>
+            </div>
+            <div class="footer text">
+              <p class="d-block d-sm-none">
+                CEO: JAY YANG | DATA PROTECTION OFFICER: SEUNGBUM KIM<br>
+                <!-- 사업자등록번호 : 212-86-09248 | 통신판매번호: 2019-서울강남-00035<a class="footer mute" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248" target="_blank">[사업자정보확인]</a><br> -->
+                BUSINESS REGISTRATION NO.: 212-86-09248<br>DIGITAL MARKETING BUSINESS REGISTRATION NO.:2019-서울강남-00035<a class="footer mute ftc" href="javascript:;">[LINK]</a><br>
+                ADDRESS: 12F, 110, TEHERAN-RO, GANGNAM-GU, SEOUL, REPUBLIC OF KOREA<br>
+                EMAIL : exelbid@motiv-i.com | CALL : 02-6959-4633 <br>
+              </p>
+              <div class="d-none d-sm-block">
+                <p>CEO: JAY YANG<br>DATA PROTECTION OFFICER: SEUNGBUM KIM
+                </p>
+                <p class="pt-10">
+                  BUSINESS REGISTRATION NO.: 212-86-09248<br>
+                  DIGITAL MARKETING BUSINESS<br>REGISTRATION NO.:2019-서울강남-00035<a class="footer mute"
+                    href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248" target="_blank">[LINK]</a>
+                </p>
+                <p class="pt-10">
+                  ADDRESS: 12F, 110, TEHERAN-RO, GANGNAM-GU,<br>SEOUL, REPUBLIC OF KOREA<br>
+                  EMAIL : exelbid@motiv-i.com | CALL : 02-6959-4633 <br>
+                </p>
+              </div>
+            </div>
+            <div class="text-link-row">
+              <a class="text-link mute" target="_blank" href="https://www.motiv-i.com/en/terms/">T&C</a>
+              <p class="text-link text">|</p>
+              <a class="text-link mute" target="_blank"  href="https://www.motiv-i.com/en/sdk/">SDK T&C</a>
+              <p class="text-link text">|</p>
+              <a class="text-link mute" target="_blank"  href="https://www.motiv-i.com/en/privacy/">PRIVACY POLICY</a>
+            </div>
+          </div>
+          <hr class="footer hr d-none d-sm-block">
+          <div class="footer-row google-partners col-12 col-md-2">
+            <a href="https://www.google.com/partners/agency?id=5863129596" target="_blank" class="ms-auto m-sm-0">
+              <img class="google-partners img" src="/exelbid-homepage/asset/footer/google_partner.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-sub py-20">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <span class="footer-sub text">Copyright <span class="copyright">Ⓒ</span> 2021 Motiv-i / ExelBid. All Right
+              Reserved.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 푸터 end -->
+    <script src="/exelbid-homepage/js/jquery-3.1.1.min.js"></script>
+    <script src="/exelbid-homepage/js/iconAnimation.js"></script>
+    <script src="/exelbid-homepage/js/iconAnimation_.js"></script>
+    <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
+    <script>
+      const modalInputs = document.querySelectorAll("input[name=flexRadioFirst]")
+      const modalBoxes = document.querySelectorAll(".first .form-check-exl")
+
+      function getChecked(e) {
+        if (e.checked) {
+          e.parentElement.classList.add("wow")
+          e.labels[1].classList.add("text-white")
+        } else {
+          e.parentElement.classList.remove("wow")
+          e.labels[1].classList.remove("text-white")
+        }
+      }
+
+      function handleEl() {
+        modalInputs.forEach(getChecked)
+      }
+      handleEl()
+
+      modalBoxes.forEach((item) => {
+        item.addEventListener("click", handleEl)
+      })
+    </script>
+    <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
+    <!-- GTP btn Start -->
+    <script>
+      var btn = $('#gtt');
+
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+          btn.addClass('show');
+        } else {
+          btn.removeClass('show');
+        }
+      });
+
+      btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+          scrollTop: 0
+        }, '100', 'linear');
+      });
+    </script>
+    <!-- GTP btn End  -->
+    <!-- collapsing 이후 screen dark  -->
+    <script>
+      const button = document.querySelector(".navbar-toggler");
+      function screenDarken() {
+        const attribute = document.querySelector(".navbar-toggler").getAttribute("aria-expanded");
+        const newSpan = document.createElement("span");
+        newSpan.classList.add("screen-darken");
+        newSpan.addEventListener("click", function() {button.click()});
+        if (attribute === "true") {
+          document.querySelector("#navbarSupportedContent").appendChild(newSpan);
+        } else {
+          document.querySelector("#navbarSupportedContent span").remove();
+        }
+      }
+      button.addEventListener("click", screenDarken);
+    </script>
+    <!-- collapsing 이후 screen dark  -->
+    <!-- ftc popup  -->
+    <script>
+      var url =
+        "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2128609248"
+      $(document).ready(function () {
+        $('.ftc').click(function () {
+          window.open(url, "bizCommPop", "width=750, height=700;");
+          return false;
+        });
+      });
+    </script>
+    <!-- ftc popup  -->
+    <!-- modal validate check -->
+    <script>
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+            form.classList.add('was-validated')
+          }, false)
+        })
+    </script>
+    <!-- modal validate check  -->
+  </body>
+</html>
