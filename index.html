@@ -570,9 +570,10 @@
     <script src="/exelbid-homepage/js/iconAnimation.js"></script>
     <script src="/exelbid-homepage/js/iconAnimation_.js"></script>
     <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
     <script src="js/modalBoxEvent.js"></script>
-    <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
+    <script src="js/MobileMenuCollapse.js"></script>
+    <script src="js/modalValidate.js"></script>
+    <script src="js/modalControl.js"></script>
     <!-- GTP btn Start -->
     <script>
       var btn = $('#gtt');
@@ -593,23 +594,6 @@
       });
     </script>
     <!-- GTP btn End  -->
-    <!-- collapsing 이후 screen dark  -->
-    <script>
-      const button = document.querySelector(".navbar-toggler");
-      function screenDarken() {
-        const attribute = document.querySelector(".navbar-toggler").getAttribute("aria-expanded");
-        const newSpan = document.createElement("span");
-        newSpan.classList.add("screen-darken");
-        newSpan.addEventListener("click", function() {button.click()});
-        if (attribute === "true") {
-          document.querySelector("#navbarSupportedContent").appendChild(newSpan);
-        } else {
-          document.querySelector("#navbarSupportedContent span").remove();
-        }
-      }
-      button.addEventListener("click", screenDarken);
-    </script>
-    <!-- collapsing 이후 screen dark  -->
     <!-- ftc popup  -->
     <script>
       var url =
@@ -622,24 +606,5 @@
       });
     </script>
     <!-- ftc popup  -->
-    <!-- modal validate check -->
-    <script>
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var forms = document.querySelectorAll('.needs-validation')
-
-      // Loop over them and prevent submission
-      Array.prototype.slice.call(forms)
-        .forEach(function (form) {
-          form.addEventListener('submit', function (event) {
-            if (!form.checkValidity()) {
-              event.preventDefault()
-              event.stopPropagation()
-            }
-            form.classList.add('was-validated')
-          }, false)
-        })
-    </script>
-    <!-- modal validate check  -->
-    <script src="js/modalControl.js"></script>
   </body>
 </html>
