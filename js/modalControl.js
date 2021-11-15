@@ -9,7 +9,7 @@ const modalFooter = document.querySelector(".modal .modal-footer");
 const modalGreeting = document.querySelector(".thankyou_message");
 
 function handlePaintGreetings() {
-    const HIDDEN_CLASS = "hidden"
+    const HIDDEN_CLASS = "d-none"
     retURL.value = currentURL;
     modalHeader.classList.add(HIDDEN_CLASS);
     modalBody.classList.add(HIDDEN_CLASS);
