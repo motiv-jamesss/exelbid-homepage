@@ -570,29 +570,7 @@
     <script src="/exelbid-homepage/js/iconAnimation_.js"></script>
     <script src="/exelbid-homepage/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
-    <script>
-      const modalInputs = document.querySelectorAll("input[name=inqueryRadioBox]")
-      const modalBoxes = document.querySelectorAll(".first .form-check-exl")
-
-      function getChecked(e) {
-        if (e.checked) {
-          e.parentElement.classList.add("wow")
-          e.labels[1].classList.add("text-white")
-        } else {
-          e.parentElement.classList.remove("wow")
-          e.labels[1].classList.remove("text-white")
-        }
-      }
-
-      function handleEl() {
-        modalInputs.forEach(getChecked)
-      }
-      handleEl()
-
-      modalBoxes.forEach((item) => {
-        item.addEventListener("click", handleEl)
-      })
-    </script>
+    <script src="js/modalBoxEvent.js"></script>
     <!-- modal radio 버튼 배경 컬러 변경 스크립트 -->
     <!-- GTP btn Start -->
     <script>
