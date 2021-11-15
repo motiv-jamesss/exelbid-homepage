@@ -140,122 +140,127 @@
             <div class="modal fade" id="proposalModal" tabindex="-1" aria-labelledby="proposalModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content first">
-                  <form class="needs-validation" novalidate id="gform" method="POST" data-email="minjun.lee@motiv-i.com" action="https://script.google.com/macros/s/AKfycbzEni_HFW9guxCRr4SGdNcbdD6SUodDIE9xbMaKZh-kge-Q94MDz8FfBlFWt4x6jM-2/exec">
+                <!-- <form class="needs-validation was-validated" novalidate="" id="gform" method="POST" data-email="minjun.lee@motiv-i.com" action="https://script.google.com/macros/s/AKfycbzEni_HFW9guxCRr4SGdNcbdD6SUodDIE9xbMaKZh-kge-Q94MDz8FfBlFWt4x6jM-2/exec"> -->
+                  <!-- action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" -->
+                  <form class="needs-validation" novalidate name="fwrite" id="submitForm" method="post">
+
+                    <input type=hidden name="oid" value="00D2x000000qHHs">
+                    <input type=hidden name="retURL" id="retURL"> <!-- submit 후 return url -->
+                    <input type="hidden" name="lead_source" value="자사 홈페이지"> 
+
                     <div class="modal-header">
-                      <h3 class="fw-semibold" id="proposalModalLabel">궁금하신 사항을 문의해주세요</h3>
-                      <h5 class="modal-subtitle lh-1-4 fw-regular mt-10">엑셀비드 광고서비스에 대해 궁금하신 사항을 작성해서 <br class="d-block d-md-none">문의해주시면 빠른 시간 안에 회신 드리겠습니다</h5>                      
+                        <h3 class="fw-semibold" id="proposalModalLabel">궁금하신 사항을 문의해주세요</h3>
+                        <h5 class="modal-subtitle lh-1-4 fw-regular mt-10">엑셀비드 광고서비스에 대해 궁금하신 사항을 작성해서 <br class="d-block d-md-none">문의해주시면 빠른 시간 안에 회신 드리겠습니다</h5>
                     </div>
                     <div class="modal-body">
-                      <div class="mb-20 mt-40">
-                        <label for="recipient-name" class="col-form-label">문의 사항</label>
-                        <div class="check-boxes-container">
-                          <div class="col-12 check-boxes flex-sm-column">
-                            <label class="form-check-exl buy">
-                              <input class="form-check-input" type="radio" name="inqueryRadioBox" id="flexRadioDefault1"  value="매체 구매" checked>
-                              <label class="form-check-label" for="flexRadioDefault1">매체 구매</label>
-                            </label>
-                            <label class="form-check-exl sell">
-                              <input class="form-check-input" type="radio" name="inqueryRadioBox" id="flexRadioDefault2" value="매체 판매">
-                              <label class="form-check-label" for="flexRadioDefault2">매체 판매</label>
-                            </label>
-                          </div>
-                          <div class="col-12 check-boxes flex-sm-column">
-                            <label class="form-check-exl request">
-                              <input class="form-check-input" type="radio" name="inqueryRadioBox" id="flexRadioDefault3" value="상품소개서 신청">
-                              <label class="form-check-label" for="flexRadioDefault3">상품소개서 신청</label>
-                            </label>
-                            <label class="form-check-exl etc">
-                              <input class="form-check-input" type="radio" name="inqueryRadioBox" id="flexRadioDefault4" value="기타">
-                              <label class="form-check-label" for="flexRadioDefault4">기타</label>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="mb-20">
-                        <label for="email" class="col-form-label">이메일</label>
-                        <input id="email" name="이메일주소" type="email" class="form-control" required>
-                        <div class="invalid-feedback">
-                          @을 포함한 이메일 주소를 적어주세요 
-                        </div>
-                      </div>
-                      <div class="mb-20">
-                        <label for="name" class="col-form-label">회사명 및 서비스명</label>
-                        <input id="name" name="회사명 및 서비스명" type="text" class="form-control" required>
-                        <div class="invalid-feedback">
-                          회사명 및 서비스명을 작성해주세요
-                        </div>
-                      </div>
-                      <div class="mb-20">
-                        <label for="message-text" class="col-form-label">내용</label>
-                        <textarea id="message-text" name="문의내용" class="form-control" required></textarea>
-                        <div class="invalid-feedback">
-                          내용을 작성해주세요
-                        </div>
-                      </div>
-                      <div class="form-check mb-20">
-                        <input class="form-check-input term" type="checkbox" id="flexCheckDefault" required>
-                        <label class="form-check-label" for="flexCheckDefault">
-                          개인정보 수집 및 이용안내에 동의합니다
-                        </label>
-                        <div class="invalid-feedback">
-                          개인정보 수집 및 이용안내에 동의해주세요
-                        </div>
-                      </div>
-                      <div class="tab-content mb-40" id="v-pills-tabContent">
-                        <!-- accordionMember Start  -->
-                        <div class="tab-pane fade active show" id="v-pills-member" role="tabpanel"
-                          aria-labelledby="v-pills-member-tab">
-                          <div class="accordion" id="accordionPrivacy">
-                            <!-- accordionPrivacy > heading1One / collapse1One  -->
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="heading">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
-                                  개인정보 수집 및 이용안내
-                                </button>
-                              </h2>
-                              <div id="collapse" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionPrivacy">
-                                <div class="accordion-body">
-                                  <p>
-                                    모티브인텔리전스에서 수집 및 이용하는 본인의 개인정보는『개인정보보호법』에 따라 본인의 동의를 얻어야 하는 정보이며, 아래와 같이 개인정보를 수집하고
-                                    있습니다.
-                                  </p>
-                                  <ol>
-                                    <li>
-                                      수집하는 개인정보의 항목 : 필수항목 이름, 이메일
-                                    </li>
-                                    <li>
-                                      개인정보의 수집 및 이용 목적 : 요청하신 상담에만 활용 합니다.
-                                    </li>
-                                    <li>
-                                      개인정보의 보유 및 이용 기간 : 정보 수집 및 이용 목적이 달성된 후 문의 내역관리를 위하여 문의 내용과 개인정보 입력항목에 대해서는 1년간
-                                      보유
-                                      이후 해당 정보를 파기 합니다. 그 밖의 사항은 개인정보취급방침을 준수합니다.
-                                    </li>
-                                    <li>
-                                      개인정보 수집 동의 거부 권리 : 서비스 제공을 위하여 기본 정보를 수집하고 있으며, 제공을 원하지 않을 경우 수집하지 않으며, 미동의 시
-                                      서비스
-                                      이용이 제한됩니다.
-                                    </li>
-                                  </ol>
+                        <div class="mb-20 mt-40">
+                            <label for="recipient-name" class="col-form-label">문의 사항</label>
+                            <div class="check-boxes-container">
+                                <div class="col-12 check-boxes flex-sm-column">
+                                    <label class="form-check-exl buy">
+                                        <input class="form-check-input input" type="radio" name="00N2x000000XLvh" id="flexRadioDefault1" value="매체 구매" checked> <!-- name 교체 -->
+                                        <label class="form-check-label" for="flexRadioDefault1">매체 구매</label>
+                                    </label>
+                                    <label class="form-check-exl sell">
+                                        <input class="form-check-input input" type="radio" name="00N2x000000XLvh" id="flexRadioDefault2" value="매체 판매">
+                                        <label class="form-check-label" for="flexRadioDefault2">매체 판매</label>
+                                    </label>
                                 </div>
-                              </div>
+                                <div class="col-12 check-boxes flex-sm-column">
+                                    <label class="form-check-exl request">
+                                        <input class="form-check-input input" type="radio" name="00N2x000000XLvh" id="flexRadioDefault3" value="상품소개서 신청">
+                                        <label class="form-check-label" for="flexRadioDefault3">상품소개서 신청</label>
+                                    </label>
+                                    <label class="form-check-exl etc">
+                                        <input class="form-check-input input" type="radio" name="00N2x000000XLvh" id="flexRadioDefault4" value="기타">
+                                        <label class="form-check-label" for="flexRadioDefault4">기타</label>
+                                    </label>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                        <!-- accordionMember End  -->
-                      </div>
+                        <div class="mb-20">
+                            <label for="email" class="col-form-label">이메일</label>
+                            <input id="email" name="email" type="email" class="form-control required-check" required>
+                            <div class="invalid-feedback">
+                                @을 포함한 이메일 주소를 적어주세요
+                            </div>
+                        </div>
+                        <div class="mb-20">
+                            <label for="company" class="col-form-label">회사명 및 서비스명</label>
+                            <input id="company" name="company" type="text" class="form-control required-check" required>
+                            <div class="invalid-feedback">
+                                회사명 및 서비스명을 작성해주세요
+                            </div>
+                        </div>
+                        <div class="mb-20">
+                            <label for="00N2x000000XLw1" class="col-form-label">내용</label>
+                            <textarea id="00N2x000000XLw1" name="00N2x000000XLw1" class="form-control required-check" required></textarea>
+                            <div class="invalid-feedback">
+                                내용을 작성해주세요
+                            </div>
+                        </div>
+                        <div class="form-check mb-20">
+                            <input class="form-check-input term" type="checkbox" id="flexCheckDefault" required>
+                            <label class="form-check-label" for="flexCheckDefault">
+                                개인정보 수집 및 이용안내에 동의합니다
+                            </label>
+                            <div class="invalid-feedback">
+                                개인정보 수집 및 이용안내에 동의해주세요
+                            </div>
+                        </div>
+                        <div class="tab-content mb-40" id="v-pills-tabContent">
+                            <!-- accordionMember Start  -->
+                            <div class="tab-pane fade active show" id="v-pills-member" role="tabpanel" aria-labelledby="v-pills-member-tab">
+                                <div class="accordion" id="accordionPrivacy">
+                                    <!-- accordionPrivacy > heading1One / collapse1One  -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
+                                                개인정보 수집 및 이용안내
+                                            </button>
+                                        </h2>
+                                        <div id="collapse" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionPrivacy">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    모티브인텔리전스에서 수집 및 이용하는 본인의 개인정보는『개인정보보호법』에 따라 본인의 동의를 얻어야 하는 정보이며, 아래와 같이 개인정보를 수집하고
+                                                    있습니다.
+                                                </p>
+                                                <ol>
+                                                    <li>
+                                                        수집하는 개인정보의 항목 : 필수항목 이름, 이메일
+                                                    </li>
+                                                    <li>
+                                                        개인정보의 수집 및 이용 목적 : 요청하신 상담에만 활용 합니다.
+                                                    </li>
+                                                    <li>
+                                                        개인정보의 보유 및 이용 기간 : 정보 수집 및 이용 목적이 달성된 후 문의 내역관리를 위하여 문의 내용과 개인정보 입력항목에 대해서는 1년간
+                                                        보유
+                                                        이후 해당 정보를 파기 합니다. 그 밖의 사항은 개인정보취급방침을 준수합니다.
+                                                    </li>
+                                                    <li>
+                                                        개인정보 수집 동의 거부 권리 : 서비스 제공을 위하여 기본 정보를 수집하고 있으며, 제공을 원하지 않을 경우 수집하지 않으며, 미동의 시
+                                                        서비스
+                                                        이용이 제한됩니다.
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordionMember End  -->
+                        </div>
                     </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary exlBtn-s me-10" data-bs-dismiss="modal">취소</button>
-                      <button type="submit" class="btn exlBtn-s btn-primary">신청</button>
-                    </div>
-                    <!-- Customise the Thankyou Message People See when they submit the form: -->
-                    <div style="display:none;" class="thankyou_message">
-                      <h2><em>Thanks</em> for contacting us!
-                        We will get back to you soon!</h2>
-                    </div>
-                    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
-                  </form>
+  <div class="modal-footer">
+      <button type="button" class="btn btn-secondary exlBtn-s me-10" data-bs-dismiss="modal">취소</button>
+      <button type="submit" class="btn exlBtn-s btn-primary">신청</button>
+  </div>
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div class="thankyou_message hidden">
+    <h3 class="fw-semibold" id="proposalModalLabel">감사합니다</h3>
+    <h5 class="modal-subtitle lh-1-4 fw-regular mt-10">확인하여 곧 회신 드리도록 하겠습니다 🙂</h5>
+  </div>
+</form>
                 </div>
               </div>
             </div>
