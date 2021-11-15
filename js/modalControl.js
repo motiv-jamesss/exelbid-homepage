@@ -16,7 +16,9 @@ function handlePaintGreetings(e) {
     modalFooter.classList.add(HIDDEN_CLASS);
     modalGreeting.classList.remove(HIDDEN_CLASS);
     setTimeout(function () {
-        modalForm.submit();
+        //modalForm.submit();
+        document.getElementById('submitForm').submit();
+        return false;
     }, 3000);
 };
 
