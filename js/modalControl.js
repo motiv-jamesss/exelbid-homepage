@@ -8,13 +8,14 @@ const modalBody = document.querySelector(".modal .modal-body");
 const modalFooter = document.querySelector(".modal .modal-footer");
 const modalGreeting = document.querySelector(".thankyou_message");
 
-function handlePaintGreetings() {
+function handlePaintGreetings(e) {
     const HIDDEN_CLASS = "d-none"
     retURL.value = currentURL;
     modalHeader.classList.add(HIDDEN_CLASS);
     modalBody.classList.add(HIDDEN_CLASS);
     modalFooter.classList.add(HIDDEN_CLASS);
     modalGreeting.classList.remove(HIDDEN_CLASS);
+    e.preventDefault();
     setTimeout(function () {
         modalForm.submit();
     }, 3000);
