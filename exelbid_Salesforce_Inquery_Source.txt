@@ -1,0 +1,52 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  참고: 다음 <META>요소를 <HEAD> 페이지에 추가하십시오.  필요한 경우 매개 변수를 수정하여 HTML 페이지의 문자   -->
+<!--  집합을 지정하십시오.                                                             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  참고: 다음 <FORM>요소를 페이지에 추가하십시오.                                           -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<input type=hidden name="oid" value="00D2x000000qHHs">
+<input type=hidden name="retURL" value="http://">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  참고: 이러한 필드는 선택적 디버깅 요소입니다. 디버그 모드에서 테스트하려면 이러한 줄의 주석 처리를 제거하십시오.        -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="lee.jonghyun@onnuridmc.com">                                     -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="lead_source">리드 소스</label><select  id="lead_source" name="lead_source"><option value="">--없음--</option><option value="자사 홈페이지">자사 홈페이지</option>
+<option value="이메일">이메일</option>
+<option value="언론자료">언론자료</option>
+<option value="Facebook/Youtube">Facebook/Youtube</option>
+<option value="컨퍼런스/웨비나">컨퍼런스/웨비나</option>
+<option value="전화">전화</option>
+<option value="기타">기타</option>
+<option value="ExelBid 홈페이지">ExelBid 홈페이지</option>
+</select><br>
+
+문의유형:<select  id="00N2x000000XLvh" name="00N2x000000XLvh" title="문의유형"><option value="">--없음--</option><option value="CrossTarget DSP">CrossTarget DSP</option>
+<option value="CrossTarget TV">CrossTarget TV</option>
+<option value="ExelBid">ExelBid</option>
+<option value="Others">Others</option>
+<option value="ExelBidbuying">ExelBidbuying</option>
+<option value="ExelBidselling">ExelBidselling</option>
+<option value="ExelBidintro">ExelBidintro</option>
+<option value="ExelBidothers">ExelBidothers</option>
+</select><br>
+
+<label for="email">이메일</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="company">회사</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+문의내용:<textarea  id="00N2x000000XLw1" name="00N2x000000XLw1" rows="3" type="text" wrap="soft"></textarea><br>
+
+<input type="submit" name="submit">
+
+</form>

@@ -18,7 +18,6 @@ function handlePaintGreetings(e) {
     setTimeout(function () {
         //modalForm.submit();
         document.getElementById('submitForm').submit();
-        return false;
     }, 3000);
 };
 
