@@ -31,6 +31,7 @@ function handlePaintGreetings(e) {
             }
         }, 1000)
     setTimeout(function () {
+      e.preventDefault();
         document.getElementById('submitForm').submit();
     }, 3000);
 };
