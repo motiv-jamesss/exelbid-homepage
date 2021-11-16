@@ -15,22 +15,8 @@ function handlePaintGreetings(e) {
     modalBody.classList.add(HIDDEN_CLASS);
     modalFooter.classList.add(HIDDEN_CLASS);
     modalGreeting.classList.remove(HIDDEN_CLASS);
-
-    const targetTime = Math.round(((new Date().getTime() / 1000) % 60)) + 3;
-    
-    const startInterval = setInterval(
-        function count() {
-            const countSec = document.querySelector("#countsec")
-            const nowTime = Math.round(((new Date().getTime() / 1000) % 60))
-            const countNum = targetTime - nowTime;
-            countSec.innerHTML = countNum
-            console.log(countNum);
-
-            if (countNum === 0) {
-                clearInterval(startInterval)
-            }
-        }, 1000)
     setTimeout(function () {
+        //modalForm.submit();
         document.getElementById('submitForm').submit();
     }, 3000);
 };
@@ -49,8 +35,7 @@ function requiredValueCheck(e) {
         console.log("체크박스 통과 못함");
     } else {
         if (email.value !== "" && company.value !== "" && message.value !== "") {
-            const targetTime = Math.round(((new Date().getTime() / 1000) % 60)) + 3;
-            handlePaintGreetings(targetTime);
+            handlePaintGreetings();
         } else {
             console.log("전체 통과 못함");
         }
